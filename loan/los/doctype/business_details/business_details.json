@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-31 15:59:54.573310",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "business_details",
+  "section_break_epzh",
+  "firm_name",
+  "involved_in_current_business",
+  "gross_profit_income",
+  "registered_address",
+  "type_of_business",
+  "registered_under",
+  "column_break_vijl",
+  "shareholding_percentage",
+  "monthly_repayment_amount",
+  "established_on",
+  "operating_address",
+  "registration_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "business_details",
+   "fieldtype": "Heading",
+   "label": "Business Details"
+  },
+  {
+   "fieldname": "section_break_epzh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "firm_name",
+   "fieldtype": "Data",
+   "label": "Firm Name"
+  },
+  {
+   "fieldname": "involved_in_current_business",
+   "fieldtype": "Select",
+   "label": "Involved in Current Business",
+   "options": "Greater than 5 years\nBetween 2 and 5 years\nBetween 1 and 2 years\nLess than 1 year"
+  },
+  {
+   "fieldname": "gross_profit_income",
+   "fieldtype": "Float",
+   "label": "Gross Profit Income"
+  },
+  {
+   "fieldname": "registered_address",
+   "fieldtype": "Data",
+   "label": "Registered Address"
+  },
+  {
+   "fieldname": "type_of_business",
+   "fieldtype": "Select",
+   "label": "Type of Business",
+   "options": "Company\nPartnership\nProprietorship"
+  },
+  {
+   "fieldname": "registered_under",
+   "fieldtype": "Select",
+   "label": "Registered Under",
+   "options": "Department of Commerce\nOffice of Company Registrar\nMunicipality"
+  },
+  {
+   "fieldname": "column_break_vijl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shareholding_percentage",
+   "fieldtype": "Float",
+   "label": "Shareholding Percentage"
+  },
+  {
+   "fieldname": "monthly_repayment_amount",
+   "fieldtype": "Float",
+   "label": "Monthly Repayment Amount"
+  },
+  {
+   "fieldname": "established_on",
+   "fieldtype": "Date",
+   "label": "Established On"
+  },
+  {
+   "fieldname": "operating_address",
+   "fieldtype": "Data",
+   "label": "Operating Address"
+  },
+  {
+   "fieldname": "registration_date",
+   "fieldtype": "Date",
+   "label": "Registration Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-01 15:59:36.532131",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Business Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

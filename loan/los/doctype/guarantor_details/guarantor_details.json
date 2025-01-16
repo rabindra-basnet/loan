@@ -1,0 +1,439 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-30 16:27:46.666360",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html_wstd",
+  "column_break_rkpx",
+  "html_oudd",
+  "column_break_rldv",
+  "html_qpae",
+  "section_break_okoq",
+  "is_existing_customer_",
+  "client_code",
+  "column_break_jmob",
+  "html_pxfj",
+  "fetch_customer_details",
+  "section_break_ydpj",
+  "guarantor_name",
+  "account_number",
+  "nationality",
+  "column_break_yniv",
+  "date_of_birth",
+  "marital_status",
+  "nationality_if_other",
+  "column_break_mwmm",
+  "gender",
+  "relation_with_applicant",
+  "guarantors_citizenship_details_section",
+  "citizenship_number",
+  "individual_pan_number",
+  "column_break_qeup",
+  "citizenship_issued_date",
+  "pan_registration_date",
+  "column_break_udcm",
+  "citizenship_issued_district",
+  "pan_registration_district",
+  "guarantors_passport_details_section",
+  "embassy_number",
+  "passport_issued_date",
+  "column_break_vqqy",
+  "passport_number",
+  "passport_expiry_date",
+  "column_break_ztsm",
+  "passport_issuing_country",
+  "section_break_gsbk",
+  "grandfathers_name",
+  "mothers_name",
+  "column_break_rgkv",
+  "fathers_name",
+  "spouse_name",
+  "column_break_yfwz",
+  "father_in_laws_name",
+  "offsprings",
+  "permanent_address_section",
+  "province",
+  "ward_no",
+  "column_break_ebfd",
+  "district",
+  "html_darp",
+  "ais_the_current_address_same_as_permanent_address",
+  "column_break_tnal",
+  "vdc__municipality",
+  "current_address_section",
+  "current_province",
+  "current_ward_no",
+  "number_of_dependent",
+  "column_break_rwnj",
+  "current_district",
+  "ownership_of_residence",
+  "cic_report",
+  "column_break_ojyx",
+  "current_vdc__municipality",
+  "education_level"
+ ],
+ "fields": [
+  {
+   "fieldname": "html_wstd",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "column_break_rkpx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rldv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_qpae",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "section_break_ydpj",
+   "fieldtype": "Section Break",
+   "label": "Guarantor General Details"
+  },
+  {
+   "fieldname": "guarantor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Guarantor Name"
+  },
+  {
+   "fieldname": "column_break_yniv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "column_break_mwmm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Nationality",
+   "options": "\nNepali\nOther"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "relation_with_applicant",
+   "fieldtype": "Select",
+   "label": "Relation with Applicant"
+  },
+  {
+   "fieldname": "is_existing_customer_",
+   "fieldtype": "Select",
+   "label": "Is existing customer ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"Nepali\"",
+   "fieldname": "guarantors_citizenship_details_section",
+   "fieldtype": "Section Break",
+   "label": "Guarantor's Citizenship Details"
+  },
+  {
+   "fieldname": "citizenship_number",
+   "fieldtype": "Data",
+   "label": "Citizenship Number"
+  },
+  {
+   "fieldname": "individual_pan_number",
+   "fieldtype": "Data",
+   "label": "Individual PAN Number"
+  },
+  {
+   "fieldname": "column_break_qeup",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "citizenship_issued_date",
+   "fieldtype": "Date",
+   "label": "Citizenship Issued Date"
+  },
+  {
+   "fieldname": "pan_registration_date",
+   "fieldtype": "Date",
+   "label": "PAN Registration Date"
+  },
+  {
+   "fieldname": "column_break_udcm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "citizenship_issued_district",
+   "fieldtype": "Select",
+   "label": "Citizenship Issued District"
+  },
+  {
+   "fieldname": "pan_registration_district",
+   "fieldtype": "Select",
+   "label": "PAN Registration District"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"Other\"",
+   "fieldname": "guarantors_passport_details_section",
+   "fieldtype": "Section Break",
+   "label": "Guarantor's Passport Details"
+  },
+  {
+   "fieldname": "embassy_number",
+   "fieldtype": "Data",
+   "label": "Embassy Number"
+  },
+  {
+   "fieldname": "passport_issued_date",
+   "fieldtype": "Date",
+   "label": "Passport Issued Date"
+  },
+  {
+   "fieldname": "column_break_vqqy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "passport_number",
+   "fieldtype": "Data",
+   "label": "Passport Number"
+  },
+  {
+   "fieldname": "passport_expiry_date",
+   "fieldtype": "Date",
+   "label": "Passport Expiry Date"
+  },
+  {
+   "fieldname": "column_break_ztsm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "passport_issuing_country",
+   "fieldtype": "Select",
+   "label": "Passport Issuing Country"
+  },
+  {
+   "fieldname": "section_break_gsbk",
+   "fieldtype": "Section Break",
+   "label": "Family Tree"
+  },
+  {
+   "fieldname": "grandfathers_name",
+   "fieldtype": "Data",
+   "label": "Grandfather's Name"
+  },
+  {
+   "fieldname": "fathers_name",
+   "fieldtype": "Data",
+   "label": "Father's Name"
+  },
+  {
+   "depends_on": "eval:doc.gender == \"Female\" && doc.marital_status == \"Married\";",
+   "fieldname": "father_in_laws_name",
+   "fieldtype": "Data",
+   "label": "Father In Law's Name"
+  },
+  {
+   "fieldname": "mothers_name",
+   "fieldtype": "Data",
+   "label": "Mother's Name"
+  },
+  {
+   "fieldname": "spouse_name",
+   "fieldtype": "Data",
+   "label": "Spouse Name"
+  },
+  {
+   "fieldname": "offsprings",
+   "fieldtype": "Data",
+   "label": "Offsprings"
+  },
+  {
+   "fieldname": "column_break_rgkv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_yfwz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "\nMale\nFemale\nOther"
+  },
+  {
+   "fieldname": "permanent_address_section",
+   "fieldtype": "Section Break",
+   "label": "Permanent Address"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Link",
+   "label": "Province",
+   "options": "Provinces"
+  },
+  {
+   "fieldname": "ward_no",
+   "fieldtype": "Data",
+   "label": "Ward No."
+  },
+  {
+   "fieldname": "column_break_ebfd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "column_break_tnal",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vdc__municipality",
+   "fieldtype": "Link",
+   "label": "VDC / Municipality",
+   "options": "Municipality and VDC"
+  },
+  {
+   "fieldname": "current_address_section",
+   "fieldtype": "Section Break",
+   "label": "Current Address"
+  },
+  {
+   "fieldname": "current_province",
+   "fieldtype": "Link",
+   "label": "Province",
+   "options": "Provinces"
+  },
+  {
+   "fieldname": "current_ward_no",
+   "fieldtype": "Data",
+   "label": "Ward No."
+  },
+  {
+   "fieldname": "number_of_dependent",
+   "fieldtype": "Select",
+   "label": "Number of Dependent",
+   "options": "\n0 Person\n1 Person\n2 Person\n3 or More Persons"
+  },
+  {
+   "fieldname": "column_break_rwnj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "ownership_of_residence",
+   "fieldtype": "Select",
+   "label": "Ownership of Residence",
+   "options": "\nOwn House\nParent's House\nRental Home\nNA"
+  },
+  {
+   "fieldname": "cic_report",
+   "fieldtype": "Select",
+   "label": "CIC Report",
+   "options": "\nBlacklist\nOverdue\nClean\nNA"
+  },
+  {
+   "fieldname": "column_break_ojyx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_vdc__municipality",
+   "fieldtype": "Link",
+   "label": "VDC / Municipality",
+   "options": "Municipality and VDC"
+  },
+  {
+   "fieldname": "education_level",
+   "fieldtype": "Select",
+   "label": "Education Level",
+   "options": "\nPhD\nMaster/M-Phile\nGraduate\nIntermediate\nSLC\nNA"
+  },
+  {
+   "fieldname": "html_oudd",
+   "fieldtype": "HTML",
+   "options": "<h2>&nbsp;&nbsp;&nbsp;&nbsp;Guarantor Details</h2>"
+  },
+  {
+   "default": "0",
+   "fieldname": "ais_the_current_address_same_as_permanent_address",
+   "fieldtype": "Check",
+   "label": "Is the Current Address same as Permanent Address"
+  },
+  {
+   "fieldname": "section_break_okoq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.is_existing_customer_ == \"Yes\"",
+   "fieldname": "client_code",
+   "fieldtype": "Data",
+   "label": "Client Code"
+  },
+  {
+   "fieldname": "column_break_jmob",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_pxfj",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "depends_on": "eval:doc.is_existing_customer_ == \"Yes\"",
+   "fieldname": "fetch_customer_details",
+   "fieldtype": "Button",
+   "label": "Fetch Customer Details"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"Other\"",
+   "fieldname": "nationality_if_other",
+   "fieldtype": "Link",
+   "label": "Nationality (if other)",
+   "options": "Country"
+  },
+  {
+   "fieldname": "html_darp",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "Marital Status",
+   "options": "\nMarried\nSingle / Unmarried"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-12 16:18:44.667427",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Guarantor Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

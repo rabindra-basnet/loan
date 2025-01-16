@@ -1,0 +1,235 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-03 11:49:10.896291",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "retail_isurance_details",
+  "insured_assets_section",
+  "insurance_company",
+  "column_break_tcou",
+  "insurance_amount",
+  "column_break_twvi",
+  "assets_value",
+  "risk_covered_section",
+  "contractors_all_risk_car",
+  "fire",
+  "poultry_insurance",
+  "theft_and_burglary",
+  "column_break_mixy",
+  "earthquake",
+  "flood",
+  "riot_strike_and_terrorism_rst",
+  "column_break_mkap",
+  "erection_all_risk",
+  "lightning",
+  "storm",
+  "column_break_djbv",
+  "explosion",
+  "malicious_damage",
+  "subsidence_or_heave_of_the_land_or_landslip_landslides",
+  "section_break_pisj",
+  "policy_no",
+  "premium_amount",
+  "maturity_date",
+  "column_break_fwyx",
+  "customer_name",
+  "risk_start_date",
+  "section_break_rcun",
+  "status",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "retail_isurance_details",
+   "fieldtype": "HTML",
+   "label": "Retail Isurance Details",
+   "options": "<h2>Retail Insurance Details</h2>"
+  },
+  {
+   "fieldname": "insured_assets_section",
+   "fieldtype": "Section Break",
+   "label": "Insured Assets"
+  },
+  {
+   "fieldname": "insurance_company",
+   "fieldtype": "Data",
+   "label": "Insurance Company"
+  },
+  {
+   "fieldname": "column_break_tcou",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "insurance_amount",
+   "fieldtype": "Data",
+   "label": "Insurance Amount"
+  },
+  {
+   "fieldname": "column_break_twvi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assets_value",
+   "fieldtype": "Data",
+   "label": "Assets Value"
+  },
+  {
+   "fieldname": "risk_covered_section",
+   "fieldtype": "Section Break",
+   "label": "Risk Covered"
+  },
+  {
+   "default": "0",
+   "fieldname": "contractors_all_risk_car",
+   "fieldtype": "Check",
+   "label": "Contractor's All Risk (CAR)"
+  },
+  {
+   "default": "0",
+   "fieldname": "fire",
+   "fieldtype": "Check",
+   "label": "Fire"
+  },
+  {
+   "default": "0",
+   "fieldname": "poultry_insurance",
+   "fieldtype": "Check",
+   "label": "Poultry Insurance"
+  },
+  {
+   "fieldname": "column_break_mixy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "earthquake",
+   "fieldtype": "Check",
+   "label": "Earthquake"
+  },
+  {
+   "default": "0",
+   "fieldname": "flood",
+   "fieldtype": "Check",
+   "label": "Flood"
+  },
+  {
+   "default": "0",
+   "fieldname": "riot_strike_and_terrorism_rst",
+   "fieldtype": "Check",
+   "label": "Riot, Strike and Terrorism (RST)"
+  },
+  {
+   "fieldname": "column_break_mkap",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "erection_all_risk",
+   "fieldtype": "Check",
+   "label": "Erection All Risk"
+  },
+  {
+   "default": "0",
+   "fieldname": "lightning",
+   "fieldtype": "Check",
+   "label": "Lightning"
+  },
+  {
+   "default": "0",
+   "fieldname": "storm",
+   "fieldtype": "Check",
+   "label": "Storm"
+  },
+  {
+   "fieldname": "column_break_djbv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "explosion",
+   "fieldtype": "Check",
+   "label": "Explosion"
+  },
+  {
+   "default": "0",
+   "fieldname": "malicious_damage",
+   "fieldtype": "Check",
+   "label": "Malicious Damage"
+  },
+  {
+   "default": "0",
+   "fieldname": "subsidence_or_heave_of_the_land_or_landslip_landslides",
+   "fieldtype": "Check",
+   "label": "Subsidence or heave of the land or landslip (Landslides)"
+  },
+  {
+   "default": "0",
+   "fieldname": "theft_and_burglary",
+   "fieldtype": "Check",
+   "label": "Theft and Burglary"
+  },
+  {
+   "fieldname": "section_break_pisj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "policy_no",
+   "fieldtype": "Data",
+   "label": "Policy No."
+  },
+  {
+   "fieldname": "premium_amount",
+   "fieldtype": "Data",
+   "label": "Premium Amount"
+  },
+  {
+   "fieldname": "maturity_date",
+   "fieldtype": "Data",
+   "label": "Maturity Date"
+  },
+  {
+   "fieldname": "column_break_fwyx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "risk_start_date",
+   "fieldtype": "Data",
+   "label": "Risk Start Date"
+  },
+  {
+   "fieldname": "section_break_rcun",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Submitted\nIn Review\nPending\nApproved\nRejected"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-03 11:57:16.767516",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Retail Insurance Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

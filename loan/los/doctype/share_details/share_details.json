@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-07 11:32:30.151455",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shares_details_title",
+  "section_break_jdgq",
+  "stock_symbol",
+  "no_of_shares",
+  "promoter_share",
+  "distressed_factor",
+  "bonus_percent",
+  "cash_dividend_percent",
+  "column_break_xfbr",
+  "types_of_share",
+  "base_price",
+  "considered_price",
+  "distressed_value_dv_",
+  "bonus_shares",
+  "cash_dividend_value",
+  "column_break_cruj",
+  "owners_name",
+  "current_market_price",
+  "security_types",
+  "fiscal_year",
+  "bonus_share_value",
+  "total_value"
+ ],
+ "fields": [
+  {
+   "fieldname": "shares_details_title",
+   "fieldtype": "HTML",
+   "label": "Shares Details Title",
+   "options": "<h2>Shares Details</h2>"
+  },
+  {
+   "fieldname": "section_break_jdgq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stock_symbol",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Stock Symbol "
+  },
+  {
+   "fieldname": "no_of_shares",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No. of Shares"
+  },
+  {
+   "fieldname": "promoter_share",
+   "fieldtype": "Data",
+   "label": "Promoter Share"
+  },
+  {
+   "fieldname": "distressed_factor",
+   "fieldtype": "Data",
+   "label": "Distressed Factor"
+  },
+  {
+   "fieldname": "bonus_percent",
+   "fieldtype": "Data",
+   "label": "Bonus Percent"
+  },
+  {
+   "fieldname": "cash_dividend_percent",
+   "fieldtype": "Data",
+   "label": "Cash Dividend Percent"
+  },
+  {
+   "fieldname": "column_break_xfbr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "types_of_share",
+   "fieldtype": "Data",
+   "label": "Types of Share"
+  },
+  {
+   "fieldname": "base_price",
+   "fieldtype": "Data",
+   "label": "Base Price"
+  },
+  {
+   "fieldname": "considered_price",
+   "fieldtype": "Data",
+   "label": "Considered Price"
+  },
+  {
+   "fieldname": "distressed_value_dv_",
+   "fieldtype": "Data",
+   "label": "Distressed Value (DV )"
+  },
+  {
+   "fieldname": "bonus_shares",
+   "fieldtype": "Data",
+   "label": "Bonus Shares"
+  },
+  {
+   "fieldname": "cash_dividend_value",
+   "fieldtype": "Data",
+   "label": "Cash Dividend Value"
+  },
+  {
+   "fieldname": "column_break_cruj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "owners_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Owner's Name"
+  },
+  {
+   "fieldname": "current_market_price",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Current Market Price"
+  },
+  {
+   "fieldname": "security_types",
+   "fieldtype": "Data",
+   "label": "Security Types"
+  },
+  {
+   "fieldname": "fiscal_year",
+   "fieldtype": "Data",
+   "label": "Fiscal Year"
+  },
+  {
+   "fieldname": "bonus_share_value",
+   "fieldtype": "Data",
+   "label": "Bonus Share Value"
+  },
+  {
+   "fieldname": "total_value",
+   "fieldtype": "Data",
+   "label": "Total Value"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-07 11:44:08.024860",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Share Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

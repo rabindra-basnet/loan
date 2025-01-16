@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/loan/css/loan.css"
-# app_include_js = "/assets/loan/js/loan.js"
+# app_include_js = "assets/loan/public/js/custom_doctype.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/loan/css/loan.css"
@@ -117,12 +117,13 @@ app_license = "mit"
 # -----------
 # Permissions evaluated in scripted ways
 
-# permission_query_conditions = {
-# 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
-# }
+permission_query_conditions = {
+	# "Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
+    "Retail Loan": "loan.custom_python.custom_list.retail_loan_query"
+}
 #
 # has_permission = {
-# 	"Event": "frappe.desk.doctype.event.event.has_permission",
+# 	"Retail Loan": "loan.custom_python.custom_list.retail_loan_has_permission",
 # }
 
 # DocType Class
@@ -144,6 +145,13 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+doc_events = {
+    "Personal Information": {
+        "before_save": "loan.custom_python.personal_information.before_save",
+        "onload": "loan.custom_python.personal_information.after_load",
+    }
+}
+
 
 # Scheduled Tasks
 # ---------------

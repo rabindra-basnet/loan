@@ -1,0 +1,454 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PI-{####}",
+ "creation": "2024-12-30 14:03:03.236092",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_soyn",
+  "html_mvdw",
+  "column_break_sydi",
+  "html_iywp",
+  "column_break_odfo",
+  "html_xkcd",
+  "section_break_trtg",
+  "cif_id",
+  "column_break_quxr",
+  "html_abuf",
+  "fetch_personal_data",
+  "client_details_section",
+  "account_name",
+  "nationality",
+  "phone_no",
+  "column_break_oisx",
+  "date_of_birth",
+  "marital_status",
+  "is_minor_",
+  "column_break_zotg",
+  "gender",
+  "employment_status",
+  "citizenship_details_section",
+  "citizenship_number",
+  "pan_registration_date",
+  "column_break_ohni",
+  "chitizenship_issued_date",
+  "pan_registration_district",
+  "column_break_vxgj",
+  "citizenship_issued_district",
+  "passport_details_section",
+  "passport_number",
+  "passport_issued_date",
+  "column_break_qxrx",
+  "passport_issuing_country",
+  "passport_expiry_date",
+  "family_tree_section",
+  "grandfathers_name",
+  "mothers_name",
+  "spouse_name",
+  "column_break_wxgo",
+  "fathers_name",
+  "father_in_laws_name",
+  "offsprings",
+  "permanent_address_section",
+  "permanent_province",
+  "permanent_ward_no",
+  "column_break_whqw",
+  "permanent_district",
+  "html_dmzy",
+  "is_current_address_same_as_permanent_address_",
+  "column_break_fvwo",
+  "permanent_vdc__municipality",
+  "current_address_section",
+  "current_province",
+  "current_ward_no",
+  "number_of_dependent",
+  "age_calculation",
+  "brms_score_for_cic_report",
+  "column_break_peir",
+  "current_district",
+  "ownership_of_residence",
+  "cic_report",
+  "brms_score_for_ownership_of_residence",
+  "column_break_sffe",
+  "current_vdc__municipality",
+  "education_level",
+  "age_condition_for_brms",
+  "brms_score_for_education_level"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_details_section",
+   "fieldtype": "Section Break",
+   "label": "Client Details"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Select\nM\nF"
+  },
+  {
+   "fieldname": "column_break_zotg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sydi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_mvdw",
+   "fieldtype": "HTML",
+   "options": "<div></div>"
+  },
+  {
+   "fieldname": "column_break_odfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_iywp",
+   "fieldtype": "HTML",
+   "options": "<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Personal Information</h2>"
+  },
+  {
+   "fieldname": "citizenship_number",
+   "fieldtype": "Data",
+   "label": "Citizenship Number"
+  },
+  {
+   "fieldname": "column_break_oisx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "chitizenship_issued_date",
+   "fieldtype": "Date",
+   "label": "Chitizenship Issued Date"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "label": "Nationality",
+   "options": "Select\nNEPALI\nOTHER"
+  },
+  {
+   "fieldname": "citizenship_issued_district",
+   "fieldtype": "Select",
+   "label": "Citizenship Issued District",
+   "options": "Select\nKATHM\nBhaktapur\nLalitpur"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"NEPALI\"",
+   "fieldname": "citizenship_details_section",
+   "fieldtype": "Section Break",
+   "label": "Citizenship Details"
+  },
+  {
+   "fieldname": "column_break_ohni",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vxgj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"OTHER\"",
+   "fieldname": "passport_details_section",
+   "fieldtype": "Section Break",
+   "label": "Passport Details"
+  },
+  {
+   "fieldname": "passport_number",
+   "fieldtype": "Data",
+   "label": "Passport Number"
+  },
+  {
+   "fieldname": "passport_issuing_country",
+   "fieldtype": "Select",
+   "label": "Passport Issuing Country"
+  },
+  {
+   "fieldname": "column_break_qxrx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pan_registration_date",
+   "fieldtype": "Date",
+   "label": "PAN Registration Date"
+  },
+  {
+   "fieldname": "pan_registration_district",
+   "fieldtype": "Select",
+   "label": "PAN Registration District"
+  },
+  {
+   "fieldname": "passport_issued_date",
+   "fieldtype": "Date",
+   "label": "Passport Issued Date"
+  },
+  {
+   "fieldname": "passport_expiry_date",
+   "fieldtype": "Date",
+   "label": "Passport Expiry Date"
+  },
+  {
+   "fieldname": "family_tree_section",
+   "fieldtype": "Section Break",
+   "label": "Family Tree"
+  },
+  {
+   "fieldname": "grandfathers_name",
+   "fieldtype": "Data",
+   "label": "Grandfather's Name"
+  },
+  {
+   "fieldname": "fathers_name",
+   "fieldtype": "Data",
+   "label": "Father's Name"
+  },
+  {
+   "depends_on": "eval:doc.gender==\"F\";",
+   "fieldname": "father_in_laws_name",
+   "fieldtype": "Data",
+   "label": "Father In Law's Name"
+  },
+  {
+   "fieldname": "mothers_name",
+   "fieldtype": "Data",
+   "label": "Mother's Name"
+  },
+  {
+   "fieldname": "spouse_name",
+   "fieldtype": "Data",
+   "label": "Spouse Name"
+  },
+  {
+   "fieldname": "offsprings",
+   "fieldtype": "Data",
+   "label": "Offsprings"
+  },
+  {
+   "fieldname": "column_break_wxgo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "permanent_address_section",
+   "fieldtype": "Section Break",
+   "label": "Permanent Address"
+  },
+  {
+   "fieldname": "column_break_whqw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_current_address_same_as_permanent_address_",
+   "fieldtype": "Check",
+   "label": "Is current address same as Permanent Address ?"
+  },
+  {
+   "fieldname": "permanent_province",
+   "fieldtype": "Link",
+   "label": "Province",
+   "options": "Provinces"
+  },
+  {
+   "fieldname": "permanent_ward_no",
+   "fieldtype": "Data",
+   "label": "Ward No."
+  },
+  {
+   "fieldname": "permanent_vdc__municipality",
+   "fieldtype": "Link",
+   "label": "VDC / Municipality",
+   "options": "Municipality and VDC"
+  },
+  {
+   "fieldname": "current_address_section",
+   "fieldtype": "Section Break",
+   "label": "Current Address"
+  },
+  {
+   "fieldname": "current_province",
+   "fieldtype": "Link",
+   "label": "Province",
+   "options": "Provinces"
+  },
+  {
+   "fieldname": "current_ward_no",
+   "fieldtype": "Data",
+   "label": "Ward No."
+  },
+  {
+   "fieldname": "column_break_peir",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_vdc__municipality",
+   "fieldtype": "Link",
+   "label": "VDC / Municipality",
+   "options": "Municipality and VDC"
+  },
+  {
+   "fieldname": "permanent_district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "current_district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "ownership_of_residence",
+   "fieldtype": "Select",
+   "label": "Ownership of Residence",
+   "options": "Select\nOwn House\nParent's House\nRental Home\nNA"
+  },
+  {
+   "fieldname": "education_level",
+   "fieldtype": "Select",
+   "label": "Education Level",
+   "options": "Select\nPhD\nMaster/M-Phile\nGraduate\nIntermediate\nSLC\nNA"
+  },
+  {
+   "fieldname": "number_of_dependent",
+   "fieldtype": "Select",
+   "label": "Number of Dependent",
+   "options": "Select\n0 Person\n1 Person\n2 Person\n3 or More Persons"
+  },
+  {
+   "fieldname": "cic_report",
+   "fieldtype": "Select",
+   "label": "CIC Report",
+   "options": "Select\nBlacklist\nOverdue\nClean\nNA"
+  },
+  {
+   "fieldname": "age_condition_for_brms",
+   "fieldtype": "Data",
+   "label": "Age Condition for BRMS"
+  },
+  {
+   "fieldname": "brms_score_for_ownership_of_residence",
+   "fieldtype": "Data",
+   "label": "BRMS Score for Ownership of Residence"
+  },
+  {
+   "fieldname": "brms_score_for_cic_report",
+   "fieldtype": "Data",
+   "label": "BRMS Score for CIC Report"
+  },
+  {
+   "fieldname": "age_calculation",
+   "fieldtype": "Data",
+   "label": "Age Calculation"
+  },
+  {
+   "fieldname": "brms_score_for_education_level",
+   "fieldtype": "Data",
+   "label": "BRMS Score for Education Level"
+  },
+  {
+   "fieldname": "column_break_fvwo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sffe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_soyn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_xkcd",
+   "fieldtype": "HTML",
+   "options": "<div></div>"
+  },
+  {
+   "fieldname": "section_break_trtg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_quxr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fetch_personal_data",
+   "fieldtype": "Button",
+   "label": "Fetch Customer Data"
+  },
+  {
+   "fieldname": "account_name",
+   "fieldtype": "Data",
+   "label": "Account Name"
+  },
+  {
+   "fieldname": "cif_id",
+   "fieldtype": "Data",
+   "label": "CIF ID"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Data",
+   "label": "Marital Status"
+  },
+  {
+   "fieldname": "employment_status",
+   "fieldtype": "Data",
+   "label": "Employment Status"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No."
+  },
+  {
+   "fieldname": "is_minor_",
+   "fieldtype": "Select",
+   "label": "Is Minor ?",
+   "options": "Select\nY\nN"
+  },
+  {
+   "fieldname": "html_abuf",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "html_dmzy",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-12 14:40:58.005903",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Personal Information",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-31 12:04:27.906362",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "decision",
+  "date_klsu",
+  "to_workstep",
+  "column_break_muxc",
+  "logged_in_user",
+  "from_workstep",
+  "comment"
+ ],
+ "fields": [
+  {
+   "fieldname": "decision",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Decision"
+  },
+  {
+   "fieldname": "date_klsu",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "to_workstep",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "To workstep"
+  },
+  {
+   "fieldname": "column_break_muxc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "logged_in_user",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Logged In User"
+  },
+  {
+   "fieldname": "from_workstep",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "From Workstep"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Comment",
+   "max_height": "100px"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-01 10:23:41.800756",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Approval Logs",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

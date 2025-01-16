@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-03 11:12:08.486770",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "facility_details_title",
+  "section_break_uetg",
+  "facility_type",
+  "base_rate",
+  "purpose",
+  "column_break_icun",
+  "tenure_in_months",
+  "ir_premium_proposed",
+  "service_fees",
+  "column_break_hrcn",
+  "proposal_limit",
+  "interest_proposed",
+  "html_zhzt",
+  "calculate_emi",
+  "calculated_emi_section",
+  "emi"
+ ],
+ "fields": [
+  {
+   "fieldname": "facility_details_title",
+   "fieldtype": "HTML",
+   "label": "Facility Details Title",
+   "options": "<h2>Facility Details</h2>"
+  },
+  {
+   "fieldname": "section_break_uetg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Housing Loan",
+   "fieldname": "facility_type",
+   "fieldtype": "Select",
+   "label": "Facility Type",
+   "options": "Select\nHousing Loan\nLand Purchase\nLoan Against Property"
+  },
+  {
+   "fieldname": "base_rate",
+   "fieldtype": "Float",
+   "label": "Base Rate"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Small Text",
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "column_break_icun",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tenure_in_months",
+   "fieldtype": "Data",
+   "label": "Tenure (In Months)"
+  },
+  {
+   "fieldname": "ir_premium_proposed",
+   "fieldtype": "Float",
+   "label": "IR Premium Proposed"
+  },
+  {
+   "fieldname": "service_fees",
+   "fieldtype": "Float",
+   "label": "Service Fees"
+  },
+  {
+   "fieldname": "column_break_hrcn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposal_limit",
+   "fieldtype": "Float",
+   "label": "Proposal Limit"
+  },
+  {
+   "fieldname": "interest_proposed",
+   "fieldtype": "Float",
+   "label": "Interest Proposed"
+  },
+  {
+   "fieldname": "emi",
+   "fieldtype": "Data",
+   "label": "EMI"
+  },
+  {
+   "fieldname": "calculate_emi",
+   "fieldtype": "Button",
+   "label": "Calculate EMI"
+  },
+  {
+   "fieldname": "calculated_emi_section",
+   "fieldtype": "Section Break",
+   "label": "Calculated EMI"
+  },
+  {
+   "fieldname": "html_zhzt",
+   "fieldtype": "HTML",
+   "options": "</br>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-10 11:32:13.746339",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Facility Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

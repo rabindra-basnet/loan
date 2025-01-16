@@ -1,0 +1,2276 @@
+{
+ "actions": [],
+ "autoname": "format:{####}",
+ "creation": "2025-01-01 13:46:46.063952",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "applicant_details_tab",
+  "amended_form",
+  "new",
+  "new_label",
+  "section_break_tymi",
+  "organization_type",
+  "column_break_fgaf",
+  "product_type",
+  "column_break_fhrw",
+  "sub_sector",
+  "column_break_blgt",
+  "segment",
+  "section_break_njox",
+  "applicant_details",
+  "applicant_details_section",
+  "customer_relation",
+  "name_of_organization",
+  "currency",
+  "date_of_establishment",
+  "website",
+  "column_break_fpna",
+  "company_cif_id",
+  "purpose_of_account",
+  "key_contact_person",
+  "column_break_rshf",
+  "fetch_account_detail",
+  "nature_of_business",
+  "constitution",
+  "rm_id",
+  "registered_address_section",
+  "registered_country",
+  "custom_foreign_state",
+  "street_tole",
+  "cell_number",
+  "column_break_buvl",
+  "foreign_vdc_municipality",
+  "house__number",
+  "contact_number",
+  "email",
+  "is_contact_address_same_as_above",
+  "column_break_rlzv",
+  "foreign_city_district",
+  "ward_number",
+  "use_this_mobile_number_for_omni_channel",
+  "contact_address_section",
+  "contact_country",
+  "custom_contact_address_foreign_states",
+  "streettole",
+  "column_break_voxm",
+  "foreign_custom_vdc",
+  "house_custom_number",
+  "is_the_head_office_address_same_as_contact_address",
+  "column_break_epus",
+  "foreign__citydistrict",
+  "custom_contact_address_ward_number",
+  "is_the_head_office_address_same_as_registered_address",
+  "head_office_address_section",
+  "head_country",
+  "foreign_state",
+  "street_tole_custom",
+  "column_break_hcvx",
+  "foreign_vdcmunicipality",
+  "house_number",
+  "column_break_squb",
+  "foreign_citydistrict",
+  "ward__number",
+  "sms_and_email_address_section",
+  "mobile_number",
+  "column_break_kfap",
+  "custom_sms_email_address",
+  "registration_details_section",
+  "registration_number",
+  "registered_document",
+  "registered_office",
+  "column_break_bxzg",
+  "select_uoce",
+  "registered_cityfor_foreign",
+  "document_issued_date",
+  "section_break_vhfh",
+  "panvat_number",
+  "pan_place_of_issue",
+  "pan_date_of_issue",
+  "column_break_npdo",
+  "pan_country_of_issue",
+  "pan_place_of__issue_for_foreign",
+  "pan_id_issued_organization",
+  "section_break_svfp",
+  "beneficiary_details",
+  "beneficiary_name",
+  "beneficiary_address",
+  "beneficiary_test",
+  "section_break_vdhe",
+  "do_you_have_shareholder_in_organization",
+  "section_break_ncwg",
+  "shareholder_detail",
+  "other_details_section",
+  "company_detail",
+  "company_details_section",
+  "number_of_branches",
+  "source_of_funds",
+  "special_instruction_any",
+  "column_break_pirz",
+  "address_of_branches",
+  "operation__mode",
+  "other_information_detail_section",
+  "annual_income",
+  "anticipated_no_of_transaction_per_year",
+  "non_residential_account",
+  "do_you_have_more_than_one_directorssignatories",
+  "column_break_dwwy",
+  "anticipated_transactions_amount_per_year",
+  "audited_financial_of_last_fiscal_year_submitted",
+  "interest_tax_exempted",
+  "section_break_orkm",
+  "for_multiple_directorssignatures",
+  "section_break_biru",
+  "customer_relationship",
+  "salutation",
+  "middle_name",
+  "full_name",
+  "father_name",
+  "grand_fathers_name",
+  "nationality",
+  "ra",
+  "res",
+  "fed",
+  "erse",
+  "file",
+  "data_ydcg",
+  "barcode_mfnz",
+  "select_yisw",
+  "json_jfpk",
+  "data_kdwz",
+  "select_oiex",
+  "column_break_kfts",
+  "cif_id",
+  "position",
+  "first_name",
+  "full_name_in_nepali",
+  "last_name",
+  "mother_name",
+  "spouse_name",
+  "bas",
+  "ds",
+  "che",
+  "skfd",
+  "check_inqk",
+  "data_kkuu",
+  "currency_czir",
+  "select_ewso",
+  "data_xiig",
+  "float_jhpq",
+  "float_vvxh",
+  "data_bmxj",
+  "data_pyly",
+  "data_ayqb",
+  "data_abix",
+  "data_dwfn",
+  "select_vgya",
+  "section_break_yucr",
+  "data_cdsc",
+  "select_ixlc",
+  "select_syya",
+  "barcode_pwnv",
+  "data_mpum",
+  "select_hfnc",
+  "data_rvtk",
+  "select_lkox",
+  "select_seij",
+  "data_saxm",
+  "data_cwwk",
+  "data_kwnh",
+  "data_dezh",
+  "data_ahss",
+  "data_ogyy",
+  "data_clha",
+  "select_faig",
+  "select_ajku",
+  "select_mmee",
+  "select_dkkf",
+  "select_zqje",
+  "select_pxjw",
+  "select_bjcx",
+  "select_hcrx",
+  "select_soxn",
+  "select_jotl",
+  "select_rhpw",
+  "data_jfid",
+  "data_momr",
+  "data_opvw",
+  "data_rcbu",
+  "data_bxyf",
+  "data_dohn",
+  "data_fnzs",
+  "data_vsro",
+  "data_eioj",
+  "data_xoxz",
+  "data_wzay",
+  "data_noaq",
+  "data_ezup",
+  "data_qziz",
+  "data_ishm",
+  "data_lmdb",
+  "select_jchy",
+  "column_break_jnfu",
+  "data_trkz",
+  "select_odkv",
+  "select_qaje",
+  "barcode_bukh",
+  "long_text_kmpp",
+  "select_qfnc",
+  "select_ppph",
+  "data_ovme",
+  "select_qekv",
+  "select_xyeg",
+  "select_fkzk",
+  "select_ccbi",
+  "select_txxi",
+  "select_epwk",
+  "select_npnh",
+  "select_syru",
+  "select_ydcc",
+  "select_awrq",
+  "select_evkr",
+  "select_ojrb",
+  "select_ybhw",
+  "select_ritq",
+  "data_kwcc",
+  "data_rezz",
+  "data_rllp",
+  "data_pqpc",
+  "data_vlvs",
+  "data_wkuq",
+  "data_fkkm",
+  "data_jcul",
+  "data_cpvb",
+  "data_jkxf",
+  "data_xzjs",
+  "data_oqin",
+  "data_djpf",
+  "data_liwz",
+  "data_leid",
+  "data_edqi",
+  "data_agvi",
+  "data_dcwe",
+  "data_crnd",
+  "data_xyfj",
+  "data_qlaf",
+  "data_oisg",
+  "data_jimb",
+  "data_rvap",
+  "data_yugn",
+  "data_iisb",
+  "data_iecf",
+  "data_yqov",
+  "data_ooxb",
+  "data_omrn",
+  "data_wygv",
+  "data_hgyz",
+  "data_jiay",
+  "data_yori",
+  "data_moen",
+  "data_oksp",
+  "data_yvnl",
+  "data_chqp",
+  "data_wxat",
+  "data_heaa",
+  "data_xydu",
+  "data_vwfx",
+  "select_bjcg",
+  "section_break_diij",
+  "data_xznj",
+  "data_cdtr",
+  "data_hcnw",
+  "data_usgn",
+  "data_mlrp",
+  "data_nmvh",
+  "data_krvv",
+  "data_fgug",
+  "data_lwsv",
+  "data_jzaq",
+  "data_isxp",
+  "data_sfia",
+  "data_qyjb",
+  "data_gtmm",
+  "data_bjkr",
+  "data_pxld",
+  "data_xoyt",
+  "data_jkhz",
+  "data_cbjk",
+  "data_ebsy",
+  "data_qjnf",
+  "data_vuua",
+  "data_cttn",
+  "data_dhhx",
+  "data_gpdw",
+  "data_qtkb",
+  "data_hbxz",
+  "data_jakr",
+  "data_zppf",
+  "data_lteq",
+  "data_ctsv",
+  "data_oxku",
+  "data_hkbl",
+  "data_yccw",
+  "data_pjes",
+  "data_exoi",
+  "data_qpsj",
+  "data_byyn",
+  "data_asgb",
+  "data_hpid",
+  "data_zcuj",
+  "data_knkf",
+  "data_fneu",
+  "data_kcpi",
+  "data_cuzj",
+  "data_imrr",
+  "data_shvo",
+  "data_jgpp",
+  "data_xhod",
+  "data_rztu",
+  "data_hxwc",
+  "data_fapg",
+  "data_wngh",
+  "data_ucxs",
+  "data_vpam",
+  "data_cgpy",
+  "data_asvf",
+  "data_kxkz",
+  "data_pfqr",
+  "data_adqj",
+  "data_tbgt",
+  "data_tasx",
+  "data_pgpk",
+  "data_ukmd",
+  "data_edfm",
+  "data_mffk",
+  "data_lxqi",
+  "data_nsoz",
+  "data_vsgm",
+  "data_sxmf",
+  "data_rmrw",
+  "data_qpcm",
+  "data_zlnc",
+  "data_hcma",
+  "data_tnrq",
+  "data_mduo",
+  "data_zeav",
+  "data_bxcq",
+  "data_fthy",
+  "data_unlu",
+  "data_karz",
+  "data_befl",
+  "data_smmc",
+  "data_sqih",
+  "data_phyj",
+  "data_hqho",
+  "data_fonw",
+  "column_break_rbqd",
+  "select_fvsc",
+  "select_ggki",
+  "select_uagm",
+  "select_stgm",
+  "select_runy",
+  "select_zlkb",
+  "select_tmrl",
+  "select_dtiz",
+  "select_ogrp",
+  "select_fsmk",
+  "select_yxqi",
+  "select_ccfp",
+  "select_xrmg",
+  "select_pzdb",
+  "select_inmk",
+  "select_slyh",
+  "select_ggar",
+  "select_gdrb",
+  "select_ipck",
+  "select_eimc",
+  "select_cdfz",
+  "select_wzzq",
+  "select_xsyb",
+  "select_nuvz",
+  "select_qkwt",
+  "select_hlch",
+  "select_lkvi",
+  "select_gcyk",
+  "select_wznm",
+  "select_iwzu",
+  "select_elgt",
+  "select_nswl",
+  "select_nawr",
+  "select_wpbe",
+  "select_uzra",
+  "select_gffh",
+  "select_kyzw",
+  "select_bieq",
+  "select_csvh",
+  "select_yovn",
+  "select_khdo",
+  "select_llyg",
+  "select_ebrw",
+  "select_xcnf",
+  "select_bplv",
+  "select_xgld",
+  "select_mktc",
+  "select_tgpj",
+  "select_mapk"
+ ],
+ "fields": [
+  {
+   "fieldname": "applicant_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Applicant Details",
+   "length": 20
+  },
+  {
+   "fieldname": "amended_form",
+   "fieldtype": "Data",
+   "label": "Amended Form",
+   "length": 20
+  },
+  {
+   "fieldname": "new",
+   "fieldtype": "Data",
+   "label": "New"
+  },
+  {
+   "fieldname": "new_label",
+   "fieldtype": "Data",
+   "label": "New Label"
+  },
+  {
+   "fieldname": "section_break_tymi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "organization_type",
+   "fieldtype": "Select",
+   "label": "Organization Type",
+   "length": 40,
+   "options": "Current Account\nSaving Account"
+  },
+  {
+   "fieldname": "column_break_fgaf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "product_type",
+   "fieldtype": "Select",
+   "label": "Product Type",
+   "length": 40
+  },
+  {
+   "fieldname": "column_break_fhrw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sub_sector",
+   "fieldtype": "Select",
+   "label": "Sub Sector",
+   "length": 20,
+   "options": "9.3\nAdvertisement\nAgro Product Storage\nAlcholic"
+  },
+  {
+   "fieldname": "column_break_blgt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "segment",
+   "fieldtype": "Select",
+   "label": "Segment",
+   "length": 40
+  },
+  {
+   "fieldname": "section_break_njox",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "applicant_details",
+   "fieldtype": "Heading",
+   "label": "Applicant Details",
+   "length": 20
+  },
+  {
+   "fieldname": "applicant_details_section",
+   "fieldtype": "Section Break",
+   "label": "Applicant Details"
+  },
+  {
+   "fieldname": "customer_relation",
+   "fieldtype": "Select",
+   "label": "Customer Relation",
+   "length": 20
+  },
+  {
+   "fieldname": "name_of_organization",
+   "fieldtype": "Data",
+   "label": "Name of Organization",
+   "length": 20
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Select",
+   "label": "Currency",
+   "length": 20
+  },
+  {
+   "fieldname": "date_of_establishment",
+   "fieldtype": "Date",
+   "label": "Date of Establishment"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Small Text",
+   "label": "Website",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_fpna",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_cif_id",
+   "fieldtype": "Int",
+   "label": "Company CIF ID"
+  },
+  {
+   "fieldname": "purpose_of_account",
+   "fieldtype": "Data",
+   "label": "Purpose of Account",
+   "length": 20
+  },
+  {
+   "fieldname": "key_contact_person",
+   "fieldtype": "Data",
+   "label": "Key Contact Person ",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_rshf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fetch_account_detail",
+   "fieldtype": "Button",
+   "label": "Fetch Account Detail"
+  },
+  {
+   "fieldname": "nature_of_business",
+   "fieldtype": "Select",
+   "label": "Nature of Business",
+   "length": 20
+  },
+  {
+   "fieldname": "constitution",
+   "fieldtype": "Data",
+   "label": "Constitution",
+   "length": 20
+  },
+  {
+   "fieldname": "rm_id",
+   "fieldtype": "Select",
+   "label": "RM ID",
+   "length": 20
+  },
+  {
+   "fieldname": "registered_address_section",
+   "fieldtype": "Section Break",
+   "label": "Registered Address"
+  },
+  {
+   "fieldname": "registered_country",
+   "fieldtype": "Select",
+   "label": "Registered Country",
+   "length": 20
+  },
+  {
+   "fieldname": "custom_foreign_state",
+   "fieldtype": "Select",
+   "label": "Foreign state",
+   "length": 20
+  },
+  {
+   "fieldname": "street_tole",
+   "fieldtype": "Data",
+   "label": "Street/Tole",
+   "length": 20
+  },
+  {
+   "fieldname": "cell_number",
+   "fieldtype": "Data",
+   "label": "Cell Number ",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_buvl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foreign_vdc_municipality",
+   "fieldtype": "Data",
+   "label": "Foreign VDC/municipality",
+   "length": 20
+  },
+  {
+   "fieldname": "house__number",
+   "fieldtype": "Data",
+   "label": "House Number",
+   "length": 20
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number",
+   "length": 20
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "length": 20
+  },
+  {
+   "default": "0",
+   "fieldname": "is_contact_address_same_as_above",
+   "fieldtype": "Check",
+   "label": "Is Contact Address same as above?"
+  },
+  {
+   "fieldname": "column_break_rlzv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foreign_city_district",
+   "fieldtype": "Select",
+   "label": "Foreign City/District",
+   "length": 20
+  },
+  {
+   "fieldname": "ward_number",
+   "fieldtype": "Data",
+   "label": "Ward Number",
+   "length": 20
+  },
+  {
+   "default": "0",
+   "fieldname": "use_this_mobile_number_for_omni_channel",
+   "fieldtype": "Check",
+   "label": "Use this Mobile Number for Omni Channel "
+  },
+  {
+   "fieldname": "contact_address_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Address"
+  },
+  {
+   "fieldname": "contact_country",
+   "fieldtype": "Select",
+   "label": "Contact Country",
+   "length": 20
+  },
+  {
+   "fieldname": "custom_contact_address_foreign_states",
+   "fieldtype": "Select",
+   "label": "Foreign state",
+   "length": 20
+  },
+  {
+   "fieldname": "streettole",
+   "fieldtype": "Data",
+   "label": "Street/Tole",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_voxm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foreign_custom_vdc",
+   "fieldtype": "Data",
+   "label": "Foreign VDC/municipality",
+   "length": 20
+  },
+  {
+   "fieldname": "house_custom_number",
+   "fieldtype": "Data",
+   "label": "House Number",
+   "length": 20
+  },
+  {
+   "default": "0",
+   "fieldname": "is_the_head_office_address_same_as_contact_address",
+   "fieldtype": "Check",
+   "label": "Is the Head office Address same as Contact Address?"
+  },
+  {
+   "fieldname": "column_break_epus",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foreign__citydistrict",
+   "fieldtype": "Select",
+   "label": "Foreign  City/District",
+   "length": 20
+  },
+  {
+   "fieldname": "custom_contact_address_ward_number",
+   "fieldtype": "Data",
+   "label": "Ward Number",
+   "length": 20
+  },
+  {
+   "default": "0",
+   "fieldname": "is_the_head_office_address_same_as_registered_address",
+   "fieldtype": "Check",
+   "label": "Is the Head Office Address same as Registered Address?"
+  },
+  {
+   "fieldname": "head_office_address_section",
+   "fieldtype": "Section Break",
+   "label": "Head Office Address"
+  },
+  {
+   "fieldname": "head_country",
+   "fieldtype": "Select",
+   "label": "Head Country",
+   "length": 20
+  },
+  {
+   "fieldname": "foreign_state",
+   "fieldtype": "Select",
+   "label": "Foreign state",
+   "length": 20
+  },
+  {
+   "fieldname": "street_tole_custom",
+   "fieldtype": "Data",
+   "label": "Street/Tole",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_hcvx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foreign_vdcmunicipality",
+   "fieldtype": "Select",
+   "label": "Foreign VDC/municipality",
+   "length": 20
+  },
+  {
+   "fieldname": "house_number",
+   "fieldtype": "Data",
+   "label": "House Number",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_squb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foreign_citydistrict",
+   "fieldtype": "Select",
+   "label": "Foreign City/District",
+   "length": 20
+  },
+  {
+   "fieldname": "ward__number",
+   "fieldtype": "Data",
+   "label": "Ward  Number",
+   "length": 20
+  },
+  {
+   "fieldname": "sms_and_email_address_section",
+   "fieldtype": "Section Break",
+   "label": "SMS and Email Address"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Int",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "column_break_kfap",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "custom_sms_email_address",
+   "fieldtype": "Data",
+   "label": "Email",
+   "length": 20
+  },
+  {
+   "fieldname": "registration_details_section",
+   "fieldtype": "Section Break",
+   "label": "Registration Details"
+  },
+  {
+   "fieldname": "registration_number",
+   "fieldtype": "Data",
+   "label": "Registration Number",
+   "length": 20
+  },
+  {
+   "fieldname": "registered_document",
+   "fieldtype": "Select",
+   "label": "Registered Document",
+   "length": 20
+  },
+  {
+   "fieldname": "registered_office",
+   "fieldtype": "Select",
+   "label": "Registered Office",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_bxzg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "select_uoce",
+   "fieldtype": "Select",
+   "label": "Registration Issue Country",
+   "length": 20
+  },
+  {
+   "fieldname": "registered_cityfor_foreign",
+   "fieldtype": "Select",
+   "label": "Registered City(For Foreign)",
+   "length": 20
+  },
+  {
+   "fieldname": "document_issued_date",
+   "fieldtype": "Date",
+   "label": "Document Issued Date"
+  },
+  {
+   "fieldname": "section_break_vhfh",
+   "fieldtype": "Section Break",
+   "label": "PAN Details"
+  },
+  {
+   "fieldname": "panvat_number",
+   "fieldtype": "Int",
+   "label": "PAN/VAT Number"
+  },
+  {
+   "fieldname": "pan_place_of_issue",
+   "fieldtype": "Select",
+   "label": "PAN Place of Issue",
+   "length": 20
+  },
+  {
+   "fieldname": "pan_date_of_issue",
+   "fieldtype": "Date",
+   "label": "PAN Date of Issue"
+  },
+  {
+   "fieldname": "column_break_npdo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pan_country_of_issue",
+   "fieldtype": "Select",
+   "label": "PAN Country of Issue",
+   "length": 20
+  },
+  {
+   "fieldname": "pan_place_of__issue_for_foreign",
+   "fieldtype": "Select",
+   "label": "PAN Place of  Issue (For Foreign)",
+   "length": 20
+  },
+  {
+   "fieldname": "pan_id_issued_organization",
+   "fieldtype": "Select",
+   "label": "PAN ID Issued Organization",
+   "length": 20
+  },
+  {
+   "fieldname": "section_break_svfp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "beneficiary_details",
+   "fieldtype": "Heading",
+   "label": "Beneficiary Details"
+  },
+  {
+   "fieldname": "beneficiary_name",
+   "fieldtype": "Data",
+   "label": "Beneficiary Name"
+  },
+  {
+   "fieldname": "beneficiary_address",
+   "fieldtype": "Data",
+   "label": "Beneficiary Address"
+  },
+  {
+   "fieldname": "beneficiary_test",
+   "fieldtype": "Data",
+   "label": "Beneficiary Test"
+  },
+  {
+   "fieldname": "section_break_vdhe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "do_you_have_shareholder_in_organization",
+   "fieldtype": "Select",
+   "label": "Do you have ShareHolder in Organization",
+   "length": 20
+  },
+  {
+   "fieldname": "section_break_ncwg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "shareholder_detail",
+   "fieldtype": "Heading",
+   "label": "Shareholder Detail"
+  },
+  {
+   "fieldname": "other_details_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_detail",
+   "fieldtype": "Heading",
+   "label": "Other Details",
+   "length": 20
+  },
+  {
+   "fieldname": "company_details_section",
+   "fieldtype": "Section Break",
+   "label": "Company Details"
+  },
+  {
+   "fieldname": "number_of_branches",
+   "fieldtype": "Select",
+   "label": "Number of Branches",
+   "length": 20
+  },
+  {
+   "fieldname": "source_of_funds",
+   "fieldtype": "Select",
+   "label": "Source of Funds",
+   "length": 20
+  },
+  {
+   "fieldname": "special_instruction_any",
+   "fieldtype": "Small Text",
+   "label": "Special Instruction any"
+  },
+  {
+   "fieldname": "column_break_pirz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_of_branches",
+   "fieldtype": "Small Text",
+   "label": "Address of Branches "
+  },
+  {
+   "fieldname": "operation__mode",
+   "fieldtype": "Select",
+   "label": "Operation  Mode ",
+   "length": 20
+  },
+  {
+   "fieldname": "other_information_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Other Information Details"
+  },
+  {
+   "fieldname": "annual_income",
+   "fieldtype": "Data",
+   "label": "Annual Income",
+   "length": 20
+  },
+  {
+   "fieldname": "anticipated_no_of_transaction_per_year",
+   "fieldtype": "Select",
+   "label": "Anticipated No. of transaction per year",
+   "length": 20
+  },
+  {
+   "fieldname": "non_residential_account",
+   "fieldtype": "Select",
+   "label": "Non Residential Account",
+   "length": 20
+  },
+  {
+   "fieldname": "do_you_have_more_than_one_directorssignatories",
+   "fieldtype": "Select",
+   "label": "Do you have more than one Directors/Signatories",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_dwwy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "anticipated_transactions_amount_per_year",
+   "fieldtype": "Select",
+   "label": "Anticipated transactions amount per year",
+   "length": 20
+  },
+  {
+   "fieldname": "audited_financial_of_last_fiscal_year_submitted",
+   "fieldtype": "Select",
+   "label": "Audited Financial of last Fiscal Year submitted",
+   "length": 20
+  },
+  {
+   "fieldname": "interest_tax_exempted",
+   "fieldtype": "Select",
+   "label": "Interest Tax Exempted",
+   "length": 20
+  },
+  {
+   "fieldname": "section_break_orkm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "for_multiple_directorssignatures",
+   "fieldtype": "Heading",
+   "label": "For Multiple Directors/Signatures",
+   "length": 20
+  },
+  {
+   "fieldname": "section_break_biru",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_relationship",
+   "fieldtype": "Select",
+   "label": "Customer Relationship",
+   "length": 20
+  },
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Select",
+   "label": "Salutation",
+   "length": 20
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name ",
+   "length": 20
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "length": 20
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name ",
+   "length": 20
+  },
+  {
+   "fieldname": "grand_fathers_name",
+   "fieldtype": "Data",
+   "label": "Grand Father's Name ",
+   "length": 20
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "label": "Nationality",
+   "length": 20
+  },
+  {
+   "fieldname": "column_break_kfts",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cif_id",
+   "fieldtype": "Data",
+   "label": "CIF ID",
+   "length": 20
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Select",
+   "label": "Position",
+   "length": 20
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name ",
+   "length": 20
+  },
+  {
+   "fieldname": "full_name_in_nepali",
+   "fieldtype": "Data",
+   "label": "Full Name (in Nepali)",
+   "length": 20
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "length": 20
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "Mother Name",
+   "length": 20
+  },
+  {
+   "fieldname": "spouse_name",
+   "fieldtype": "Data",
+   "label": "Spouse Name ",
+   "length": 20
+  },
+  {
+   "fieldname": "ra",
+   "fieldtype": "Data",
+   "label": "Ra"
+  },
+  {
+   "fieldname": "res",
+   "fieldtype": "Select",
+   "label": "REs"
+  },
+  {
+   "fieldname": "bas",
+   "fieldtype": "Data",
+   "label": "Bas"
+  },
+  {
+   "fieldname": "ds",
+   "fieldtype": "Data",
+   "label": "DS"
+  },
+  {
+   "fieldname": "fed",
+   "fieldtype": "Button",
+   "label": "fed"
+  },
+  {
+   "default": "0",
+   "fieldname": "che",
+   "fieldtype": "Check",
+   "label": "CHe"
+  },
+  {
+   "fieldname": "erse",
+   "fieldtype": "Int",
+   "label": "Erse"
+  },
+  {
+   "fieldname": "skfd",
+   "fieldtype": "Float",
+   "label": "skfd"
+  },
+  {
+   "fieldname": "file",
+   "fieldtype": "Attach",
+   "label": "FIle"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_inqk",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "data_kkuu",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ydcg",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "barcode_mfnz",
+   "fieldtype": "Barcode"
+  },
+  {
+   "fieldname": "currency_czir",
+   "fieldtype": "Currency"
+  },
+  {
+   "fieldname": "select_yisw",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ewso",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "data_xiig",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "float_jhpq",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "json_jfpk",
+   "fieldtype": "JSON"
+  },
+  {
+   "fieldname": "float_vvxh",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "data_bmxj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_pyly",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ayqb",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_abix",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_dwfn",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_kdwz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_oiex",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_vgya",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "section_break_yucr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data_cdsc",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_ixlc",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_syya",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "barcode_pwnv",
+   "fieldtype": "Barcode"
+  },
+  {
+   "fieldname": "data_mpum",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_hfnc",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "data_rvtk",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_lkox",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_seij",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "data_saxm",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_cwwk",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_kwnh",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_dezh",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ahss",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ogyy",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_clha",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_faig",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ajku",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_mmee",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_dkkf",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_zqje",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_pxjw",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_bjcx",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_hcrx",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_soxn",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_jotl",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_rhpw",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "data_jfid",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_momr",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_opvw",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_rcbu",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_bxyf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_dohn",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_fnzs",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_vsro",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_eioj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_xoxz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_wzay",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_noaq",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ezup",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_qziz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ishm",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_lmdb",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_jchy",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "column_break_jnfu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_trkz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_odkv",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_qaje",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "barcode_bukh",
+   "fieldtype": "Barcode"
+  },
+  {
+   "fieldname": "long_text_kmpp",
+   "fieldtype": "Long Text"
+  },
+  {
+   "fieldname": "select_qfnc",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ppph",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "data_ovme",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_qekv",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_xyeg",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_fkzk",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ccbi",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_txxi",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_epwk",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_npnh",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_syru",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ydcc",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_awrq",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_evkr",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ojrb",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ybhw",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ritq",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "data_kwcc",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_rezz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_rllp",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_pqpc",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_vlvs",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_wkuq",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_fkkm",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_jcul",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_cpvb",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_jkxf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_xzjs",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_oqin",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_djpf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_liwz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_wxat",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_heaa",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_xydu",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_vwfx",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_bjcg",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "section_break_diij",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data_xznj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_cdtr",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_nmvh",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_lteq",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_rbqd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "select_fvsc",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ggki",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_uagm",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_stgm",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "data_hcnw",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_mlrp",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "select_runy",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_zlkb",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_tmrl",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_dtiz",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ogrp",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_fsmk",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_yxqi",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ccfp",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_xrmg",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_pzdb",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_inmk",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_slyh",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ggar",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_gdrb",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ipck",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_eimc",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_cdfz",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_wzzq",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_xsyb",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_nuvz",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_qkwt",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_hlch",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_lkvi",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_gcyk",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_wznm",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_iwzu",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_elgt",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_nswl",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_nawr",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_wpbe",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_uzra",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_gffh",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_kyzw",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_bieq",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_csvh",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_yovn",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_khdo",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_llyg",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_ebrw",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_xcnf",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_bplv",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_xgld",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_mktc",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_tgpj",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "select_mapk",
+   "fieldtype": "Select"
+  },
+  {
+   "fieldname": "data_isxp",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_sfia",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_qyjb",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_gtmm",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_bjkr",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_pxld",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_xoyt",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_jkhz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_cbjk",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ebsy",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_qjnf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_vuua",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_cttn",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_dhhx",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_gpdw",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_qtkb",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_hbxz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_jakr",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_zppf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_krvv",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_fgug",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_lwsv",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_jzaq",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_usgn",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ctsv",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_oxku",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_hkbl",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_yccw",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_pjes",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_exoi",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_qpsj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_byyn",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_asgb",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_hpid",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_zcuj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_knkf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_fneu",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_kcpi",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_cuzj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_imrr",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_shvo",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_jgpp",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_xhod",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_rztu",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_hxwc",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_fapg",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_wngh",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ucxs",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_vpam",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_cgpy",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_asvf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_kxkz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_pfqr",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_adqj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_tbgt",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_tasx",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_pgpk",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ukmd",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_edfm",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_mffk",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_lxqi",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_nsoz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_vsgm",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_sxmf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_rmrw",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_qpcm",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_zlnc",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_hcma",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_tnrq",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_mduo",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_zeav",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_bxcq",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_fthy",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_unlu",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_karz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_befl",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_smmc",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_sqih",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_phyj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_hqho",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_fonw",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_leid",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_edqi",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_agvi",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_dcwe",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_crnd",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_xyfj",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_qlaf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_oisg",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_jimb",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_rvap",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_yugn",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_iisb",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_iecf",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_yqov",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_ooxb",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_omrn",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_wygv",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_hgyz",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_jiay",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_yori",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_moen",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_oksp",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_yvnl",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_chqp",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-01 14:19:58.988251",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Corporate Accounts",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-06 15:50:27.878158",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "real_state_section",
+  "property_type",
+  "section_break_uzcf",
+  "current_owner",
+  "new_owner",
+  "relation_to_borrower",
+  "area_land",
+  "no_of_plots",
+  "total_area_of_land",
+  "district",
+  "municipality",
+  "location_as_per_loc",
+  "ownership_type",
+  "status_of_banks_mortgage_charge",
+  "detail_of_building_section",
+  "area_of_building_apartment_existig_and__or_proposed",
+  "storeyexisting_and__or_proposed",
+  "plot_number_"
+ ],
+ "fields": [
+  {
+   "fieldname": "real_state_section",
+   "fieldtype": "Section Break",
+   "label": "Real State"
+  },
+  {
+   "fieldname": "property_type",
+   "fieldtype": "Select",
+   "label": "Property Type",
+   "options": "\nLand\nLand and Building\nLand and Building Under Construction\nApartment"
+  },
+  {
+   "fieldname": "section_break_uzcf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "current_owner",
+   "fieldtype": "Data",
+   "label": "Current Owner"
+  },
+  {
+   "fieldname": "new_owner",
+   "fieldtype": "Data",
+   "label": "New Owner"
+  },
+  {
+   "fieldname": "relation_to_borrower",
+   "fieldtype": "Select",
+   "label": "Relation to Borrower",
+   "options": "\nRelated Party\nThird Party"
+  },
+  {
+   "fieldname": "area_land",
+   "fieldtype": "Select",
+   "label": "Area (Land)",
+   "options": "B-K-D-H\nSq. Meter\nR-A-P-D"
+  },
+  {
+   "fieldname": "no_of_plots",
+   "fieldtype": "Select",
+   "label": "No. of Plots",
+   "options": "0\n1"
+  },
+  {
+   "fieldname": "total_area_of_land",
+   "fieldtype": "Data",
+   "label": "Total Area of Land "
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "municipality",
+   "fieldtype": "Data",
+   "label": "Municipality"
+  },
+  {
+   "fieldname": "location_as_per_loc",
+   "fieldtype": "Small Text",
+   "label": "Location as per LOC"
+  },
+  {
+   "fieldname": "ownership_type",
+   "fieldtype": "Select",
+   "label": "Ownership TYpe",
+   "options": "\nFreehold\nIterest of Guthi/Trust\nLand having Tendency Right\nOthers"
+  },
+  {
+   "fieldname": "status_of_banks_mortgage_charge",
+   "fieldtype": "Select",
+   "label": "Status of bank's Mortgage Charge",
+   "options": "Select\nExecuted\nExecuted and Registered\nPending Execution or Registration"
+  },
+  {
+   "fieldname": "detail_of_building_section",
+   "fieldtype": "Section Break",
+   "label": "Detail of Building"
+  },
+  {
+   "fieldname": "area_of_building_apartment_existig_and__or_proposed",
+   "fieldtype": "Data",
+   "label": "Area of Building, Apartment (Existig and / or Proposed)"
+  },
+  {
+   "fieldname": "storeyexisting_and__or_proposed",
+   "fieldtype": "Data",
+   "label": "Storey(Existing and / or Proposed)"
+  },
+  {
+   "fieldname": "plot_number_",
+   "fieldtype": "Data",
+   "label": "Plot Number ()"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-06 16:07:33.064285",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Realstate Details Items",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

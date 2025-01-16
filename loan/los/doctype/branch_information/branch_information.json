@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:branch_name",
+ "creation": "2025-01-11 16:09:15.088547",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "branch_information_section",
+  "branch_name",
+  "province",
+  "municipality",
+  "column_break_pkdt",
+  "branch_code",
+  "district"
+ ],
+ "fields": [
+  {
+   "fieldname": "branch_information_section",
+   "fieldtype": "Section Break",
+   "label": "Branch Information"
+  },
+  {
+   "fieldname": "branch_name",
+   "fieldtype": "Data",
+   "label": "Branch Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "branch_code",
+   "fieldtype": "Data",
+   "label": "Branch Code"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Link",
+   "label": "Province",
+   "options": "Provinces"
+  },
+  {
+   "fieldname": "municipality",
+   "fieldtype": "Link",
+   "label": "Municipality",
+   "options": "Municipality and VDC"
+  },
+  {
+   "fieldname": "column_break_pkdt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "Districts"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-11 16:16:50.360052",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Branch Information",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

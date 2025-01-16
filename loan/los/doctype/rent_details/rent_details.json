@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-01 12:54:14.453611",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rent_details",
+  "section_break_hlch",
+  "type_of_rental_income",
+  "gross_rental_incom",
+  "address",
+  "column_break_gqea",
+  "tenure_of_lease_remaining",
+  "type_of_property",
+  "rental_agreement_paper"
+ ],
+ "fields": [
+  {
+   "fieldname": "rent_details",
+   "fieldtype": "Heading",
+   "label": "Rent Details"
+  },
+  {
+   "fieldname": "section_break_hlch",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "type_of_rental_income",
+   "fieldtype": "Select",
+   "label": "Type of Rental income",
+   "options": "Commercial\nResidential"
+  },
+  {
+   "fieldname": "type_of_property",
+   "fieldtype": "Select",
+   "label": "Type of Property",
+   "options": "Land\nBuilding\nLand and Building"
+  },
+  {
+   "fieldname": "rental_agreement_paper",
+   "fieldtype": "Select",
+   "label": "Rental Agreement Paper",
+   "options": "Yes\nNo\nNA"
+  },
+  {
+   "fieldname": "column_break_gqea",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tenure_of_lease_remaining",
+   "fieldtype": "Select",
+   "label": "Tenure of Lease (Remaining)",
+   "options": "More than 5 years\nBetween 2 to 5 years\nLess than 2 years"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "gross_rental_incom",
+   "fieldtype": "Float",
+   "label": "Gross Rental Income"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-08 12:25:43.025776",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Rent Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

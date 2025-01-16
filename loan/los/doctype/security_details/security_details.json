@@ -1,0 +1,435 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-02 17:07:29.936361",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html_bidk",
+  "section_break_nqva",
+  "property",
+  "location_of_property",
+  "vdcmunicipality",
+  "plot_no",
+  "column_break_dcds",
+  "name_of_owner",
+  "province",
+  "ward_no",
+  "land_revenue_office",
+  "column_break_nrpj",
+  "data_rqrw",
+  "district",
+  "placestreet_name",
+  "security_type",
+  "section_break_fdqz",
+  "shape_of_land",
+  "road_width",
+  "any_road_setbacks",
+  "any_hightension_setbacks",
+  "column_break_imtl",
+  "motoorable_road_access",
+  "road_access_from",
+  "any_rivercanal_setbacks",
+  "section_break_sxxj",
+  "building_type",
+  "year_of_construction",
+  "no_of_storey",
+  "construction_appears_to_be_as_per_the_approved_naksa_pass",
+  "column_break_jcdf",
+  "type_of_construction",
+  "builtup_area",
+  "building_completion_certificate_obtained",
+  "valuer_assignment_section",
+  "email_of_a_valuer",
+  "send_email",
+  "column_break_hgkj",
+  "html_pirc",
+  "is_valuation_arrived_",
+  "section_break_yffw",
+  "fmv_of_land",
+  "total_fmv",
+  "distressed_value_dv",
+  "column_break_lxma",
+  "fmv_of_building",
+  "collateral_distressed",
+  "section_break_ygup",
+  "stock_symbol",
+  "no_of_shares",
+  "promoter_share",
+  "distressed_factor",
+  "bonus_percent",
+  "cash_dividend_percent",
+  "column_break_yfzz",
+  "types_of_share",
+  "base_price",
+  "considered_price",
+  "distressed_value_dv_",
+  "bonus_shares",
+  "cash_dividend_value",
+  "column_break_cmuy",
+  "owners_name",
+  "current_market_price",
+  "security_types",
+  "fiscal_year",
+  "bonus_share_value",
+  "total_value"
+ ],
+ "fields": [
+  {
+   "fieldname": "security_type",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Security Type",
+   "options": "Landed Collateral\nShares\nFixed Deposits"
+  },
+  {
+   "fieldname": "property",
+   "fieldtype": "Select",
+   "label": "Property",
+   "options": "\nLand\nLand and Building"
+  },
+  {
+   "fieldname": "name_of_owner",
+   "fieldtype": "Data",
+   "label": "Name of Owner"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Data",
+   "label": "Province"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "vdcmunicipality",
+   "fieldtype": "Data",
+   "label": "VDC/Municipality"
+  },
+  {
+   "fieldname": "ward_no",
+   "fieldtype": "Data",
+   "label": "Ward No"
+  },
+  {
+   "fieldname": "placestreet_name",
+   "fieldtype": "Data",
+   "label": "Place(Street Name)"
+  },
+  {
+   "fieldname": "plot_no",
+   "fieldtype": "Data",
+   "label": "Plot No"
+  },
+  {
+   "fieldname": "data_rqrw",
+   "fieldtype": "Data",
+   "label": "Area (Sq.mt)"
+  },
+  {
+   "fieldname": "land_revenue_office",
+   "fieldtype": "Select",
+   "label": "Land Revenue Office"
+  },
+  {
+   "fieldname": "column_break_dcds",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_fdqz",
+   "fieldtype": "Section Break",
+   "label": "Description of the Land"
+  },
+  {
+   "fieldname": "shape_of_land",
+   "fieldtype": "Data",
+   "label": "Shape of Land"
+  },
+  {
+   "fieldname": "motoorable_road_access",
+   "fieldtype": "Data",
+   "label": "Motoorable Road Access"
+  },
+  {
+   "fieldname": "road_width",
+   "fieldtype": "Select",
+   "label": "Road Width",
+   "options": "\nNA\nMore than 20 feet\nMore than 13 feet up to 20 feet\nMore than 10 feet upto 13 feet\nFrom 8 feet upto 10 feet\nLess than 8 feet"
+  },
+  {
+   "fieldname": "road_access_from",
+   "fieldtype": "Select",
+   "label": "Road Access From",
+   "options": "\nNA\nBlack Topped\nGraveled\nEarthen"
+  },
+  {
+   "fieldname": "any_road_setbacks",
+   "fieldtype": "Data",
+   "label": "Any road setbacks?"
+  },
+  {
+   "fieldname": "any_rivercanal_setbacks",
+   "fieldtype": "Data",
+   "label": "Any river/canal setbacks?"
+  },
+  {
+   "fieldname": "any_hightension_setbacks",
+   "fieldtype": "Data",
+   "label": "Any HighTension setbacks?"
+  },
+  {
+   "fieldname": "column_break_imtl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.property == \"Land and Building\"",
+   "fieldname": "section_break_sxxj",
+   "fieldtype": "Section Break",
+   "label": "Description of Building"
+  },
+  {
+   "fieldname": "building_type",
+   "fieldtype": "Select",
+   "label": "Building Type",
+   "options": "\nNA\nCommercial\nResidential\nOwn Residence\nAgricultural"
+  },
+  {
+   "fieldname": "type_of_construction",
+   "fieldtype": "Data",
+   "label": "Type of construction"
+  },
+  {
+   "fieldname": "year_of_construction",
+   "fieldtype": "Data",
+   "label": "Year of construction"
+  },
+  {
+   "fieldname": "builtup_area",
+   "fieldtype": "Data",
+   "label": "Builtup Area"
+  },
+  {
+   "fieldname": "no_of_storey",
+   "fieldtype": "Data",
+   "label": "No. of Storey"
+  },
+  {
+   "fieldname": "building_completion_certificate_obtained",
+   "fieldtype": "Data",
+   "label": "Building Completion Certificate Obtained"
+  },
+  {
+   "fieldname": "construction_appears_to_be_as_per_the_approved_naksa_pass",
+   "fieldtype": "Data",
+   "label": "Construction appears to be as per the Approved Naksa Pass"
+  },
+  {
+   "fieldname": "column_break_jcdf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.is_valuation_arrived_ == true",
+   "fieldname": "section_break_yffw",
+   "fieldtype": "Section Break",
+   "label": "Valuation Details"
+  },
+  {
+   "fieldname": "fmv_of_land",
+   "fieldtype": "Data",
+   "label": "FMV of land",
+   "precision": "9"
+  },
+  {
+   "fieldname": "fmv_of_building",
+   "fieldtype": "Float",
+   "label": "FMV of building"
+  },
+  {
+   "fieldname": "total_fmv",
+   "fieldtype": "Data",
+   "label": "Total FMV"
+  },
+  {
+   "fieldname": "collateral_distressed",
+   "fieldtype": "Data",
+   "label": "Collateral Distressed"
+  },
+  {
+   "fieldname": "distressed_value_dv",
+   "fieldtype": "Data",
+   "label": "Distressed Value (DV)"
+  },
+  {
+   "fieldname": "column_break_lxma",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ygup",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Share Details"
+  },
+  {
+   "fieldname": "stock_symbol",
+   "fieldtype": "Data",
+   "label": "Stock Symbol "
+  },
+  {
+   "fieldname": "types_of_share",
+   "fieldtype": "Data",
+   "label": "Types of Share"
+  },
+  {
+   "fieldname": "owners_name",
+   "fieldtype": "Data",
+   "label": "Owner's Name"
+  },
+  {
+   "fieldname": "no_of_shares",
+   "fieldtype": "Data",
+   "label": "No. of Shares"
+  },
+  {
+   "fieldname": "base_price",
+   "fieldtype": "Data",
+   "label": "Base Price"
+  },
+  {
+   "fieldname": "current_market_price",
+   "fieldtype": "Data",
+   "label": "Current Market Price"
+  },
+  {
+   "fieldname": "promoter_share",
+   "fieldtype": "Data",
+   "label": "Promoter Share"
+  },
+  {
+   "fieldname": "considered_price",
+   "fieldtype": "Data",
+   "label": "Considered Price"
+  },
+  {
+   "fieldname": "security_types",
+   "fieldtype": "Data",
+   "label": "Security Types"
+  },
+  {
+   "fieldname": "distressed_factor",
+   "fieldtype": "Data",
+   "label": "Distressed Factor"
+  },
+  {
+   "fieldname": "distressed_value_dv_",
+   "fieldtype": "Data",
+   "label": "Distressed Value (DV )"
+  },
+  {
+   "fieldname": "fiscal_year",
+   "fieldtype": "Data",
+   "label": "Fiscal Year"
+  },
+  {
+   "fieldname": "bonus_percent",
+   "fieldtype": "Data",
+   "label": "Bonus Percent"
+  },
+  {
+   "fieldname": "bonus_shares",
+   "fieldtype": "Data",
+   "label": "Bonus Shares"
+  },
+  {
+   "fieldname": "bonus_share_value",
+   "fieldtype": "Data",
+   "label": "Bonus Share Value"
+  },
+  {
+   "fieldname": "cash_dividend_percent",
+   "fieldtype": "Data",
+   "label": "Cash Dividend Percent"
+  },
+  {
+   "fieldname": "cash_dividend_value",
+   "fieldtype": "Data",
+   "label": "Cash Dividend Value"
+  },
+  {
+   "fieldname": "total_value",
+   "fieldtype": "Data",
+   "label": "Total Value"
+  },
+  {
+   "fieldname": "column_break_yfzz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nrpj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_bidk",
+   "fieldtype": "HTML",
+   "options": "<h2>Realstate Security Details</h2>"
+  },
+  {
+   "fieldname": "section_break_nqva",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_cmuy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "valuer_assignment_section",
+   "fieldtype": "Section Break",
+   "label": "Valuer Assignment"
+  },
+  {
+   "fieldname": "email_of_a_valuer",
+   "fieldtype": "Data",
+   "label": "Email of a Valuer"
+  },
+  {
+   "fieldname": "column_break_hgkj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_pirc",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_valuation_arrived_",
+   "fieldtype": "Check",
+   "label": "Is valuation arrived ?"
+  },
+  {
+   "fieldname": "send_email",
+   "fieldtype": "Button",
+   "label": "Send Email"
+  },
+  {
+   "fieldname": "location_of_property",
+   "fieldtype": "Select",
+   "label": "Location",
+   "options": "\nNA\nMetropolitan\nSub-Metropolitan\nMunicipality\nVillage"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-12 12:48:14.948561",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Security Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

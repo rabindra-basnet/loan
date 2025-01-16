@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-03 12:12:19.571134",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "deferral_details_title",
+  "section_break_mszd",
+  "deferral_type",
+  "section_break_kwwn",
+  "risk_category",
+  "deferred_date",
+  "proposal_and_justification",
+  "column_break_uvuq",
+  "personal_guarantee_name",
+  "deferral_completion_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "deferral_details_title",
+   "fieldtype": "HTML",
+   "label": "Deferral Details Title",
+   "options": "<h2>Deferral Details</h2>"
+  },
+  {
+   "fieldname": "section_break_mszd",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "deferral_type",
+   "fieldtype": "Select",
+   "label": "Deferral Type"
+  },
+  {
+   "fieldname": "risk_category",
+   "fieldtype": "Data",
+   "label": "Risk Category"
+  },
+  {
+   "fieldname": "deferred_date",
+   "fieldtype": "Date",
+   "label": "Deferred Date"
+  },
+  {
+   "fieldname": "proposal_and_justification",
+   "fieldtype": "Small Text",
+   "label": "Proposal and Justification"
+  },
+  {
+   "fieldname": "personal_guarantee_name",
+   "fieldtype": "Data",
+   "label": "Personal Guarantee Name"
+  },
+  {
+   "fieldname": "deferral_completion_date",
+   "fieldtype": "Date",
+   "label": "Deferral Completion Date"
+  },
+  {
+   "fieldname": "section_break_kwwn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_uvuq",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-03 12:19:18.348322",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Deferral Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
