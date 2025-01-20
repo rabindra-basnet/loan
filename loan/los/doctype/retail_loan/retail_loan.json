@@ -18,6 +18,7 @@
   "vdc",
   "lead_tab",
   "logged_in_user_details_section",
+  "logged_in_user_name",
   "bran_name",
   "provin",
   "column_break_utoa",
@@ -153,7 +154,7 @@
   "section_break_zfox",
   "facility_type",
   "base_rate",
-  "purpose",
+  "purpos",
   "column_break_hlwh",
   "tenure_in_months",
   "ir_premium_proposed",
@@ -185,7 +186,14 @@
   "tab_8_tab",
   "score_card_section",
   "html_dljl",
+  "section_break_bugj",
+  "html_wvfs",
   "fetch_general_information_score",
+  "column_break_lbru",
+  "html_gsyr",
+  "check_eligibility",
+  "column_break_oxkc",
+  "eligibility",
   "general_information_score_section",
   "ownership_of_residence_score",
   "general_age_score",
@@ -265,7 +273,32 @@
   "html_wviu",
   "save_log",
   "section_break_geym",
-  "table_vhat"
+  "table_vhat",
+  "emi_calculator_tab",
+  "emi_calculator_title",
+  "payslip_computation_section",
+  "is_capitalization_",
+  "existing_net_pay",
+  "add_buy_offtop_up_installment_for_buy_off",
+  "interest_rate_",
+  "column_break_ugtl",
+  "basic_salary",
+  "less_salary_arrears_leaves_allowance",
+  "loan_terms_months",
+  "applied_loan_amount",
+  "section_break_sfen",
+  "calculate",
+  "section_break_ymuq",
+  "loan_amount_plus_capitalized_charges",
+  "safe_margin",
+  "loan_setup_fees",
+  "excise_duty",
+  "total_payment",
+  "column_break_ewkd",
+  "installment_amount",
+  "is_clients_ability_okay_",
+  "credit_life_insurance_fees",
+  "total_charges_capitalized"
  ],
  "fields": [
   {
@@ -803,11 +836,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "purpose",
-   "fieldtype": "Small Text",
-   "label": "Purpose"
-  },
-  {
    "fieldname": "column_break_tgdt",
    "fieldtype": "Column Break"
   },
@@ -1230,6 +1258,7 @@
    "precision": "1"
   },
   {
+   "default": "20",
    "fieldname": "general_weight",
    "fieldtype": "Float",
    "label": "Weight",
@@ -1442,8 +1471,7 @@
    "fieldname": "users",
    "fieldtype": "Link",
    "label": "Initiated User Email",
-   "options": "User",
-   "read_only": 1
+   "options": "User"
   },
   {
    "fetch_from": "users.branch",
@@ -1496,8 +1524,7 @@
   },
   {
    "fieldname": "section_break_wlzq",
-   "fieldtype": "Section Break",
-   "hidden": 1
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "logged_in_user_details_section",
@@ -1505,11 +1532,13 @@
    "label": "Logged In User Details"
   },
   {
+   "fetch_from": "logged_in_user_name.branch",
    "fieldname": "bran_name",
    "fieldtype": "Data",
    "label": "Branch Name"
   },
   {
+   "fetch_from": "logged_in_user_name.provinces",
    "fieldname": "provin",
    "fieldtype": "Data",
    "label": "Province"
@@ -1519,11 +1548,13 @@
    "fieldtype": "Column Break"
   },
   {
+   "fetch_from": "logged_in_user_name.b_code",
    "fieldname": "bran_code",
    "fieldtype": "Data",
    "label": "Branch Code"
   },
   {
+   "fetch_from": "logged_in_user_name.domain",
    "fieldname": "domain_name",
    "fieldtype": "Data",
    "label": "Domain Name"
@@ -1628,6 +1659,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "default": "20",
    "fieldname": "collateral_weigh",
    "fieldtype": "Float",
    "label": "Weight",
@@ -1653,11 +1685,179 @@
    "label": "Approval Logs",
    "options": "Approval Logs",
    "read_only": 1
+  },
+  {
+   "fieldname": "purpos",
+   "fieldtype": "Small Text",
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "emi_calculator_tab",
+   "fieldtype": "Tab Break",
+   "label": "Emi Calculator"
+  },
+  {
+   "fieldname": "payslip_computation_section",
+   "fieldtype": "Section Break",
+   "label": "Payslip Computation"
+  },
+  {
+   "fieldname": "is_capitalization_",
+   "fieldtype": "Select",
+   "label": "Is Capitalization ?",
+   "options": "\nCapitalization\nWithout Capitalization"
+  },
+  {
+   "fieldname": "add_buy_offtop_up_installment_for_buy_off",
+   "fieldtype": "Float",
+   "label": "Add Buy Off/Top Up Installment (For Buy Off)"
+  },
+  {
+   "fieldname": "interest_rate_",
+   "fieldtype": "Float",
+   "label": "Interest Rate (%)"
+  },
+  {
+   "fieldname": "column_break_ugtl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "less_salary_arrears_leaves_allowance",
+   "fieldtype": "Float",
+   "label": "Less Salary Arrears/ Leaves Allowance"
+  },
+  {
+   "fieldname": "loan_terms_months",
+   "fieldtype": "Float",
+   "label": "Loan Terms (Months)"
+  },
+  {
+   "fieldname": "applied_loan_amount",
+   "fieldtype": "Float",
+   "label": "Applied Loan Amount"
+  },
+  {
+   "fieldname": "emi_calculator_title",
+   "fieldtype": "HTML",
+   "label": "Emi Calculator Title",
+   "options": "<h2>Emi Calculator</h2>"
+  },
+  {
+   "fieldname": "section_break_sfen",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "calculate",
+   "fieldtype": "Button",
+   "label": "Calculate"
+  },
+  {
+   "fieldname": "section_break_ymuq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "loan_amount_plus_capitalized_charges",
+   "fieldtype": "Float",
+   "label": "Loan Amount Plus Capitalized Charges"
+  },
+  {
+   "fieldname": "safe_margin",
+   "fieldtype": "Float",
+   "label": "Safe Margin"
+  },
+  {
+   "fieldname": "loan_setup_fees",
+   "fieldtype": "Float",
+   "label": "Loan Setup Fees"
+  },
+  {
+   "fieldname": "excise_duty",
+   "fieldtype": "Float",
+   "label": "Excise Duty"
+  },
+  {
+   "fieldname": "column_break_ewkd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "installment_amount",
+   "fieldtype": "Float",
+   "label": "Installment Amount"
+  },
+  {
+   "fieldname": "is_clients_ability_okay_",
+   "fieldtype": "Select",
+   "label": "Is Client's Ability Okay ?",
+   "options": "\nAbility Okay\nAbility Not Okay"
+  },
+  {
+   "fieldname": "credit_life_insurance_fees",
+   "fieldtype": "Float",
+   "label": "Credit Life Insurance Fees"
+  },
+  {
+   "fieldname": "total_charges_capitalized",
+   "fieldtype": "Float",
+   "label": "Total Charges Capitalized"
+  },
+  {
+   "fieldname": "existing_net_pay",
+   "fieldtype": "Float",
+   "label": "Existing Net Pay"
+  },
+  {
+   "fieldname": "basic_salary",
+   "fieldtype": "Float",
+   "label": "Basic Salary"
+  },
+  {
+   "fieldname": "total_payment",
+   "fieldtype": "Float",
+   "label": "Total Payment"
+  },
+  {
+   "fieldname": "logged_in_user_name",
+   "fieldtype": "Link",
+   "label": "Logged In User Name",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_bugj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_lbru",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "check_eligibility",
+   "fieldtype": "Button",
+   "label": "Check Eligibility"
+  },
+  {
+   "fieldname": "column_break_oxkc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "eligibility",
+   "fieldtype": "Select",
+   "label": "Eligibility",
+   "options": "\nEligible\nNot Eligible"
+  },
+  {
+   "fieldname": "html_wvfs",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "html_gsyr",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-16 10:11:07.213017",
+ "modified": "2025-01-19 15:13:13.277656",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Retail Loan",

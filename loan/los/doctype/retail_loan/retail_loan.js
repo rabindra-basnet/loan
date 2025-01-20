@@ -1,14 +1,15 @@
 frappe.ui.form.on('Retail Loan', {
     onload(frm) {
         const fullname = frappe.session.user_fullname;
+        const loggedin_user = frappe.session.user;
         frm.set_value('logged_in_user', fullname);
+        frm.set_value('logged_in_user_name', loggedin_user);
         if(frm.is_new()){
             const workflow = frm.doc.workflow_state;
+            const user = frappe.session.user;
             frm.set_value('from_workstep', workflow);
+            frm.set_value('users', user);
         }
-        // const workflow = frm.doc.workflow_state;
-        // frm.set_value('from_workstep', workflow);
-        
         update_decision_options(frm);
         check_and_mark_dirty_and_clear_fields(frm);
         check_save_log_state(frm);
