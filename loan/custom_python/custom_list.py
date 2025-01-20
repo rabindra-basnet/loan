@@ -25,7 +25,7 @@ def retail_loan_has_permission(doc, user=None):
     roles = frappe.get_roles(user)
     frappe.msgprint(roles)
 
-    if doc.workflow_state in roles:
+    if doc.from_workstep in roles:
         return True
 
     frappe.throw("You are not authorized to access this document.", frappe.PermissionError)
