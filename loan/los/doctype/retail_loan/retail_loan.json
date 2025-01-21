@@ -407,6 +407,7 @@
    "options": "Districts"
   },
   {
+   "depends_on": "eval:doc.eligibility == \"Eligible\"",
    "fieldname": "approval_log_tab",
    "fieldtype": "Tab Break",
    "label": "Approval Log",
@@ -422,6 +423,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Decision",
+   "mandatory_depends_on": "eval:doc.eligibility == \"Eligible\"",
    "reqd": 1
   },
   {
@@ -634,6 +636,7 @@
    "fieldname": "comment",
    "fieldtype": "Long Text",
    "label": "Comment",
+   "mandatory_depends_on": "eval:doc.eligibility == \"Eligible\"",
    "max_height": "100px",
    "reqd": 1
   },
@@ -1345,7 +1348,8 @@
    "fieldname": "final_approver",
    "fieldtype": "Select",
    "label": "Final Approver",
-   "options": "\nBM\nSH\nCEO\nDCEO",
+   "mandatory_depends_on": "eval:doc.eligibility == \"Eligible\"",
+   "options": "\nBM\nSH\nDCEO\nCEO",
    "reqd": 1
   },
   {
@@ -1839,6 +1843,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "default": "Eligible",
    "fieldname": "eligibility",
    "fieldtype": "Select",
    "label": "Eligibility",
@@ -1857,7 +1862,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-19 15:13:13.277656",
+ "modified": "2025-01-21 11:52:22.935158",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Retail Loan",

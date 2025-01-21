@@ -1,6 +1,7 @@
 import frappe
 
 def retail_loan_query(user=None):
+    
     if not user:
         user = frappe.session.user
         
@@ -9,7 +10,7 @@ def retail_loan_query(user=None):
     
     conditions = []
     for role in roles:
-        if role in ["BM", "RM", "SH", "DCEO","CRM"]:
+        if role in ["BM", "RM", "SH", "DCEO","CRM","CEO"]:
             conditions.append(f"workflow_state = '{role}'")
 
     
