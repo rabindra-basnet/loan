@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DPS-{YYYY}-{MM}-{DD}-{####}",
+ "creation": "2025-02-24 11:44:46.986072",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_el96",
+  "amended_from",
+  "section_break_pwmt",
+  "new_registration_number",
+  "create_registration_number",
+  "column_break_yqna",
+  "html_vnke",
+  "update_registration_number",
+  "section_break_djab",
+  "registration_number",
+  "date_ad",
+  "registered_documents_date",
+  "document_sender_place",
+  "document_receiveable_branch_office",
+  "email",
+  "column_break_mhvv",
+  "date_bs",
+  "reciveable_document_number_countdaa",
+  "registered_documents_date_ad",
+  "document_receiver_place",
+  "document_count",
+  "section_break_jikq",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_el96",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "DartaProcess System",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_djab",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "registration_number",
+   "fieldtype": "Data",
+   "label": "Registration Number (\u0926\u0930\u094d\u0924\u093e \u0928\u092e\u094d\u092c\u0930)",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "date_bs",
+   "fieldtype": "Date",
+   "label": "Date (B.S) \u092e\u093f\u0924\u093f (\u092c\u093f.\u0938.)"
+  },
+  {
+   "fieldname": "date_ad",
+   "fieldtype": "Date",
+   "label": "Date (A.D) \u092e\u093f\u0924\u093f (\u0908.\u0938\u0902.)"
+  },
+  {
+   "fieldname": "column_break_mhvv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "reciveable_document_number_countdaa",
+   "fieldtype": "Data",
+   "label": "Receiveable Number Count"
+  },
+  {
+   "fieldname": "registered_documents_date",
+   "fieldtype": "Data",
+   "label": "Registered Date (B S)"
+  },
+  {
+   "fieldname": "registered_documents_date_ad",
+   "fieldtype": "Date",
+   "label": "Registered Date (A.D)"
+  },
+  {
+   "fieldname": "document_sender_place",
+   "fieldtype": "Data",
+   "label": "Sender Place"
+  },
+  {
+   "fieldname": "document_receiver_place",
+   "fieldtype": "Data",
+   "label": "Receiver Place"
+  },
+  {
+   "fieldname": "document_receiveable_branch_office",
+   "fieldtype": "Data",
+   "label": "Receiveable Branch Office"
+  },
+  {
+   "fieldname": "document_count",
+   "fieldtype": "Data",
+   "label": "Document Count"
+  },
+  {
+   "fieldname": "section_break_jikq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "section_break_pwmt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "new_registration_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "New Registration Number"
+  },
+  {
+   "fieldname": "create_registration_number",
+   "fieldtype": "Button",
+   "label": "New Darta No."
+  },
+  {
+   "fieldname": "update_registration_number",
+   "fieldtype": "Button",
+   "label": "Update Darta No."
+  },
+  {
+   "fieldname": "column_break_yqna",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_vnke",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height:27.5px;\"></div>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-02-27 16:34:12.723903",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "DartaProcess System",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

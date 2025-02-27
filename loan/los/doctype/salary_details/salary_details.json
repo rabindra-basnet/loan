@@ -27,13 +27,16 @@
   {
    "fieldname": "employed_at",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Employed At",
-   "options": "Government Services\nSelf-Employed\nPrivate Organization\nDiplomatic Mission\nEmbassies"
+   "options": "\nGovernment Services\nSelf-Employed\nPrivate Organization\nDiplomatic Mission\nEmbassies"
   },
   {
    "fieldname": "gross_salary_income",
    "fieldtype": "Float",
-   "label": "Gross Salary Income"
+   "in_list_view": 1,
+   "label": "Gross Salary Income",
+   "precision": "2"
   },
   {
    "fieldname": "position",
@@ -52,12 +55,14 @@
   {
    "fieldname": "tenure_of_employment",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Tenure of Employment",
-   "options": "Greater than 5 years\nBetween 2 and 5 years\nBetween 1 and 2 years\nLess than 1 year"
+   "options": "\nGreater than 5 years\nBetween 2 and 5 years\nBetween 1 and 2 years\nLess than 1 year"
   },
   {
    "fieldname": "name_of_the_companyfirm",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Name of the Company/Firm"
   },
   {
@@ -66,19 +71,20 @@
    "label": "Background of Company"
   },
   {
-   "fieldname": "telephone_no",
-   "fieldtype": "Phone",
-   "label": "Telephone No."
-  },
-  {
    "fieldname": "section_break_mxwz",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "telephone_no",
+   "fieldtype": "Phone",
+   "label": "Telephone No.",
+   "precision": "0"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-12-31 16:38:19.962524",
+ "modified": "2025-02-13 10:27:45.564384",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Salary Details",

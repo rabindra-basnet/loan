@@ -32,12 +32,14 @@
   {
    "fieldname": "deferral_type",
    "fieldtype": "Select",
-   "label": "Deferral Type"
+   "label": "Deferral Type",
+   "options": "\nEntire Security Documents\nPersonal Guarantee\nCorporate Guarantee\nOffer Letter\nOther Security Documents\nRevaluationValue Confirmation\nBSIR\nCIR\nAudited Financials\nTax ClearanceTax Payment Receipt\nITS\nDebt Equity\nBCC\nShareholding Book\nAdvance to DirectorsProprietorPatner\nDirectors Book\nSTR\nInsurance\nMortgage Deed\nRe-mortgage\nPass Category\nLoan SettlementClearance\nCredit Rating\nGuarantee - Collateral Owner\nGuarantee - Shareholder\nNCA Certification\nPari-Pasu\nBoard Minutes\nCIB Deferral\nFirmCompany Documents\nRenewed FirmCompany Document\nIndependent Inspection\nIndividual PAN Certificate (Retail)\nPerformance Update\nRental Site Inspection Report\nOthers"
   },
   {
    "fieldname": "risk_category",
-   "fieldtype": "Data",
-   "label": "Risk Category"
+   "fieldtype": "Select",
+   "label": "Risk Category",
+   "options": "\nHigh\nLow"
   },
   {
    "fieldname": "deferred_date",
@@ -71,7 +73,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-03 12:19:18.348322",
+ "modified": "2025-01-31 16:15:30.626303",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Deferral Details",

@@ -18,17 +18,16 @@
   "ward_no",
   "land_revenue_office",
   "column_break_nrpj",
-  "data_rqrw",
+  "area",
   "district",
   "placestreet_name",
-  "security_type",
   "section_break_fdqz",
   "shape_of_land",
   "road_width",
   "any_road_setbacks",
   "any_hightension_setbacks",
   "column_break_imtl",
-  "motoorable_road_access",
+  "motorable_road_access",
   "road_access_from",
   "any_rivercanal_setbacks",
   "section_break_sxxj",
@@ -53,6 +52,17 @@
   "column_break_lxma",
   "fmv_of_building",
   "collateral_distressed",
+  "calculate_distressed_value",
+  "section_break_uhyf",
+  "visit_date",
+  "remarks_if_any",
+  "column_break_llxw",
+  "inspected_by",
+  "if_collateral_already_mortgage_",
+  "column_break_opcw",
+  "noted_by",
+  "previous_mortgage_date",
+  "previous_mortgage_number",
   "section_break_ygup",
   "stock_symbol",
   "no_of_shares",
@@ -77,37 +87,38 @@
  ],
  "fields": [
   {
-   "fieldname": "security_type",
-   "fieldtype": "Select",
-   "hidden": 1,
-   "label": "Security Type",
-   "options": "Landed Collateral\nShares\nFixed Deposits"
-  },
-  {
    "fieldname": "property",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Property",
    "options": "\nLand\nLand and Building"
   },
   {
    "fieldname": "name_of_owner",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Name of Owner"
   },
   {
    "fieldname": "province",
-   "fieldtype": "Data",
-   "label": "Province"
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Province",
+   "options": "Provinces"
   },
   {
    "fieldname": "district",
-   "fieldtype": "Data",
-   "label": "District"
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "District",
+   "options": "Districts"
   },
   {
    "fieldname": "vdcmunicipality",
-   "fieldtype": "Data",
-   "label": "VDC/Municipality"
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "VDC/Municipality",
+   "options": "Municipality and VDC"
   },
   {
    "fieldname": "ward_no",
@@ -125,14 +136,10 @@
    "label": "Plot No"
   },
   {
-   "fieldname": "data_rqrw",
-   "fieldtype": "Data",
-   "label": "Area (Sq.mt)"
-  },
-  {
    "fieldname": "land_revenue_office",
    "fieldtype": "Select",
-   "label": "Land Revenue Office"
+   "label": "Land Revenue Office",
+   "options": "\nAccham\nArgakhanchi\nBaglung\nBaitadi\nBajhang\nBajura\nBalara\nBarathawa\nBardibas\nBelauri\nBelbari\nBhadrapur\nBhaktapur\nBhojpur\nBiratnagar\nBurtibang\nButwal\nChabahil\nChainpur\nChanauli\nChandranigahapur\nChandrauta\nChitwan\nDadeldhura\nDailekh\nDamak\nDarchula\nDhading\nDhalkebar\nDhangadi\nDhankuta\nDharan\nDiggala\nDillibazzar\nDolakha\nDolpa\nDoti\nDullu\nGadsera\nGarudha\nGaur\nGhartigaun\nGhorahi\nGorkha\nGotikhel\nGulariya\nGulmi\nHariwon\nHumla\nIllam\nInarwa\nJajarkot\nJaleshwor\nJanakpur\nJaspur\nJhotabhairab\nJumla\nKalaiya\nKalanki\nKalikot\nKanchanpur\nKanchanpur\nKapilbastu\nKaski\nKatari\nKavrepalanchowk\nKawaswoti\nKhaireni\nKhandbari\nKhijifalate\nKhotang\nKhotang Bazar\nLagankhel\nLahan\nLamahi\nLamjung\nLekhnath\nMadi\nMajhagawa\nMajuwabazar\nMakawanpur\nMalangawa\nManamaiju\nManang\nMangalbare\nMaulapur\nMehelakuna\nMugu\nMustang\nMyagdi\nNarainpur\nNepalgunj\nNuwakot\nOkhaldhunga\nPalpa\nPanchthar\nParasi\nParbat\nParsa\nPyuthan\nRajapur\nRajbiraj\nRamechhap\nRampur\nRangeli\nRasuwa\nRolpa\nRukum\nRukumkot\nRupandehi\nSalyan\nSankhu\nSankranti Bazzar\nShikharkot\nSiddhibas\nSimara\nSimaraungadh\nSindhuli\nSindhupalchowk\nSiraha\nSolukhumbu\nSunsari\nSurkhet\nSyanja\nTanahu\nTaplejung\nTerathum\nTikapur\nTokha\nTulsipur\nUdayapur\nWaling"
   },
   {
    "fieldname": "column_break_dcds",
@@ -145,13 +152,9 @@
   },
   {
    "fieldname": "shape_of_land",
-   "fieldtype": "Data",
-   "label": "Shape of Land"
-  },
-  {
-   "fieldname": "motoorable_road_access",
-   "fieldtype": "Data",
-   "label": "Motoorable Road Access"
+   "fieldtype": "Select",
+   "label": "Shape of Land",
+   "options": "\nSquare\nRectangular\nTriangular\nIrregular\nVertical slope"
   },
   {
    "fieldname": "road_width",
@@ -167,18 +170,21 @@
   },
   {
    "fieldname": "any_road_setbacks",
-   "fieldtype": "Data",
-   "label": "Any road setbacks?"
+   "fieldtype": "Select",
+   "label": "Any Road Setbacks?",
+   "options": "\nYes\nNo"
   },
   {
    "fieldname": "any_rivercanal_setbacks",
-   "fieldtype": "Data",
-   "label": "Any river/canal setbacks?"
+   "fieldtype": "Select",
+   "label": "Any River/Canal Setbacks?",
+   "options": "\nYes\nNo"
   },
   {
    "fieldname": "any_hightension_setbacks",
-   "fieldtype": "Data",
-   "label": "Any HighTension setbacks?"
+   "fieldtype": "Select",
+   "label": "Any HighTension Setbacks?",
+   "options": "\nYes\nNo"
   },
   {
    "fieldname": "column_break_imtl",
@@ -198,8 +204,9 @@
   },
   {
    "fieldname": "type_of_construction",
-   "fieldtype": "Data",
-   "label": "Type of construction"
+   "fieldtype": "Select",
+   "label": "Type of construction",
+   "options": "\nBrick Concrete\nRCC\nMud joints\nNA"
   },
   {
    "fieldname": "year_of_construction",
@@ -239,23 +246,27 @@
   {
    "fieldname": "fmv_of_land",
    "fieldtype": "Data",
-   "label": "FMV of land",
+   "label": "FMV of Land",
    "precision": "9"
   },
   {
    "fieldname": "fmv_of_building",
    "fieldtype": "Float",
-   "label": "FMV of building"
+   "label": "FMV of Building",
+   "precision": "0"
   },
   {
+   "default": "0",
    "fieldname": "total_fmv",
    "fieldtype": "Data",
-   "label": "Total FMV"
+   "label": "Total FMV",
+   "read_only": 1
   },
   {
    "fieldname": "collateral_distressed",
-   "fieldtype": "Data",
-   "label": "Collateral Distressed"
+   "fieldtype": "Select",
+   "label": "Collateral Distressed (%)",
+   "options": "\n60\n70\n80"
   },
   {
    "fieldname": "distressed_value_dv",
@@ -406,7 +417,7 @@
    "default": "0",
    "fieldname": "is_valuation_arrived_",
    "fieldtype": "Check",
-   "label": "Is valuation arrived ?"
+   "label": "Valuation Received ?"
   },
   {
    "fieldname": "send_email",
@@ -416,14 +427,82 @@
   {
    "fieldname": "location_of_property",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Location",
    "options": "\nNA\nMetropolitan\nSub-Metropolitan\nMunicipality\nVillage"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area (Sq.mt)"
+  },
+  {
+   "fieldname": "motorable_road_access",
+   "fieldtype": "Select",
+   "label": "Motorable Road Access",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "calculate_distressed_value",
+   "fieldtype": "Button",
+   "label": "Calculate Distressed Value"
+  },
+  {
+   "depends_on": "eval:doc.is_valuation_arrived_ == true",
+   "fieldname": "section_break_uhyf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "visit_date",
+   "fieldtype": "Date",
+   "label": "Visit Date"
+  },
+  {
+   "fieldname": "remarks_if_any",
+   "fieldtype": "Small Text",
+   "label": "Remarks (If Any)"
+  },
+  {
+   "fieldname": "column_break_llxw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inspected_by",
+   "fieldtype": "Data",
+   "label": "Inspected By"
+  },
+  {
+   "fieldname": "if_collateral_already_mortgage_",
+   "fieldtype": "Select",
+   "label": "If Collateral Already Mortgage ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_opcw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "noted_by",
+   "fieldtype": "Data",
+   "label": "Noted By"
+  },
+  {
+   "depends_on": "eval:doc.if_collateral_already_mortgage_ == \"Yes\"",
+   "fieldname": "previous_mortgage_date",
+   "fieldtype": "Date",
+   "label": "Previous Mortgage Date"
+  },
+  {
+   "depends_on": "eval:doc.if_collateral_already_mortgage_ == \"Yes\"",
+   "fieldname": "previous_mortgage_number",
+   "fieldtype": "Data",
+   "label": "Previous Mortgage Number"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-12 12:48:14.948561",
+ "modified": "2025-02-13 10:57:54.947551",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Security Details",

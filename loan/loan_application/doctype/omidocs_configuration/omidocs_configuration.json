@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-29 11:20:27.595917",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "omidocs_api_url",
+  "cabinet_name",
+  "column_break_szxt",
+  "username",
+  "password",
+  "allowed_file_extensions"
+ ],
+ "fields": [
+  {
+   "fieldname": "omidocs_api_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Omidocs API Url",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cabinet_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cabinet Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_szxt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "in_list_view": 1,
+   "label": "Password",
+   "reqd": 1
+  },
+  {
+   "description": "Provide a list of allowed file extensions for file uploads. Each line should contain one allowed file type. If unset, all file extensions are allowed. Example:\nCSV\nJPG\nPNG",
+   "fieldname": "allowed_file_extensions",
+   "fieldtype": "Small Text",
+   "label": "Allowed File Extensions"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-01-29 11:26:32.331744",
+ "modified_by": "Administrator",
+ "module": "Loan Application",
+ "name": "Omidocs Configuration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

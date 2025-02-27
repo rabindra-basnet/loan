@@ -30,13 +30,10 @@
   "relation_with_applicant",
   "guarantors_citizenship_details_section",
   "citizenship_number",
-  "individual_pan_number",
   "column_break_qeup",
   "citizenship_issued_date",
-  "pan_registration_date",
   "column_break_udcm",
   "citizenship_issued_district",
-  "pan_registration_district",
   "guarantors_passport_details_section",
   "embassy_number",
   "passport_issued_date",
@@ -45,6 +42,12 @@
   "passport_expiry_date",
   "column_break_ztsm",
   "passport_issuing_country",
+  "pan_details_section",
+  "individual_pan_number",
+  "column_break_kfkh",
+  "pan_registration_date",
+  "column_break_jpuo",
+  "pan_registration_district",
   "section_break_gsbk",
   "grandfathers_name",
   "mothers_name",
@@ -70,10 +73,16 @@
   "column_break_rwnj",
   "current_district",
   "ownership_of_residence",
-  "cic_report",
   "column_break_ojyx",
   "current_vdc__municipality",
-  "education_level"
+  "education_level",
+  "cib_details_section",
+  "html_akyz",
+  "cib_check",
+  "column_break_ffgc",
+  "cib_id",
+  "column_break_uvpf",
+  "cic_report"
  ],
  "fields": [
   {
@@ -110,7 +119,7 @@
   {
    "fieldname": "date_of_birth",
    "fieldtype": "Date",
-   "label": "Date of Birth"
+   "label": "Date of Birth (Above 18)"
   },
   {
    "fieldname": "column_break_mwmm",
@@ -131,7 +140,8 @@
   {
    "fieldname": "relation_with_applicant",
    "fieldtype": "Select",
-   "label": "Relation with Applicant"
+   "label": "Relation with Applicant",
+   "options": "\nAunt\nAunt-in-Law\nBrother\nBrother-in-Law\nDaughter\nDaughter-in-Law\nFather\nFather-in-Law\nGrand Daughter\nGrand Father\nGrand Father-in-Law\nGrand Mother\nGrand Mother-in-Law\nGrand Son\nMother\nMother-in-Law\nNephew\nNiece\nSister\nSister-in-Law\nSon\nSon-in-Law\nSpouse\nUncle\nUncle-in-Law"
   },
   {
    "fieldname": "is_existing_customer_",
@@ -175,13 +185,17 @@
   },
   {
    "fieldname": "citizenship_issued_district",
-   "fieldtype": "Select",
-   "label": "Citizenship Issued District"
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Citizenship Issued District",
+   "options": "Districts"
   },
   {
    "fieldname": "pan_registration_district",
-   "fieldtype": "Select",
-   "label": "PAN Registration District"
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "PAN Registration District",
+   "options": "Districts"
   },
   {
    "depends_on": "eval:doc.nationality == \"Other\"",
@@ -281,6 +295,7 @@
   {
    "fieldname": "province",
    "fieldtype": "Link",
+   "ignore_user_permissions": 1,
    "label": "Province",
    "options": "Provinces"
   },
@@ -295,9 +310,10 @@
   },
   {
    "fieldname": "district",
-   "fieldtype": "Link",
+   "fieldtype": "Select",
+   "ignore_user_permissions": 1,
    "label": "District",
-   "options": "Districts"
+   "placeholder": "Select the Province"
   },
   {
    "fieldname": "column_break_tnal",
@@ -305,9 +321,10 @@
   },
   {
    "fieldname": "vdc__municipality",
-   "fieldtype": "Link",
+   "fieldtype": "Select",
+   "ignore_user_permissions": 1,
    "label": "VDC / Municipality",
-   "options": "Municipality and VDC"
+   "placeholder": "Select the Province and District"
   },
   {
    "fieldname": "current_address_section",
@@ -317,6 +334,7 @@
   {
    "fieldname": "current_province",
    "fieldtype": "Link",
+   "ignore_user_permissions": 1,
    "label": "Province",
    "options": "Provinces"
   },
@@ -337,9 +355,10 @@
   },
   {
    "fieldname": "current_district",
-   "fieldtype": "Link",
+   "fieldtype": "Select",
+   "ignore_user_permissions": 1,
    "label": "District",
-   "options": "Districts"
+   "placeholder": "Select the Province"
   },
   {
    "fieldname": "ownership_of_residence",
@@ -359,9 +378,10 @@
   },
   {
    "fieldname": "current_vdc__municipality",
-   "fieldtype": "Link",
+   "fieldtype": "Select",
+   "ignore_user_permissions": 1,
    "label": "VDC / Municipality",
-   "options": "Municipality and VDC"
+   "placeholder": "Select the Province and District"
   },
   {
    "fieldname": "education_level",
@@ -397,7 +417,7 @@
   {
    "fieldname": "html_pxfj",
    "fieldtype": "HTML",
-   "options": "<div style=\"height: 27.5px;\">\n</div>"
+   "options": "<div style=\"height: 100px;\">\n</div>"
   },
   {
    "depends_on": "eval:doc.is_existing_customer_ == \"Yes\"",
@@ -421,13 +441,54 @@
    "fieldname": "marital_status",
    "fieldtype": "Select",
    "label": "Marital Status",
-   "options": "\nMarried\nSingle / Unmarried"
+   "options": "\nMarried\nSingle"
+  },
+  {
+   "fieldname": "cib_details_section",
+   "fieldtype": "Section Break",
+   "label": "CIB Details"
+  },
+  {
+   "fieldname": "cib_check",
+   "fieldtype": "Button",
+   "label": "CIB Check"
+  },
+  {
+   "fieldname": "column_break_ffgc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cib_id",
+   "fieldtype": "Data",
+   "label": "CIB ID"
+  },
+  {
+   "fieldname": "column_break_uvpf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_akyz",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "pan_details_section",
+   "fieldtype": "Section Break",
+   "label": "Guarantor's PAN Details"
+  },
+  {
+   "fieldname": "column_break_kfkh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_jpuo",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-12 16:18:44.667427",
+ "modified": "2025-02-11 12:01:24.605467",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Guarantor Details",

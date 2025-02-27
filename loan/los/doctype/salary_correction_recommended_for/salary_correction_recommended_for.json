@@ -1,0 +1,185 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-12 12:12:57.489083",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "correction_recommended_for_title",
+  "section_break_ntvp",
+  "name1",
+  "location",
+  "column_break_atus",
+  "title",
+  "doj",
+  "column_break_drlg",
+  "team",
+  "justification_section",
+  "context",
+  "column_break_pime",
+  "business_case_and_performance_metrics",
+  "amount_details_section",
+  "currency",
+  "salary_change",
+  "column_break_vtzo",
+  "current_ctc_",
+  "proposed_salary_",
+  "annual_impact_proposed_current_salary",
+  "section_break_aftc",
+  "title_change_if_any",
+  "column_break_whfw",
+  "date_effective",
+  "column_break_itww",
+  "approved_salary_"
+ ],
+ "fields": [
+  {
+   "fieldname": "correction_recommended_for_title",
+   "fieldtype": "HTML",
+   "label": "Correction Recommended For Title",
+   "options": "<h2>Correction Recommended For</h2>"
+  },
+  {
+   "fieldname": "section_break_ntvp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "column_break_atus",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "fieldname": "doj",
+   "fieldtype": "Date",
+   "label": "Date of Joining (DOJ)"
+  },
+  {
+   "fieldname": "column_break_drlg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "team",
+   "fieldtype": "Data",
+   "label": "Team"
+  },
+  {
+   "fieldname": "justification_section",
+   "fieldtype": "Section Break",
+   "label": "Justification"
+  },
+  {
+   "fieldname": "context",
+   "fieldtype": "Small Text",
+   "label": "Context"
+  },
+  {
+   "fieldname": "business_case_and_performance_metrics",
+   "fieldtype": "Small Text",
+   "label": "Business Case and Performance Metrics"
+  },
+  {
+   "fieldname": "column_break_pime",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount_details_section",
+   "fieldtype": "Section Break",
+   "label": "Amount Details"
+  },
+  {
+   "fieldname": "column_break_vtzo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "annual_impact_proposed_current_salary",
+   "fieldtype": "Data",
+   "label": "Annual Impact (Proposed Current Salary)"
+  },
+  {
+   "fieldname": "section_break_aftc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "title_change_if_any",
+   "fieldtype": "Data",
+   "label": "Title Change (If Any)"
+  },
+  {
+   "fieldname": "column_break_whfw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_effective",
+   "fieldtype": "Date",
+   "label": "Date Effective"
+  },
+  {
+   "fieldname": "column_break_itww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposed_salary_",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Proposed Salary",
+   "options": "currency",
+   "precision": "2"
+  },
+  {
+   "fieldname": "current_ctc_",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Current CTC",
+   "options": "currency",
+   "precision": "2"
+  },
+  {
+   "depends_on": "eval:in_list(['Board', 'Business Unit'], parent.workflow_state)\r\n",
+   "fieldname": "approved_salary_",
+   "fieldtype": "Currency",
+   "label": "Approved Salary",
+   "precision": "2"
+  },
+  {
+   "fieldname": "salary_change",
+   "fieldtype": "Data",
+   "label": "Salary Change(%)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-13 17:03:37.502796",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Salary Correction Recommended For",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

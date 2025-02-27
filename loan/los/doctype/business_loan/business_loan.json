@@ -1,0 +1,2450 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:RL-{####}",
+ "creation": "2025-02-27 11:32:22.911378",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "branch_details_tab",
+  "section_break_wlzq",
+  "usr_name",
+  "branc_code",
+  "branch_name",
+  "distric",
+  "column_break_qdyf",
+  "users",
+  "provinc",
+  "vdc",
+  "lead_tab",
+  "section_break_knvq",
+  "lead_details",
+  "column_break_emsr",
+  "html_mfhv",
+  "column_break_aiya",
+  "html_wunk",
+  "logged_in_user_details_section",
+  "logged_in_user_name",
+  "bran_name",
+  "provin",
+  "is_cad_disbursement_",
+  "column_break_utoa",
+  "bran_code",
+  "domain_name",
+  "is_rm_disbursement_",
+  "section_break_aoop",
+  "application_date",
+  "column_break_zvbk",
+  "custom_client_type",
+  "existing_client_section",
+  "customer_client_code",
+  "client_cif_id",
+  "column_break_ramm",
+  "html_pwfm",
+  "fetch_client_details",
+  "cus_client_details",
+  "custom_customer_name",
+  "custom_email",
+  "is_insurance_required_",
+  "is_cib_",
+  "column_break_qyac",
+  "custom_contact_no",
+  "custom_account_number",
+  "custom_country",
+  "expected_loan_amount",
+  "is_valuation_require",
+  "documents_required_section",
+  "citizenship",
+  "column_break_fdjj",
+  "nid",
+  "tab_2_tab",
+  "html_xucq",
+  "client_details_section",
+  "date_of_birth",
+  "date_of_birth_bs",
+  "nationality",
+  "column_break_sabj",
+  "gender",
+  "nationality_if_other",
+  "column_break_ewkt",
+  "marital_status",
+  "column_break_dobt",
+  "age",
+  "citizenship_detail_section",
+  "citizenship_number",
+  "column_break_liel",
+  "chitizenship_issued_date",
+  "column_break_vehm",
+  "citizenship_issued_district",
+  "nid_details_section",
+  "nid_number",
+  "column_break_bpjx",
+  "nid_issued_date",
+  "pan_details_section",
+  "pan_number",
+  "column_break_lczm",
+  "pan_registration_date",
+  "column_break_lizj",
+  "pan_registration_district",
+  "passport_details_section",
+  "embassy_number",
+  "passport_issued_date",
+  "column_break_oids",
+  "foreign_passport_number",
+  "foreign_passport_expiry_date",
+  "column_break_aphp",
+  "passport_issuing_country",
+  "family_tree_section",
+  "grandfathers_name",
+  "mothers_name",
+  "spouse_name",
+  "column_break_nqrw",
+  "fathers_name",
+  "father_in_law",
+  "offsprings",
+  "permanent_address_section",
+  "province",
+  "ward_no",
+  "column_break_ytce",
+  "district",
+  "html_qyty",
+  "is_current_address_same_as_permanent_address",
+  "column_break_cxqs",
+  "vdc_municipality",
+  "current_address_section",
+  "current_province",
+  "current_ward_no",
+  "number_of_dependent",
+  "column_break_fuot",
+  "current_district",
+  "ownership_of_residence",
+  "age_condition",
+  "column_break_eigl",
+  "current_vdc__municipality",
+  "education_level",
+  "section_break_ypqh",
+  "cib_check",
+  "column_break_gjks",
+  "cib_id",
+  "column_break_ctkv",
+  "cic_report",
+  "please_select_income_source_section",
+  "income_salary",
+  "column_break_brhi",
+  "business",
+  "column_break_vgcq",
+  "rent",
+  "salary_detail_section",
+  "table_lyol",
+  "business_details_section",
+  "table_vsam",
+  "rent_details_section",
+  "table_hxdn",
+  "monthly_income_and_expenses_section",
+  "salary_income",
+  "rental_income",
+  "gross_total_income",
+  "column_break_uofw",
+  "business_income",
+  "html_iuuf",
+  "fetch_total_income",
+  "section_break_fvbz",
+  "household_expense",
+  "other_bank_emis",
+  "total_expense",
+  "net_disposable_income",
+  "column_break_ojml",
+  "rental_expense",
+  "tax_miscellaneous_expense",
+  "html_wqbx",
+  "fetch_total_expenses_and_disposable_income",
+  "guarantor_details_tab",
+  "guarantor_details_title",
+  "guarantors_details_section",
+  "table_ngjk",
+  "facility_details_tab",
+  "html_zobz",
+  "section_break_bsju",
+  "proposal_type",
+  "column_break_wlqc",
+  "no_of_proposal",
+  "section_break_zfox",
+  "facility_type",
+  "base_rate",
+  "purpos",
+  "column_break_hlwh",
+  "tenure_in_months",
+  "ir_premium_proposed",
+  "service_fees",
+  "column_break_tgdt",
+  "proposal_limit",
+  "interest_proposed",
+  "html_hrqp",
+  "calculate_emi",
+  "single_emi",
+  "section_break_lgqz",
+  "table_lfoa",
+  "security_details_tab",
+  "security_details_title",
+  "section_break_vfxj",
+  "real_estate_property",
+  "column_break_icok",
+  "shares",
+  "column_break_ypga",
+  "fixed_deposit",
+  "column_break_mvsn",
+  "others",
+  "section_break_wycq",
+  "table_drge",
+  "shares_list_section",
+  "shares_details_table",
+  "others_section",
+  "others_text",
+  "tab_8_tab",
+  "score_card_section",
+  "html_dljl",
+  "section_break_bugj",
+  "html_wvfs",
+  "fetch_general_information_score",
+  "column_break_lbru",
+  "html_gsyr",
+  "check_eligibility",
+  "column_break_kaua",
+  "eligible_amount",
+  "column_break_oxkc",
+  "eligibility",
+  "general_information_score_section",
+  "ownership_of_residence_score",
+  "general_age_score",
+  "loan_tenure_score",
+  "column_break_tnhb",
+  "education_level_score",
+  "number_of_dependent_score",
+  "loan_from_other_bank_score",
+  "column_break_euug",
+  "marital_status_score",
+  "cic_report_score",
+  "section_xyz",
+  "general_weighted_score",
+  "column_break_ystj",
+  "general_percentage_score",
+  "column_break_dudw",
+  "general_weight",
+  "collateral_score_section",
+  "location_score",
+  "property_type_score",
+  "column_break_ugyy",
+  "road_width_score",
+  "column_break_qgzp",
+  "road_access_from_score",
+  "section_break_jhdw",
+  "collateral_weighted_scor",
+  "column_break_xfij",
+  "collateral_percentage_scor",
+  "column_break_odlz",
+  "collateral_weigh",
+  "section_break_dsqk",
+  "ndi_ratio",
+  "ndi_max_score",
+  "column_break_gjmk",
+  "ndi_score",
+  "ndi_ratiow1",
+  "column_break_sjgz",
+  "ndi_ratiops",
+  "ndi_ratiows",
+  "insurance_details_tab",
+  "insurance_details_title",
+  "insurance_details_section",
+  "cif_id",
+  "ra_unit",
+  "column_break_xbli",
+  "insurance_customer_name",
+  "loan_unf_status",
+  "column_break_matt",
+  "loan_amount_no",
+  "mobile_number",
+  "insurance_information_section",
+  "insurance_company",
+  "insurance_account_no",
+  "column_break_ljeh",
+  "insurance_email",
+  "section_break_dgnq",
+  "table_qehy",
+  "section_break_sbgd",
+  "insurance_has_been_done_successfully_",
+  "deferral_tab",
+  "deferral_details_title",
+  "section_break_qlop",
+  "table_kuze",
+  "emi_calculator_tab",
+  "emi_calculator_title",
+  "payslip_computation_section",
+  "is_capitalization_",
+  "existing_net_pay",
+  "add_buy_offtop_up_installment_for_buy_off",
+  "interest_rate_",
+  "column_break_ugtl",
+  "basic_salary",
+  "less_salary_arrears_leaves_allowance",
+  "loan_terms_months",
+  "applied_loan_amount",
+  "section_break_sfen",
+  "calculate",
+  "section_break_ymuq",
+  "loan_amount_plus_capitalized_charges",
+  "safe_margin",
+  "loan_setup_fees",
+  "excise_duty",
+  "total_payment",
+  "column_break_ewkd",
+  "installment_amount",
+  "is_clients_ability_okay_",
+  "credit_life_insurance_fees",
+  "total_charges_capitalized",
+  "approval_log_tab",
+  "html_xvcg",
+  "approval_chain_section",
+  "manual_approval_chain",
+  "column_break_lfjs",
+  "automatic_approval_chain",
+  "approval_log_section",
+  "decision",
+  "logged_in_user",
+  "to_workstep",
+  "column_break_ztfp",
+  "date",
+  "from_workstep",
+  "final_approver",
+  "section_break_tfmi",
+  "column_break_sjal",
+  "comment",
+  "column_break_rdwm",
+  "html_wviu",
+  "save_log",
+  "section_break_geym",
+  "table_vhat",
+  "document_generation_tab",
+  "doc_generation",
+  "document_generation_title",
+  "section_break_qgxd",
+  "offer_letter",
+  "column_break_uety",
+  "cm_template",
+  "column_break_jnzs",
+  "valuation",
+  "column_break_ywap",
+  "four_boundry",
+  "lde_tab",
+  "lde_title",
+  "section_break_uhsx",
+  "remarks",
+  "checklist_section",
+  "html_rwio",
+  "personal_guarantee",
+  "valuation_report",
+  "blue_print",
+  "four_boundary",
+  "clf_credit_facility_offer_letter",
+  "concent_of_pg_personal_guarantor",
+  "column_break_awpg",
+  "html_mciu",
+  "personal_guarantee_date",
+  "valuation_report_date",
+  "blue_print_date",
+  "four_boundary_date",
+  "clf_date",
+  "consent_of_pg_date",
+  "doc_review_section",
+  "cm_template_check",
+  "column_break_rlxn",
+  "valuation_report_check",
+  "column_break_mupj",
+  "blue_print_check",
+  "column_break_dnrc",
+  "four_boundry_check",
+  "rm_disbursement_tab",
+  "html_pbmy",
+  "disbursement_table_section",
+  "table_putg",
+  "cad_disbursement_tab",
+  "html_aeim",
+  "section_break_mxls",
+  "html_ttte",
+  "ptexp",
+  "html_wkkx",
+  "nfund",
+  "html_ewqo",
+  "fund",
+  "column_break_xgrd",
+  "ptexp_status",
+  "nfund_status",
+  "fund_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "branch_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Branch Details"
+  },
+  {
+   "fieldname": "section_break_wlzq",
+   "fieldtype": "Section Break",
+   "hidden": 1
+  },
+  {
+   "fetch_from": "users.full_name",
+   "fieldname": "usr_name",
+   "fieldtype": "Data",
+   "label": "Initiated By"
+  },
+  {
+   "fetch_from": "users.b_code",
+   "fieldname": "branc_code",
+   "fieldtype": "Data",
+   "label": "Branch Code"
+  },
+  {
+   "fetch_from": "users.branch",
+   "fieldname": "branch_name",
+   "fieldtype": "Link",
+   "label": "Branch Name",
+   "options": "Branch Information"
+  },
+  {
+   "fetch_from": "users.districts",
+   "fieldname": "distric",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "column_break_qdyf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "users",
+   "fieldtype": "Link",
+   "label": "Initiated User Email",
+   "options": "User"
+  },
+  {
+   "fetch_from": "users.provinces",
+   "fieldname": "provinc",
+   "fieldtype": "Link",
+   "label": "Province",
+   "options": "Provinces"
+  },
+  {
+   "fetch_from": "users.municipal",
+   "fieldname": "vdc",
+   "fieldtype": "Link",
+   "label": "Municipality/VDC",
+   "options": "Municipality and VDC"
+  },
+  {
+   "fieldname": "lead_tab",
+   "fieldtype": "Tab Break",
+   "label": "Lead"
+  },
+  {
+   "fieldname": "section_break_knvq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lead_details",
+   "fieldtype": "HTML",
+   "label": "Lead Details Title",
+   "options": "<h2>Lead Details</h2>"
+  },
+  {
+   "fieldname": "column_break_emsr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_mfhv",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "column_break_aiya",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_wunk",
+   "fieldtype": "HTML",
+   "options": "<div></div>"
+  },
+  {
+   "fieldname": "logged_in_user_details_section",
+   "fieldtype": "Section Break",
+   "label": "Logged In User Details",
+   "read_only_depends_on": "eval:!frappe.user.has_role(\"RM\")\r\n"
+  },
+  {
+   "fieldname": "logged_in_user_name",
+   "fieldtype": "Link",
+   "label": "Logged In User Name",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "logged_in_user_name.branch",
+   "fieldname": "bran_name",
+   "fieldtype": "Data",
+   "label": "Branch Name"
+  },
+  {
+   "fetch_from": "logged_in_user_name.provinces",
+   "fieldname": "provin",
+   "fieldtype": "Data",
+   "label": "Province"
+  },
+  {
+   "fieldname": "is_cad_disbursement_",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Is CAD Disbursement ?"
+  },
+  {
+   "fieldname": "column_break_utoa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "logged_in_user_name.b_code",
+   "fieldname": "bran_code",
+   "fieldtype": "Data",
+   "label": "Branch Code"
+  },
+  {
+   "fetch_from": "logged_in_user_name.domain",
+   "fieldname": "domain_name",
+   "fieldtype": "Data",
+   "label": "Domain Name"
+  },
+  {
+   "fieldname": "is_rm_disbursement_",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Is RM Disbursement ?"
+  },
+  {
+   "fieldname": "section_break_aoop",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Now",
+   "fieldname": "application_date",
+   "fieldtype": "Date",
+   "label": "Application Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_zvbk",
+   "fieldtype": "Column Break",
+   "width": "10px"
+  },
+  {
+   "fieldname": "custom_client_type",
+   "fieldtype": "Select",
+   "label": "Client Type",
+   "options": "\nExisting\nNon-Existing",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.custom_client_type == \"Existing\"",
+   "fieldname": "existing_client_section",
+   "fieldtype": "Section Break",
+   "label": "Existing Client"
+  },
+  {
+   "fieldname": "customer_client_code",
+   "fieldtype": "Data",
+   "label": "Client Code",
+   "mandatory_depends_on": "eval:doc.custom_client_type==\"Existing\""
+  },
+  {
+   "fieldname": "client_cif_id",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "CIF ID"
+  },
+  {
+   "fieldname": "column_break_ramm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_pwfm",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "fetch_client_details",
+   "fieldtype": "Button",
+   "label": "Fetch Client Details",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cus_client_details",
+   "fieldtype": "Section Break",
+   "label": "Client Details"
+  },
+  {
+   "fieldname": "custom_customer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Customer Name",
+   "read_only_depends_on": "eval: !frappe.user.has_role(\"RM\")",
+   "reqd": 1
+  },
+  {
+   "fieldname": "custom_email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_insurance_required_",
+   "fieldtype": "Select",
+   "label": "Is insurance required ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "is_cib_",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Is CIB required?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "column_break_qyac",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "custom_contact_no",
+   "fieldtype": "Data",
+   "label": "Contact No.",
+   "read_only_depends_on": "eval: !frappe.user.has_role(\"RM\")",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.custom_client_type == \"Existing\"",
+   "fieldname": "custom_account_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "custom_country",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "expected_loan_amount",
+   "fieldtype": "Float",
+   "label": "Expected Loan Amount",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_valuation_require",
+   "fieldtype": "Select",
+   "label": "Is valuation required?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "documents_required_section",
+   "fieldtype": "Section Break",
+   "label": "Documents Required"
+  },
+  {
+   "default": "1",
+   "fieldname": "citizenship",
+   "fieldtype": "Check",
+   "label": "Citizenship"
+  },
+  {
+   "fieldname": "column_break_fdjj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "nid",
+   "fieldtype": "Check",
+   "label": "NID"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Personal Information"
+  },
+  {
+   "fieldname": "html_xucq",
+   "fieldtype": "HTML",
+   "label": "Personal Information Title",
+   "options": "<h2>Personal Information</h2>"
+  },
+  {
+   "fieldname": "client_details_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth (AD)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth_bs",
+   "fieldtype": "Data",
+   "label": "Date of Birth (BS)"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "label": "Nationality",
+   "options": "\nNepali\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_sabj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"Other\";",
+   "fieldname": "nationality_if_other",
+   "fieldtype": "Link",
+   "label": "Nationality (if other)",
+   "options": "Country"
+  },
+  {
+   "fieldname": "column_break_ewkt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "Marital Status"
+  },
+  {
+   "fieldname": "column_break_dobt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"Nepali\" || doc.citizenship;",
+   "fieldname": "citizenship_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Citizenship Details"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"Nepali\" || doc.citizenship;",
+   "fieldname": "citizenship_number",
+   "fieldtype": "Data",
+   "label": "Citizenship Number",
+   "mandatory_depends_on": "eval:doc.citizenship"
+  },
+  {
+   "fieldname": "column_break_liel",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"Nepali\" || doc.citizenship;",
+   "fieldname": "chitizenship_issued_date",
+   "fieldtype": "Date",
+   "label": "Citizenship Issued Date",
+   "mandatory_depends_on": "eval:doc.citizenship"
+  },
+  {
+   "fieldname": "column_break_vehm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"Nepali\" || doc.citizenship;",
+   "fieldname": "citizenship_issued_district",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Citizenship Issued District",
+   "mandatory_depends_on": "eval:doc.citizenship",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "nid_details_section",
+   "fieldtype": "Section Break",
+   "label": "NID Details"
+  },
+  {
+   "depends_on": "eval:doc.nid",
+   "fieldname": "nid_number",
+   "fieldtype": "Data",
+   "label": "NID Number",
+   "mandatory_depends_on": "eval:doc.nid"
+  },
+  {
+   "fieldname": "column_break_bpjx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.nid",
+   "fieldname": "nid_issued_date",
+   "fieldtype": "Date",
+   "label": "NID Issued Date",
+   "mandatory_depends_on": "eval:doc.nid"
+  },
+  {
+   "fieldname": "pan_details_section",
+   "fieldtype": "Section Break",
+   "label": "PAN Details"
+  },
+  {
+   "fieldname": "pan_number",
+   "fieldtype": "Int",
+   "label": "PAN Number",
+   "length": 9
+  },
+  {
+   "fieldname": "column_break_lczm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pan_registration_date",
+   "fieldtype": "Date",
+   "label": "PAN Registration Date"
+  },
+  {
+   "fieldname": "column_break_lizj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pan_registration_district",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "PAN Registration District",
+   "options": "Districts"
+  },
+  {
+   "depends_on": "eval:doc.nationality == \"Other\";",
+   "fieldname": "passport_details_section",
+   "fieldtype": "Section Break",
+   "label": "Passport Details"
+  },
+  {
+   "fieldname": "embassy_number",
+   "fieldtype": "Data",
+   "label": "Embassy Number"
+  },
+  {
+   "fieldname": "passport_issued_date",
+   "fieldtype": "Date",
+   "label": "Passport Issued Date"
+  },
+  {
+   "fieldname": "column_break_oids",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foreign_passport_number",
+   "fieldtype": "Data",
+   "label": "Passport Number"
+  },
+  {
+   "fieldname": "foreign_passport_expiry_date",
+   "fieldtype": "Date",
+   "label": "Passport Expiry Date"
+  },
+  {
+   "fieldname": "column_break_aphp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "passport_issuing_country",
+   "fieldtype": "Link",
+   "label": "Passport Issuing Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "family_tree_section",
+   "fieldtype": "Section Break",
+   "label": "Family Tree"
+  },
+  {
+   "fieldname": "grandfathers_name",
+   "fieldtype": "Data",
+   "label": "Grandfather's Name"
+  },
+  {
+   "fieldname": "mothers_name",
+   "fieldtype": "Data",
+   "label": "Mother's Name"
+  },
+  {
+   "fieldname": "spouse_name",
+   "fieldtype": "Data",
+   "label": "Spouse Name"
+  },
+  {
+   "fieldname": "column_break_nqrw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fathers_name",
+   "fieldtype": "Data",
+   "label": "Father's Name"
+  },
+  {
+   "depends_on": "eval:doc.gender==\"Female\" && doc.marital_status == \"Married\";",
+   "fieldname": "father_in_law",
+   "fieldtype": "Data",
+   "label": "Father In Law's Name"
+  },
+  {
+   "fieldname": "offsprings",
+   "fieldtype": "Data",
+   "label": "Offsprings"
+  },
+  {
+   "fieldname": "permanent_address_section",
+   "fieldtype": "Section Break",
+   "label": "Permanent Address"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Province",
+   "options": "Provinces"
+  },
+  {
+   "fieldname": "ward_no",
+   "fieldtype": "Data",
+   "label": "Ward No."
+  },
+  {
+   "fieldname": "column_break_ytce",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "html_qyty",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_current_address_same_as_permanent_address",
+   "fieldtype": "Check",
+   "label": "Is current address same as Permanent Address?"
+  },
+  {
+   "fieldname": "column_break_cxqs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vdc_municipality",
+   "fieldtype": "Link",
+   "label": "VDC / Municipality",
+   "options": "Municipality and VDC"
+  },
+  {
+   "fieldname": "current_address_section",
+   "fieldtype": "Section Break",
+   "label": "Current Address"
+  },
+  {
+   "fieldname": "current_province",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Province",
+   "options": "Provinces"
+  },
+  {
+   "fieldname": "current_ward_no",
+   "fieldtype": "Data",
+   "label": "Ward No."
+  },
+  {
+   "fieldname": "number_of_dependent",
+   "fieldtype": "Select",
+   "label": "Number of Dependent"
+  },
+  {
+   "fieldname": "column_break_fuot",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_district",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "ownership_of_residence",
+   "fieldtype": "Select",
+   "label": "Ownership of Residence"
+  },
+  {
+   "fieldname": "age_condition",
+   "fieldtype": "Select",
+   "label": " Age Range"
+  },
+  {
+   "fieldname": "column_break_eigl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "current_vdc__municipality",
+   "fieldtype": "Link",
+   "label": "VDC /Municipality",
+   "options": "Municipality and VDC"
+  },
+  {
+   "fieldname": "education_level",
+   "fieldtype": "Select",
+   "label": "Education Level"
+  },
+  {
+   "fieldname": "section_break_ypqh",
+   "fieldtype": "Section Break",
+   "label": "CIB Details"
+  },
+  {
+   "fieldname": "cib_check",
+   "fieldtype": "Button",
+   "label": "CIB Check"
+  },
+  {
+   "fieldname": "column_break_gjks",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cib_id",
+   "fieldtype": "Data",
+   "label": "CIB ID"
+  },
+  {
+   "fieldname": "column_break_ctkv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cic_report",
+   "fieldtype": "Select",
+   "label": "CIB Report"
+  },
+  {
+   "fieldname": "please_select_income_source_section",
+   "fieldtype": "Section Break",
+   "label": "Please Select Income Source"
+  },
+  {
+   "default": "0",
+   "fieldname": "income_salary",
+   "fieldtype": "Check",
+   "label": "Salary"
+  },
+  {
+   "fieldname": "column_break_brhi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "business",
+   "fieldtype": "Check",
+   "label": "Business"
+  },
+  {
+   "fieldname": "column_break_vgcq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "rent",
+   "fieldtype": "Check",
+   "label": "Rent"
+  },
+  {
+   "depends_on": "eval:doc.income_salary == true;",
+   "fieldname": "salary_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Salary Details"
+  },
+  {
+   "fieldname": "table_lyol",
+   "fieldtype": "Table",
+   "options": "Salary Details"
+  },
+  {
+   "depends_on": "eval:doc.business == true;",
+   "fieldname": "business_details_section",
+   "fieldtype": "Section Break",
+   "label": "Business Details"
+  },
+  {
+   "fieldname": "table_vsam",
+   "fieldtype": "Table",
+   "options": "Business Details"
+  },
+  {
+   "depends_on": "eval:doc.rent == true;",
+   "fieldname": "rent_details_section",
+   "fieldtype": "Section Break",
+   "label": "Rent Details"
+  },
+  {
+   "fieldname": "table_hxdn",
+   "fieldtype": "Table",
+   "options": "Rent Details"
+  },
+  {
+   "fieldname": "monthly_income_and_expenses_section",
+   "fieldtype": "Section Break",
+   "label": "Monthly Income and Expenses"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.income_salary",
+   "fieldname": "salary_income",
+   "fieldtype": "Float",
+   "label": "Salary Income",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.rent",
+   "fieldname": "rental_income",
+   "fieldtype": "Float",
+   "label": "Rental Income",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "gross_total_income",
+   "fieldtype": "Float",
+   "label": "Total Income",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_uofw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.business",
+   "fieldname": "business_income",
+   "fieldtype": "Float",
+   "label": "Business Income",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "html_iuuf",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "fetch_total_income",
+   "fieldtype": "Button",
+   "label": "Calculate Total Income"
+  },
+  {
+   "fieldname": "section_break_fvbz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "household_expense",
+   "fieldtype": "Float",
+   "label": "Household Expenses",
+   "precision": "2"
+  },
+  {
+   "fieldname": "other_bank_emis",
+   "fieldtype": "Float",
+   "label": "Other Bank EMI",
+   "precision": "2"
+  },
+  {
+   "fieldname": "total_expense",
+   "fieldtype": "Float",
+   "label": "Total Expenses",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "net_disposable_income",
+   "fieldtype": "Float",
+   "label": "Net Disposable Income",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ojml",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rental_expense",
+   "fieldtype": "Float",
+   "label": "Rental Expenses",
+   "precision": "2"
+  },
+  {
+   "fieldname": "tax_miscellaneous_expense",
+   "fieldtype": "Float",
+   "label": "Tax/ Miscellaneous Expenses",
+   "precision": "2"
+  },
+  {
+   "fieldname": "html_wqbx",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "fetch_total_expenses_and_disposable_income",
+   "fieldtype": "Button",
+   "label": "Calculate Total Expenses & Disposable Income"
+  },
+  {
+   "fieldname": "guarantor_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Guarantor Details"
+  },
+  {
+   "fieldname": "guarantor_details_title",
+   "fieldtype": "HTML",
+   "label": "Guarantor Details Title",
+   "options": "<h2>Guarantor Details</h2>"
+  },
+  {
+   "fieldname": "guarantors_details_section",
+   "fieldtype": "Section Break",
+   "label": "Guarantor's Details"
+  },
+  {
+   "fieldname": "table_ngjk",
+   "fieldtype": "Table",
+   "label": "Guarantor List",
+   "options": "Guarantor Details"
+  },
+  {
+   "fieldname": "facility_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Facility Details"
+  },
+  {
+   "fieldname": "html_zobz",
+   "fieldtype": "HTML",
+   "label": "Facility Details Title",
+   "options": "<h2>Facility Details</h2>"
+  },
+  {
+   "fieldname": "section_break_bsju",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "New",
+   "fieldname": "proposal_type",
+   "fieldtype": "Select",
+   "label": "Proposal Type",
+   "options": "\nNew\nRenewal\nRenewal with Enhancement",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_wlqc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "no_of_proposal",
+   "fieldtype": "Select",
+   "label": "No. of Proposal",
+   "options": "\nSingle\nMultiple"
+  },
+  {
+   "depends_on": "eval:doc.no_of_proposal == \"Single\"",
+   "fieldname": "section_break_zfox",
+   "fieldtype": "Section Break",
+   "label": "Facility Details"
+  },
+  {
+   "default": "Housing Loan",
+   "fieldname": "facility_type",
+   "fieldtype": "Select",
+   "label": "Facility Type",
+   "options": "\nHousing Loan\nLand Purchase\nLoan Against Property\nPersonal Loan\nEducation Loan\nAuto Loan\nGold Loan"
+  },
+  {
+   "default": "10",
+   "fieldname": "base_rate",
+   "fieldtype": "Float",
+   "label": "Base Rate",
+   "precision": "1",
+   "read_only": 1
+  },
+  {
+   "fieldname": "purpos",
+   "fieldtype": "Small Text",
+   "label": "Purpose"
+  },
+  {
+   "fieldname": "column_break_hlwh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tenure_in_months",
+   "fieldtype": "Float",
+   "label": "Tenure (In Months)",
+   "precision": "0"
+  },
+  {
+   "fieldname": "ir_premium_proposed",
+   "fieldtype": "Float",
+   "label": "IR Premium Proposed",
+   "precision": "1"
+  },
+  {
+   "fieldname": "service_fees",
+   "fieldtype": "Float",
+   "label": "Service Fees",
+   "precision": "2"
+  },
+  {
+   "fieldname": "column_break_tgdt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposal_limit",
+   "fieldtype": "Float",
+   "label": "Proposal Limit",
+   "precision": "2"
+  },
+  {
+   "default": "0",
+   "fieldname": "interest_proposed",
+   "fieldtype": "Float",
+   "label": "Interest Proposed",
+   "precision": "1",
+   "read_only": 1
+  },
+  {
+   "fieldname": "html_hrqp",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "calculate_emi",
+   "fieldtype": "Button",
+   "label": "Calculate EMI"
+  },
+  {
+   "default": "0",
+   "fieldname": "single_emi",
+   "fieldtype": "Float",
+   "label": "EMI",
+   "precision": "2"
+  },
+  {
+   "depends_on": "eval:doc.no_of_proposal == \"Multiple\"",
+   "fieldname": "section_break_lgqz",
+   "fieldtype": "Section Break",
+   "label": "Facility Details List"
+  },
+  {
+   "fieldname": "table_lfoa",
+   "fieldtype": "Table",
+   "label": "Facility Details Table",
+   "options": "Facility Details"
+  },
+  {
+   "fieldname": "security_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Security Details"
+  },
+  {
+   "fieldname": "security_details_title",
+   "fieldtype": "HTML",
+   "label": "Security Details Title",
+   "options": "<h2>Security Details</h2>"
+  },
+  {
+   "fieldname": "section_break_vfxj",
+   "fieldtype": "Section Break",
+   "label": "List of Securities"
+  },
+  {
+   "default": "0",
+   "fieldname": "real_estate_property",
+   "fieldtype": "Check",
+   "label": "Real Estate Property"
+  },
+  {
+   "fieldname": "column_break_icok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "shares",
+   "fieldtype": "Check",
+   "label": "Shares"
+  },
+  {
+   "fieldname": "column_break_ypga",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "fixed_deposit",
+   "fieldtype": "Check",
+   "label": "Fixed Deposit"
+  },
+  {
+   "fieldname": "column_break_mvsn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "others",
+   "fieldtype": "Check",
+   "label": "Others"
+  },
+  {
+   "depends_on": "eval:doc.real_estate_property == true",
+   "fieldname": "section_break_wycq",
+   "fieldtype": "Section Break",
+   "label": "Real State Property List"
+  },
+  {
+   "fieldname": "table_drge",
+   "fieldtype": "Table",
+   "label": "Real State Property Table",
+   "options": "Security Details"
+  },
+  {
+   "depends_on": "eval:doc.shares == true",
+   "fieldname": "shares_list_section",
+   "fieldtype": "Section Break",
+   "label": "Shares List"
+  },
+  {
+   "fieldname": "shares_details_table",
+   "fieldtype": "Table",
+   "label": "Shares Details Table",
+   "options": "Share Details"
+  },
+  {
+   "depends_on": "eval:doc.others",
+   "fieldname": "others_section",
+   "fieldtype": "Section Break",
+   "label": "Others"
+  },
+  {
+   "fieldname": "others_text",
+   "fieldtype": "Small Text",
+   "label": "Others"
+  },
+  {
+   "fieldname": "tab_8_tab",
+   "fieldtype": "Tab Break",
+   "label": "Score Card"
+  },
+  {
+   "fieldname": "score_card_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_dljl",
+   "fieldtype": "HTML",
+   "options": "<h2>Score Card</h2>"
+  },
+  {
+   "fieldname": "section_break_bugj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_wvfs",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "fetch_general_information_score",
+   "fieldtype": "Button",
+   "label": "Fetch Score"
+  },
+  {
+   "fieldname": "column_break_lbru",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_gsyr",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "check_eligibility",
+   "fieldtype": "Button",
+   "label": "Check Eligibility"
+  },
+  {
+   "fieldname": "column_break_kaua",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "eligible_amount",
+   "fieldtype": "Float",
+   "label": "Eligible Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_oxkc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "eligibility",
+   "fieldtype": "Select",
+   "label": "Eligibility",
+   "options": "\nEligible\nNot Eligible"
+  },
+  {
+   "fieldname": "general_information_score_section",
+   "fieldtype": "Section Break",
+   "label": "General Information Score"
+  },
+  {
+   "fieldname": "ownership_of_residence_score",
+   "fieldtype": "Float",
+   "label": "Ownership of Residence",
+   "precision": "1"
+  },
+  {
+   "fieldname": "general_age_score",
+   "fieldtype": "Float",
+   "label": "Age",
+   "precision": "1"
+  },
+  {
+   "fieldname": "loan_tenure_score",
+   "fieldtype": "Float",
+   "hidden": 1,
+   "label": "Loan Tenure Score",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_tnhb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "education_level_score",
+   "fieldtype": "Float",
+   "label": "Education Level",
+   "precision": "1"
+  },
+  {
+   "fieldname": "number_of_dependent_score",
+   "fieldtype": "Float",
+   "label": "Number of Dependent",
+   "precision": "1"
+  },
+  {
+   "fieldname": "loan_from_other_bank_score",
+   "fieldtype": "Float",
+   "hidden": 1,
+   "label": "Loan from Other Bank Score",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_euug",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "marital_status_score",
+   "fieldtype": "Float",
+   "label": "Marital Status",
+   "precision": "1"
+  },
+  {
+   "fieldname": "cic_report_score",
+   "fieldtype": "Float",
+   "label": "CIC Report",
+   "precision": "1"
+  },
+  {
+   "fieldname": "section_xyz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "general_weighted_score",
+   "fieldtype": "Float",
+   "label": "Weighted Score",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_ystj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "general_percentage_score",
+   "fieldtype": "Float",
+   "label": "Percentage Score",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_dudw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "20",
+   "fieldname": "general_weight",
+   "fieldtype": "Float",
+   "label": "Weight",
+   "precision": "1"
+  },
+  {
+   "fieldname": "collateral_score_section",
+   "fieldtype": "Section Break",
+   "label": "Collateral Score"
+  },
+  {
+   "fieldname": "location_score",
+   "fieldtype": "Float",
+   "label": "Location",
+   "precision": "1"
+  },
+  {
+   "fieldname": "property_type_score",
+   "fieldtype": "Float",
+   "label": "Property Type",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_ugyy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "road_width_score",
+   "fieldtype": "Float",
+   "label": "Road Width",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_qgzp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "road_access_from_score",
+   "fieldtype": "Float",
+   "label": "Road Access From",
+   "precision": "1"
+  },
+  {
+   "fieldname": "section_break_jhdw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "collateral_weighted_scor",
+   "fieldtype": "Float",
+   "label": "Weighted Score",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_xfij",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "collateral_percentage_scor",
+   "fieldtype": "Float",
+   "label": "Percentage Score",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_odlz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "20",
+   "fieldname": "collateral_weigh",
+   "fieldtype": "Float",
+   "label": "Weight",
+   "precision": "1"
+  },
+  {
+   "fieldname": "section_break_dsqk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ndi_ratio",
+   "fieldtype": "Float",
+   "label": "NDI Ratio",
+   "precision": "1"
+  },
+  {
+   "default": "10.0",
+   "fieldname": "ndi_max_score",
+   "fieldtype": "Float",
+   "label": "NDI Max Score",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_gjmk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ndi_score",
+   "fieldtype": "Float",
+   "label": "NDI Score",
+   "precision": "1"
+  },
+  {
+   "default": "20",
+   "fieldname": "ndi_ratiow1",
+   "fieldtype": "Float",
+   "label": "NDI RatioW1",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_sjgz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ndi_ratiops",
+   "fieldtype": "Float",
+   "label": "NDI RatioPS",
+   "precision": "1"
+  },
+  {
+   "fieldname": "ndi_ratiows",
+   "fieldtype": "Float",
+   "label": "NDI RatioWS",
+   "precision": "1"
+  },
+  {
+   "depends_on": "eval:doc.is_insurance_required_ == \"Yes\";",
+   "fieldname": "insurance_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Insurance Details"
+  },
+  {
+   "fieldname": "insurance_details_title",
+   "fieldtype": "HTML",
+   "label": "Insurance Details Title",
+   "options": "<h2>Insurance Details</h2>"
+  },
+  {
+   "fieldname": "insurance_details_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Insurance Details"
+  },
+  {
+   "fieldname": "cif_id",
+   "fieldtype": "Data",
+   "label": "CIF ID"
+  },
+  {
+   "fieldname": "ra_unit",
+   "fieldtype": "Data",
+   "label": "RA unit"
+  },
+  {
+   "fieldname": "column_break_xbli",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "insurance_customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "loan_unf_status",
+   "fieldtype": "Data",
+   "label": "Loan UNF Status"
+  },
+  {
+   "fieldname": "column_break_matt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "loan_amount_no",
+   "fieldtype": "Data",
+   "label": "Loan Amount No"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "insurance_information_section",
+   "fieldtype": "Section Break",
+   "label": "Insurance Information"
+  },
+  {
+   "fieldname": "insurance_company",
+   "fieldtype": "Data",
+   "label": "Insurance Company"
+  },
+  {
+   "fieldname": "insurance_account_no",
+   "fieldtype": "Data",
+   "label": "Insurance Account No."
+  },
+  {
+   "fieldname": "column_break_ljeh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "insurance_email",
+   "fieldtype": "Data",
+   "label": "Insurance Email"
+  },
+  {
+   "fieldname": "section_break_dgnq",
+   "fieldtype": "Section Break",
+   "label": "Insurance Details List"
+  },
+  {
+   "fieldname": "table_qehy",
+   "fieldtype": "Table",
+   "label": "Insurance List Table",
+   "options": "Retail Insurance Details"
+  },
+  {
+   "fieldname": "section_break_sbgd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "insurance_has_been_done_successfully_",
+   "fieldtype": "Select",
+   "label": "Insurance has been done successfully ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "depends_on": "eval:doc.workflow_state == 'Deferral'",
+   "fieldname": "deferral_tab",
+   "fieldtype": "Tab Break",
+   "label": "Deferral"
+  },
+  {
+   "fieldname": "deferral_details_title",
+   "fieldtype": "HTML",
+   "label": "Deferral Details Title",
+   "options": "<h2>Deferral Details</h2>"
+  },
+  {
+   "fieldname": "section_break_qlop",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_kuze",
+   "fieldtype": "Table",
+   "options": "Deferral Details"
+  },
+  {
+   "fieldname": "emi_calculator_tab",
+   "fieldtype": "Tab Break",
+   "label": "EMI Calculator"
+  },
+  {
+   "fieldname": "emi_calculator_title",
+   "fieldtype": "HTML",
+   "label": "Emi Calculator Title",
+   "options": "<h2>Emi Calculator</h2>"
+  },
+  {
+   "fieldname": "payslip_computation_section",
+   "fieldtype": "Section Break",
+   "label": "Payslip Computation"
+  },
+  {
+   "default": "Without Capitalization",
+   "fieldname": "is_capitalization_",
+   "fieldtype": "Select",
+   "label": "Is Capitalization ?",
+   "options": "\nCapitalization\nWithout Capitalization"
+  },
+  {
+   "fieldname": "existing_net_pay",
+   "fieldtype": "Float",
+   "label": "Existing Net Pay",
+   "precision": "2"
+  },
+  {
+   "fieldname": "add_buy_offtop_up_installment_for_buy_off",
+   "fieldtype": "Float",
+   "label": "Add Buy Off/Top Up Installment (For Buy Off)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "interest_rate_",
+   "fieldtype": "Float",
+   "label": "Interest Rate (%)",
+   "precision": "1"
+  },
+  {
+   "fieldname": "column_break_ugtl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "basic_salary",
+   "fieldtype": "Float",
+   "label": "Basic Salary",
+   "precision": "2"
+  },
+  {
+   "fieldname": "less_salary_arrears_leaves_allowance",
+   "fieldtype": "Float",
+   "label": "Less Salary Arrears/ Leaves Allowance",
+   "precision": "2"
+  },
+  {
+   "fieldname": "loan_terms_months",
+   "fieldtype": "Float",
+   "label": "Loan Terms (Months)",
+   "precision": "0"
+  },
+  {
+   "fieldname": "applied_loan_amount",
+   "fieldtype": "Float",
+   "label": "Applied Loan Amount",
+   "precision": "2"
+  },
+  {
+   "fieldname": "section_break_sfen",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "calculate",
+   "fieldtype": "Button",
+   "label": "Calculate"
+  },
+  {
+   "fieldname": "section_break_ymuq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.is_capitalization_ == \"Capitalization\"",
+   "fieldname": "loan_amount_plus_capitalized_charges",
+   "fieldtype": "Float",
+   "label": "Loan Amount Plus Capitalized Charges"
+  },
+  {
+   "fieldname": "safe_margin",
+   "fieldtype": "Float",
+   "label": "Safe Margin"
+  },
+  {
+   "fieldname": "loan_setup_fees",
+   "fieldtype": "Float",
+   "label": "Loan Setup Fees"
+  },
+  {
+   "fieldname": "excise_duty",
+   "fieldtype": "Float",
+   "label": "Excise Duty"
+  },
+  {
+   "fieldname": "total_payment",
+   "fieldtype": "Float",
+   "label": "Total Payment"
+  },
+  {
+   "fieldname": "column_break_ewkd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "installment_amount",
+   "fieldtype": "Float",
+   "label": "Installment Amount"
+  },
+  {
+   "fieldname": "is_clients_ability_okay_",
+   "fieldtype": "Select",
+   "label": "Is Client's Ability Okay ?",
+   "options": "\nOkay\nNot Okay"
+  },
+  {
+   "fieldname": "credit_life_insurance_fees",
+   "fieldtype": "Float",
+   "label": "Credit Life Insurance Fees"
+  },
+  {
+   "depends_on": "eval:doc.is_capitalization_ == \"Capitalization\"",
+   "fieldname": "total_charges_capitalized",
+   "fieldtype": "Float",
+   "label": "Total Charges Capitalized"
+  },
+  {
+   "depends_on": "eval:doc.eligibility == \"Eligible\"",
+   "fieldname": "approval_log_tab",
+   "fieldtype": "Tab Break",
+   "label": "Approval Log",
+   "read_only": 1
+  },
+  {
+   "fieldname": "html_xvcg",
+   "fieldtype": "HTML",
+   "options": "<h2>Approval Log</h2>"
+  },
+  {
+   "description": "Please Select Approval Chain",
+   "fieldname": "approval_chain_section",
+   "fieldtype": "Section Break",
+   "label": "Approval Chain"
+  },
+  {
+   "default": "0",
+   "fieldname": "manual_approval_chain",
+   "fieldtype": "Check",
+   "label": "Manual Approval Chain"
+  },
+  {
+   "fieldname": "column_break_lfjs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "automatic_approval_chain",
+   "fieldtype": "Check",
+   "label": "Automatic Approval Chain"
+  },
+  {
+   "depends_on": "eval:doc.manual_approval_chain || doc.automatic_approval_chain",
+   "fieldname": "approval_log_section",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "decision",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Decision",
+   "mandatory_depends_on": "eval:doc.manual_approval_chain || doc.automatic_approval_chain"
+  },
+  {
+   "fieldname": "logged_in_user",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Logged In User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "to_workstep",
+   "fieldtype": "Select",
+   "label": "Next Workdesk"
+  },
+  {
+   "fieldname": "column_break_ztfp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "default": "RM",
+   "fieldname": "from_workstep",
+   "fieldtype": "Data",
+   "label": "Current Workdesk",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:!in_list([\"Disbursement\",\"CAD DOC Generation\",\"CAD Maker\", \"CAD Checker\"], doc.from_workstep)",
+   "fieldname": "final_approver",
+   "fieldtype": "Select",
+   "label": "Final Approver",
+   "mandatory_depends_on": "eval:doc.manual_approval_chain || doc.automatic_approval_chain",
+   "options": "\nBM\nSH\nDCEO\nCEO"
+  },
+  {
+   "depends_on": "eval:doc.manual_approval_chain || doc.automatic_approval_chain",
+   "fieldname": "section_break_tfmi",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "column_break_sjal",
+   "fieldtype": "Column Break",
+   "width": "30px"
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Long Text",
+   "label": "Comment",
+   "mandatory_depends_on": "eval:doc.manual_approval_chain || doc.automatic_approval_chain",
+   "max_height": "100px"
+  },
+  {
+   "fieldname": "column_break_rdwm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_wviu",
+   "fieldtype": "HTML",
+   "options": "</br>\n</br>\n</br>\n</br>\n</br>"
+  },
+  {
+   "fieldname": "save_log",
+   "fieldtype": "Button",
+   "label": "Save To Log"
+  },
+  {
+   "depends_on": "eval:doc.manual_approval_chain || doc.automatic_approval_chain",
+   "fieldname": "section_break_geym",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "table_vhat",
+   "fieldtype": "Table",
+   "label": "Approval Logs",
+   "options": "Approval Logs",
+   "read_only": 1
+  },
+  {
+   "fieldname": "document_generation_tab",
+   "fieldtype": "Tab Break",
+   "label": "Loan Documents"
+  },
+  {
+   "fieldname": "doc_generation",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "document_generation_title",
+   "fieldtype": "HTML",
+   "label": "Document Generation Title",
+   "options": "<h2>Loan Documents</h2>"
+  },
+  {
+   "fieldname": "section_break_qgxd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "offer_letter",
+   "fieldtype": "Check",
+   "label": "Offer Letter"
+  },
+  {
+   "fieldname": "column_break_uety",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "cm_template",
+   "fieldtype": "Check",
+   "label": "CM Template"
+  },
+  {
+   "fieldname": "column_break_jnzs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "valuation",
+   "fieldtype": "Check",
+   "label": "Valuation"
+  },
+  {
+   "fieldname": "column_break_ywap",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "four_boundry",
+   "fieldtype": "Check",
+   "label": "Four Boundry"
+  },
+  {
+   "depends_on": "eval:doc.is_rm_disbursement_ == \"Yes\"",
+   "fieldname": "lde_tab",
+   "fieldtype": "Tab Break",
+   "label": "LDE"
+  },
+  {
+   "fieldname": "lde_title",
+   "fieldtype": "HTML",
+   "label": "LDE Title",
+   "options": "<h2>LDE</h2>"
+  },
+  {
+   "fieldname": "section_break_uhsx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Long Text",
+   "label": "Remarks",
+   "max_height": "50px"
+  },
+  {
+   "fieldname": "checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Required Document"
+  },
+  {
+   "fieldname": "html_rwio",
+   "fieldtype": "HTML",
+   "options": "<p>Obtained</p>"
+  },
+  {
+   "fieldname": "personal_guarantee",
+   "fieldtype": "Select",
+   "label": "CM Template",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "valuation_report",
+   "fieldtype": "Select",
+   "label": "Valuation Report",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "blue_print",
+   "fieldtype": "Select",
+   "label": "Blue Print",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "four_boundary",
+   "fieldtype": "Select",
+   "label": "Four Boundary",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "clf_credit_facility_offer_letter",
+   "fieldtype": "Select",
+   "label": "CLF (Credit Facility Offer Letter)",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "concent_of_pg_personal_guarantor",
+   "fieldtype": "Select",
+   "label": "Consent of PG (Personal Guarantor)",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_awpg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_mciu",
+   "fieldtype": "HTML",
+   "options": "<p>Date</p>"
+  },
+  {
+   "fieldname": "personal_guarantee_date",
+   "fieldtype": "Date",
+   "label": "CM Template Date"
+  },
+  {
+   "fieldname": "valuation_report_date",
+   "fieldtype": "Date",
+   "label": "Valuation Report Date"
+  },
+  {
+   "fieldname": "blue_print_date",
+   "fieldtype": "Date",
+   "label": "Blue Print Date"
+  },
+  {
+   "fieldname": "four_boundary_date",
+   "fieldtype": "Date",
+   "label": "Four Boundary Date"
+  },
+  {
+   "fieldname": "clf_date",
+   "fieldtype": "Date",
+   "label": "CLF Date"
+  },
+  {
+   "fieldname": "consent_of_pg_date",
+   "fieldtype": "Date",
+   "label": "Consent of PG Date"
+  },
+  {
+   "fieldname": "doc_review_section",
+   "fieldtype": "Section Break",
+   "label": "Doc Review"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.personal_guarantee ==\"Yes\"",
+   "fieldname": "cm_template_check",
+   "fieldtype": "Check",
+   "label": "CM Template"
+  },
+  {
+   "fieldname": "column_break_rlxn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.valuation_report ==\"Yes\"",
+   "fieldname": "valuation_report_check",
+   "fieldtype": "Check",
+   "label": "Valuation Report"
+  },
+  {
+   "fieldname": "column_break_mupj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.blue_print ==\"Yes\"",
+   "fieldname": "blue_print_check",
+   "fieldtype": "Check",
+   "label": "Blue Print"
+  },
+  {
+   "fieldname": "column_break_dnrc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.four_boundary ==\"Yes\"",
+   "fieldname": "four_boundry_check",
+   "fieldtype": "Check",
+   "label": "Four Boundry"
+  },
+  {
+   "depends_on": "eval:doc.is_rm_disbursement_ == \"Yes\"",
+   "fieldname": "rm_disbursement_tab",
+   "fieldtype": "Tab Break",
+   "label": "RM Disbursement"
+  },
+  {
+   "fieldname": "html_pbmy",
+   "fieldtype": "HTML",
+   "options": "<h2>Disbursement</h2>"
+  },
+  {
+   "fieldname": "disbursement_table_section",
+   "fieldtype": "Section Break",
+   "label": "Disbursement"
+  },
+  {
+   "fieldname": "table_putg",
+   "fieldtype": "Table",
+   "options": "RM Disbursement"
+  },
+  {
+   "depends_on": "eval:doc.is_cad_disbursement_ == \"Yes\"",
+   "fieldname": "cad_disbursement_tab",
+   "fieldtype": "Tab Break",
+   "label": "CAD Disbursement"
+  },
+  {
+   "fieldname": "html_aeim",
+   "fieldtype": "HTML",
+   "options": "<h2>CAD Disbursement</h2>"
+  },
+  {
+   "fieldname": "section_break_mxls",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_ttte",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "ptexp",
+   "fieldtype": "Button",
+   "label": "PTEXP"
+  },
+  {
+   "fieldname": "html_wkkx",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "nfund",
+   "fieldtype": "Button",
+   "label": "NFUND"
+  },
+  {
+   "fieldname": "html_ewqo",
+   "fieldtype": "HTML",
+   "options": "<div style=\"height: 27.5px;\">\n</div>"
+  },
+  {
+   "fieldname": "fund",
+   "fieldtype": "Button",
+   "label": "FUND"
+  },
+  {
+   "fieldname": "column_break_xgrd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ptexp_status",
+   "fieldtype": "Data",
+   "label": "PTEXP Status"
+  },
+  {
+   "fieldname": "nfund_status",
+   "fieldtype": "Data",
+   "label": "NFUND Status"
+  },
+  {
+   "fieldname": "fund_status",
+   "fieldtype": "Data",
+   "label": "FUND Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-27 11:32:22.911378",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Business Loan",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

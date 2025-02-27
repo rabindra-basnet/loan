@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-29 11:48:34.317848",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "omidocs_api_url",
+  "cabinet_name",
+  "column_break_szxt",
+  "username",
+  "password"
+ ],
+ "fields": [
+  {
+   "fieldname": "omidocs_api_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Omidocs API Url",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cabinet_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cabinet Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_szxt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "in_list_view": 1,
+   "label": "Password",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-01-29 12:19:24.872249",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Omnidocs Configuration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

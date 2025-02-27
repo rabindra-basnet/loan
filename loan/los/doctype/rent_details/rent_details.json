@@ -29,20 +29,22 @@
   {
    "fieldname": "type_of_rental_income",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Type of Rental income",
    "options": "Commercial\nResidential"
   },
   {
    "fieldname": "type_of_property",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Type of Property",
-   "options": "Land\nBuilding\nLand and Building"
+   "options": "\nLand\nBuilding\nLand and Building"
   },
   {
    "fieldname": "rental_agreement_paper",
    "fieldtype": "Select",
    "label": "Rental Agreement Paper",
-   "options": "Yes\nNo\nNA"
+   "options": "\nYes\nNo\nNA"
   },
   {
    "fieldname": "column_break_gqea",
@@ -52,7 +54,7 @@
    "fieldname": "tenure_of_lease_remaining",
    "fieldtype": "Select",
    "label": "Tenure of Lease (Remaining)",
-   "options": "More than 5 years\nBetween 2 to 5 years\nLess than 2 years"
+   "options": "\nMore than 5 years\nBetween 2 to 5 years\nLess than 2 years"
   },
   {
    "fieldname": "address",
@@ -62,13 +64,15 @@
   {
    "fieldname": "gross_rental_incom",
    "fieldtype": "Float",
-   "label": "Gross Rental Income"
+   "in_list_view": 1,
+   "label": "Gross Rental Income",
+   "precision": "2"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-08 12:25:43.025776",
+ "modified": "2025-02-02 11:02:54.779794",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Rent Details",

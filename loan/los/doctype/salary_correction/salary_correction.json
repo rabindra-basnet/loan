@@ -1,0 +1,160 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:SC-{####}",
+ "creation": "2025-02-12 12:03:56.173424",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "salary_correction_tab",
+  "correction_recommend_by_title",
+  "correction_recommend_by_section",
+  "recommender_name",
+  "column_break_wqzm",
+  "recommender_title",
+  "column_break_myvb",
+  "recommender_team",
+  "correction_recommended_for_section",
+  "table_sbzb",
+  "approval_log_tab",
+  "current_approver",
+  "decision",
+  "remarks",
+  "column_break_ptbb",
+  "current_workstep",
+  "to_workstep",
+  "section_break_gnvc",
+  "approval_logs"
+ ],
+ "fields": [
+  {
+   "fieldname": "correction_recommend_by_section",
+   "fieldtype": "Section Break",
+   "label": "Correction Recommend By"
+  },
+  {
+   "fieldname": "column_break_wqzm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_myvb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "recommender_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "recommender_title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "recommender_team",
+   "fieldtype": "Data",
+   "label": "Team"
+  },
+  {
+   "fieldname": "correction_recommended_for_section",
+   "fieldtype": "Section Break",
+   "label": "Correction Recommended For"
+  },
+  {
+   "fieldname": "table_sbzb",
+   "fieldtype": "Table",
+   "options": "Salary Correction Recommended For"
+  },
+  {
+   "fieldname": "correction_recommend_by_title",
+   "fieldtype": "HTML",
+   "label": "Correction Recommend By Title",
+   "options": "<h2>Correction Recommend By</h2>"
+  },
+  {
+   "fieldname": "salary_correction_tab",
+   "fieldtype": "Tab Break",
+   "label": "Salary Correction"
+  },
+  {
+   "fieldname": "approval_log_tab",
+   "fieldtype": "Tab Break",
+   "label": "Approval Log"
+  },
+  {
+   "fieldname": "current_approver",
+   "fieldtype": "Data",
+   "label": "Current Approver",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ptbb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Manager",
+   "fieldname": "current_workstep",
+   "fieldtype": "Data",
+   "label": "Current Workstep",
+   "read_only": 1
+  },
+  {
+   "fieldname": "decision",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Decision",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_gnvc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approval_logs",
+   "fieldtype": "Table",
+   "label": "Approval Logs",
+   "options": "Salary Correction Approval Logs",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Remarks",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.decision == \"Query\" || doc.decision == \"Query Response\"",
+   "fieldname": "to_workstep",
+   "fieldtype": "Select",
+   "label": "To Workstep"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-12 17:30:46.266999",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Salary Correction",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

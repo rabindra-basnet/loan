@@ -7,10 +7,13 @@
  "field_order": [
   "decision",
   "date_klsu",
-  "to_workstep",
+  "start_date_time",
+  "end_date_time",
+  "duration",
   "column_break_muxc",
   "logged_in_user",
   "from_workstep",
+  "to_workstep",
   "comment"
  ],
  "fields": [
@@ -23,14 +26,13 @@
   {
    "fieldname": "date_klsu",
    "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Date"
+   "hidden": 1,
+   "label": "Start Date"
   },
   {
    "fieldname": "to_workstep",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "To workstep"
+   "label": "To workdesk"
   },
   {
    "fieldname": "column_break_muxc",
@@ -46,7 +48,7 @@
    "fieldname": "from_workstep",
    "fieldtype": "Read Only",
    "in_list_view": 1,
-   "label": "From Workstep"
+   "label": "From Workdesk"
   },
   {
    "fieldname": "comment",
@@ -54,12 +56,30 @@
    "in_list_view": 1,
    "label": "Comment",
    "max_height": "100px"
+  },
+  {
+   "fieldname": "start_date_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Start Date Time"
+  },
+  {
+   "fieldname": "end_date_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "End Date Time"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Duration"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-01-01 10:23:41.800756",
+ "modified": "2025-02-11 14:20:59.748220",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Approval Logs",

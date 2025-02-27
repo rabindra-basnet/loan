@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-24 12:16:33.766956",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "html_cxtv",
+  "fetch",
+  "section_break_cuba",
+  "facility_type",
+  "already_disburse",
+  "requested_amount",
+  "column_break_gvsv",
+  "limit_suffix",
+  "unutilized_amount",
+  "utilize_amount",
+  "column_break_rcop",
+  "approved_amount",
+  "interest_rate",
+  "available_amount",
+  "section_break_fxby",
+  "create_limit_node",
+  "column_break_ybey",
+  "disburse"
+ ],
+ "fields": [
+  {
+   "fieldname": "html_cxtv",
+   "fieldtype": "HTML",
+   "options": "<h2>RM Disbursement</h2>"
+  },
+  {
+   "fieldname": "fetch",
+   "fieldtype": "Button",
+   "label": "Fetch"
+  },
+  {
+   "fieldname": "section_break_cuba",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "facility_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facility Type"
+  },
+  {
+   "fieldname": "already_disburse",
+   "fieldtype": "Data",
+   "label": "Already Disburse"
+  },
+  {
+   "fieldname": "requested_amount",
+   "fieldtype": "Data",
+   "label": "Requested Amount"
+  },
+  {
+   "fieldname": "column_break_gvsv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "limit_suffix",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Limit Suffix"
+  },
+  {
+   "fieldname": "unutilized_amount",
+   "fieldtype": "Data",
+   "label": "Unutilized Amount"
+  },
+  {
+   "fieldname": "utilize_amount",
+   "fieldtype": "Data",
+   "label": "Utilize Amount"
+  },
+  {
+   "fieldname": "column_break_rcop",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approved_amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Approved Amount"
+  },
+  {
+   "fieldname": "interest_rate",
+   "fieldtype": "Data",
+   "label": "Interest Rate"
+  },
+  {
+   "fieldname": "available_amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Available Amount"
+  },
+  {
+   "fieldname": "section_break_fxby",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "create_limit_node",
+   "fieldtype": "Button",
+   "label": "Create Limit Node"
+  },
+  {
+   "fieldname": "column_break_ybey",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "disburse",
+   "fieldtype": "Button",
+   "label": "Disburse"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-05 18:13:24.520370",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "RM Disbursement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
