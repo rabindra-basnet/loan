@@ -1,0 +1,142 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Chalani-{YYYY}-{MM}-{DD}-{####}",
+ "creation": "2025-02-28 10:45:08.318043",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_7uoq",
+  "amended_from",
+  "section_break_fpex",
+  "data_hcuz",
+  "dateb_s",
+  "letter_no",
+  "invoicers_name",
+  "letter_copy",
+  "email",
+  "column_break_mtfp",
+  "sankit_number",
+  "date_a_d",
+  "subject",
+  "document_sender_office",
+  "recipients_name",
+  "section_break_niwl",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_7uoq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Chalani Process System",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_fpex",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data_hcuz",
+   "fieldtype": "Data",
+   "label": "Dispatch No. (\u091a\u0932\u093e\u0928\u0940 \u0928\u0902.)"
+  },
+  {
+   "fieldname": "sankit_number",
+   "fieldtype": "Data",
+   "label": "Signal Registration No. (\u0938\u0902\u0915\u0947\u0924 \u0926\u0930\u094d\u0924\u093e \u0928\u0902) "
+  },
+  {
+   "fieldname": "column_break_mtfp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_a_d",
+   "fieldtype": "Date",
+   "label": " Date (A. D) \u092e\u093f\u0924\u093f (\u0908.\u0938\u0902.)"
+  },
+  {
+   "fieldname": "dateb_s",
+   "fieldtype": "Data",
+   "label": "Date (B S) \u092e\u093f\u0924\u093f (\u0935\u093f.\u0938\u0902.)"
+  },
+  {
+   "fieldname": "letter_no",
+   "fieldtype": "Int",
+   "label": "Letter No. (\u092a\u0924\u094d\u0930 \u0938\u0902\u0916\u094d\u092f\u093e)"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject (\u0935\u093f\u0937\u092f)"
+  },
+  {
+   "fieldname": "invoicers_name",
+   "fieldtype": "Data",
+   "label": "Invoicer's name (\u091a\u0932\u093e\u0928\u0940 \u0917\u0930\u094d\u0928\u0947\u0915\u094b \u0928\u093e\u092e)"
+  },
+  {
+   "fieldname": "document_sender_office",
+   "fieldtype": "Select",
+   "label": "Document Sender Office (\u092a\u0924\u094d\u0930 \u092a\u093e\u0909\u0928\u0947 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f)"
+  },
+  {
+   "fieldname": "recipients_name",
+   "fieldtype": "Data",
+   "label": "Recipient's Name (\u092c\u0941\u091d\u0940\u0932\u093f\u0928\u0947\u0915\u094b \u0928\u093e\u092e)"
+  },
+  {
+   "fieldname": "letter_copy",
+   "fieldtype": "Select",
+   "label": "Letter Copy (\u092a\u0924\u094d\u0930 \u0925\u093e\u0928)"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email (\u0908\u092e\u0947\u0932)"
+  },
+  {
+   "fieldname": "section_break_niwl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks (\u0915\u0948\u092b\u093f\u092f\u0924)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-02-28 16:26:02.817986",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Chalani Process System",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

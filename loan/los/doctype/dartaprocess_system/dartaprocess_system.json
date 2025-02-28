@@ -16,17 +16,16 @@
   "update_registration_number",
   "section_break_djab",
   "registration_number",
-  "date_ad",
-  "registered_documents_date",
-  "document_sender_place",
-  "document_receiveable_branch_office",
-  "email",
-  "column_break_mhvv",
   "date_bs",
+  "received_letter_date_b_s",
+  "document_sender_place",
+  "letters_count",
+  "column_break_mhvv",
+  "date_ad",
   "reciveable_document_number_countdaa",
-  "registered_documents_date_ad",
-  "document_receiver_place",
-  "document_count",
+  "registered_documents_date_a_d",
+  "subject",
+  "email",
   "section_break_jikq",
   "comments"
  ],
@@ -58,7 +57,7 @@
   },
   {
    "fieldname": "date_bs",
-   "fieldtype": "Date",
+   "fieldtype": "Data",
    "label": "Date (B.S) \u092e\u093f\u0924\u093f (\u092c\u093f.\u0938.)"
   },
   {
@@ -73,37 +72,14 @@
   {
    "fieldname": "reciveable_document_number_countdaa",
    "fieldtype": "Data",
-   "label": "Receiveable Number Count"
-  },
-  {
-   "fieldname": "registered_documents_date",
-   "fieldtype": "Data",
-   "label": "Registered Date (B S)"
-  },
-  {
-   "fieldname": "registered_documents_date_ad",
-   "fieldtype": "Date",
-   "label": "Registered Date (A.D)"
+   "label": "Received letter reference number (\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u0924\u094d\u0930\u0915\u094b \u092a\u0924\u094d\u0930 \u0938\u0902\u0916\u094d\u092f\u093e)"
   },
   {
    "fieldname": "document_sender_place",
-   "fieldtype": "Data",
-   "label": "Sender Place"
-  },
-  {
-   "fieldname": "document_receiver_place",
-   "fieldtype": "Data",
-   "label": "Receiver Place"
-  },
-  {
-   "fieldname": "document_receiveable_branch_office",
-   "fieldtype": "Data",
-   "label": "Receiveable Branch Office"
-  },
-  {
-   "fieldname": "document_count",
-   "fieldtype": "Data",
-   "label": "Document Count"
+   "fieldtype": "Select",
+   "label": "Sender Office Name (\u092a\u0920\u093e\u0909\u0928\u0947 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f\u0915\u094b \u0928\u093e\u092e)",
+   "options": "\nPrime Minister's Office\nPresident's Office\nMinistry of Home Affairs\nMinistry of Finance\nMinistry of Education, Science and Technology\nMinistry of Health and Population\nMinistry of Transport and Construction\nElection Commission\nOffice of the Inspector General of Police\nNepal Rastra Bank (Central Bank)\nDistrict Administration Office, Kathmandu\nDistrict Administration Office, Lalitpur\nDistrict Administration Office, Bhaktapur\nKathmandu Metropolitan City Office\nLalitpur Metropolitan City Office\nMinistry of Social Development\nMinistry of Agriculture and Livestock Development\nNational Planning Commission\nSupreme Court\nMinistry of Space and Geosciences\nDepartment of Electricity Development\nDepartment of Irrigation\nMinistry of Forests and Soil Conservation\nNational Natural Resources Commission\nCivil Aviation Authority\nNational Security Council\nNational Research Council\nNational Human Rights Commission\nCommission for the Investigation of Abuse of Authority\nCentral Bureau of Statistics\nNational Library\nNational Museum\nDepartment of National Parks and Wildlife Conservation\nNational Youth Council\nOther (Specify Office)",
+   "sort_options": 1
   },
   {
    "fieldname": "section_break_jikq",
@@ -112,22 +88,24 @@
   {
    "fieldname": "comments",
    "fieldtype": "Small Text",
-   "label": "Remarks"
+   "label": "Remarks (\u0915\u0947\u092b\u093f\u092f\u0924)"
   },
   {
    "fieldname": "email",
    "fieldtype": "Data",
-   "label": "Email"
+   "label": "Email (\u0908\u092e\u0947\u0932)"
   },
   {
    "fieldname": "section_break_pwmt",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "hidden": 1
   },
   {
    "fieldname": "new_registration_number",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "New Registration Number"
+   "label": "New Registration Number",
+   "unique": 1
   },
   {
    "fieldname": "create_registration_number",
@@ -147,12 +125,33 @@
    "fieldname": "html_vnke",
    "fieldtype": "HTML",
    "options": "<div style=\"height:27.5px;\"></div>"
+  },
+  {
+   "fieldname": "received_letter_date_b_s",
+   "fieldtype": "Data",
+   "label": "Received letter date (B.S.) \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u0924\u094d\u0930\u0915\u094b \u092e\u093f\u0924\u093f (\u0935\u093f.\u0938\u0902.)"
+  },
+  {
+   "fieldname": "letters_count",
+   "fieldtype": "Select",
+   "label": "Letters Count (\u092a\u0924\u094d\u0930 \u0925\u093e\u0928)",
+   "options": "\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject (\u0935\u093f\u0937\u092f)"
+  },
+  {
+   "fieldname": "registered_documents_date_a_d",
+   "fieldtype": "Date",
+   "label": "Received letter date (AD) \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u092a\u0924\u094d\u0930\u0915\u094b \u092e\u093f\u0924\u093f (\u0908.\u0938\u0902.)"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-27 16:34:12.723903",
+ "modified": "2025-02-28 15:00:36.573026",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "DartaProcess System",

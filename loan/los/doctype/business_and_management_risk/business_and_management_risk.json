@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-28 12:49:08.082522",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "business_and_management_risk__title",
+  "section_break_tzcb",
+  "risk_factor",
+  "column_break_obxb",
+  "mitigants"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_tzcb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "risk_factor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Risk Factor"
+  },
+  {
+   "fieldname": "column_break_obxb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mitigants",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mitigants"
+  },
+  {
+   "fieldname": "business_and_management_risk__title",
+   "fieldtype": "HTML",
+   "label": "Business and Management Risk  Title",
+   "options": "<h2>Business and Management Risk</h2>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-28 12:50:56.960158",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Business and Management Risk",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

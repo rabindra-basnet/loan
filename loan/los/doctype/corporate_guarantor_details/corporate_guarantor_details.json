@@ -1,0 +1,210 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-28 14:48:17.112728",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "corporate_guarantor_detail_title",
+  "section_break_sqwr",
+  "is_guarantor_existing_customer_",
+  "cif_id",
+  "column_break_dtec",
+  "fetch_customer_data",
+  "section_break_qrpt",
+  "name_of_the_firm__company",
+  "pan_number",
+  "firm__company_registration_date",
+  "registered_address",
+  "key_person_title",
+  "column_break_yoje",
+  "firm__company_registration_no",
+  "pan_registration_date",
+  "firm_registration_expiry_date",
+  "correspondence_address",
+  "column_break_jmvn",
+  "key_person",
+  "pan_registration_district",
+  "registered_body",
+  "background",
+  "section_break_eehi",
+  "vdc__municipality",
+  "firm_registration_date_bs",
+  "column_break_wdxj",
+  "district",
+  "pan_registration_date_bs",
+  "column_break_vmyc",
+  "ward_no",
+  "firm_expiry_date_bs"
+ ],
+ "fields": [
+  {
+   "fieldname": "corporate_guarantor_detail_title",
+   "fieldtype": "HTML",
+   "label": "Corporate Guarantor Detail Title",
+   "options": "<h2>Corporate Guarantor Details</h2>"
+  },
+  {
+   "fieldname": "section_break_sqwr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "is_guarantor_existing_customer_",
+   "fieldtype": "Select",
+   "label": "Is Guarantor existing customer ?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "cif_id",
+   "fieldtype": "Data",
+   "label": "CIF ID"
+  },
+  {
+   "fieldname": "column_break_dtec",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fetch_customer_data",
+   "fieldtype": "Button",
+   "label": "Fetch Customer Data"
+  },
+  {
+   "fieldname": "section_break_qrpt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name_of_the_firm__company",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of the firm / Company"
+  },
+  {
+   "fieldname": "pan_number",
+   "fieldtype": "Data",
+   "label": "PAN Number"
+  },
+  {
+   "fieldname": "firm__company_registration_date",
+   "fieldtype": "Date",
+   "label": "Firm / Company Registration Date"
+  },
+  {
+   "fieldname": "registered_address",
+   "fieldtype": "Data",
+   "label": "Registered Address"
+  },
+  {
+   "fieldname": "key_person_title",
+   "fieldtype": "Data",
+   "label": "Key Person Title"
+  },
+  {
+   "fieldname": "column_break_yoje",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "firm__company_registration_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Firm / Company Registration No."
+  },
+  {
+   "fieldname": "pan_registration_date",
+   "fieldtype": "Date",
+   "label": "PAN Registration Date"
+  },
+  {
+   "fieldname": "firm_registration_expiry_date",
+   "fieldtype": "Date",
+   "label": "Firm Registration Expiry Date"
+  },
+  {
+   "fieldname": "correspondence_address",
+   "fieldtype": "Data",
+   "label": "Correspondence Address"
+  },
+  {
+   "fieldname": "column_break_jmvn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "key_person",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Key Person"
+  },
+  {
+   "fieldname": "pan_registration_district",
+   "fieldtype": "Link",
+   "label": "PAN Registration District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "registered_body",
+   "fieldtype": "Data",
+   "label": "Registered Body"
+  },
+  {
+   "fieldname": "background",
+   "fieldtype": "Data",
+   "label": "Background"
+  },
+  {
+   "fieldname": "section_break_eehi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vdc__municipality",
+   "fieldtype": "Link",
+   "label": "VDC / Municipality",
+   "options": "Municipality and VDC"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "firm_registration_date_bs",
+   "fieldtype": "Date",
+   "label": "Firm Registration Date (BS)"
+  },
+  {
+   "fieldname": "column_break_wdxj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pan_registration_date_bs",
+   "fieldtype": "Date",
+   "label": "PAN Registration Date (BS)"
+  },
+  {
+   "fieldname": "column_break_vmyc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ward_no",
+   "fieldtype": "Data",
+   "label": "Ward No"
+  },
+  {
+   "fieldname": "firm_expiry_date_bs",
+   "fieldtype": "Date",
+   "label": "Firm Expiry Date (BS)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-28 15:07:30.500670",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Corporate Guarantor Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

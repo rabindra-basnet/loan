@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-28 12:47:08.796602",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "industry_market_risk_title",
+  "section_break_tzcb",
+  "risk_factor",
+  "column_break_obxb",
+  "mitigants"
+ ],
+ "fields": [
+  {
+   "fieldname": "industry_market_risk_title",
+   "fieldtype": "HTML",
+   "label": "Industry/ Market Risk Title",
+   "options": "<h2>Industry/ Market Risk </h2>"
+  },
+  {
+   "fieldname": "section_break_tzcb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "risk_factor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Risk Factor"
+  },
+  {
+   "fieldname": "column_break_obxb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mitigants",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mitigants"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-28 12:48:15.452433",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Industry Or Market Risk",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -59,6 +59,74 @@
   "citizenship",
   "column_break_fdjj",
   "nid",
+  "business_details_tab",
+  "business_details_title",
+  "instution_client_section",
+  "business_incorporation",
+  "registration_date_ad",
+  "registration_address",
+  "pan_registration_district_business",
+  "pan_registration_date_bs",
+  "column_break_frlb",
+  "registered_body",
+  "registration_date_age",
+  "pan_no",
+  "registration_date_bs",
+  "is_the_company_registered_under_vat_",
+  "column_break_ejax",
+  "register_no",
+  "firm_registration_expiry_date",
+  "pan_registration_date_ad",
+  "firm_registration_expiry_date_bs",
+  "information_of_the_company__firm_section",
+  "business_nature__objective",
+  "experience_of_proprietor",
+  "business_capacity",
+  "total_no_of_rows",
+  "column_break_qyji",
+  "business_activity",
+  "supplier_information",
+  "business_prospect_and_possibility",
+  "shareholding_percentage_output",
+  "column_break_wyih",
+  "management",
+  "buyer_information",
+  "key_person_title",
+  "nature",
+  "shareholding_pattern_section",
+  "table_icqv",
+  "sister_concern_section",
+  "table_vrhe",
+  "industry_market_risk_section",
+  "table_woes",
+  "business_and_management_risk_section",
+  "table_bxny",
+  "environmental_and_socail_risk_section",
+  "table_kkay",
+  "business_profile_section",
+  "sales_turnover_in_bank_statement",
+  "column_break_bunh",
+  "business_incorporation_",
+  "column_break_lpfo",
+  "age_of_business",
+  "banking_history_section",
+  "solemultiple_banking",
+  "loan_limit",
+  "overdue_amount",
+  "ac_conduct_last_1_year_max_days_delay",
+  "column_break_jojw",
+  "bank_name",
+  "outstanding_amount",
+  "relationship_with_existing_bank",
+  "cic_report_business",
+  "column_break_upkt",
+  "facility",
+  "overdue",
+  "ac_conduct_occurrence_of_irregularity",
+  "guarantor_details_section",
+  "type_of_guarantor",
+  "personal_guarantor_list",
+  "corporate_guarantor_list",
   "tab_2_tab",
   "html_xucq",
   "client_details_section",
@@ -2417,11 +2485,351 @@
    "fieldname": "fund_status",
    "fieldtype": "Data",
    "label": "FUND Status"
+  },
+  {
+   "fieldname": "business_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Business Details"
+  },
+  {
+   "fieldname": "business_details_title",
+   "fieldtype": "HTML",
+   "label": "Business Details Title",
+   "options": "<h2>Business Details</h2>"
+  },
+  {
+   "fieldname": "instution_client_section",
+   "fieldtype": "Section Break",
+   "label": "Instution Client"
+  },
+  {
+   "fieldname": "business_incorporation",
+   "fieldtype": "Data",
+   "label": "Business Incorporation"
+  },
+  {
+   "fieldname": "registration_date_ad",
+   "fieldtype": "Date",
+   "label": "Registration Date (AD)"
+  },
+  {
+   "fieldname": "column_break_frlb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "registered_body",
+   "fieldtype": "Data",
+   "label": "Registered Body"
+  },
+  {
+   "fieldname": "registration_date_age",
+   "fieldtype": "Data",
+   "label": "Registration Date Age"
+  },
+  {
+   "fieldname": "column_break_ejax",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "register_no",
+   "fieldtype": "Float",
+   "label": "Register No.",
+   "precision": "0"
+  },
+  {
+   "fieldname": "firm_registration_expiry_date",
+   "fieldtype": "Date",
+   "label": "Firm Registration Expiry Date (AD)"
+  },
+  {
+   "fieldname": "registration_address",
+   "fieldtype": "Data",
+   "label": "Registration Address"
+  },
+  {
+   "fieldname": "pan_registration_date_bs",
+   "fieldtype": "Date",
+   "label": "PAN Registration Date (BS)"
+  },
+  {
+   "fieldname": "pan_no",
+   "fieldtype": "Data",
+   "label": "PAN No."
+  },
+  {
+   "fieldname": "registration_date_bs",
+   "fieldtype": "Date",
+   "label": "Registration Date (BS)"
+  },
+  {
+   "fieldname": "is_the_company_registered_under_vat_",
+   "fieldtype": "Select",
+   "label": "Is the company registered under VAT ?"
+  },
+  {
+   "fieldname": "pan_registration_date_ad",
+   "fieldtype": "Data",
+   "label": "PAN Registration Date (AD)"
+  },
+  {
+   "fieldname": "firm_registration_expiry_date_bs",
+   "fieldtype": "Data",
+   "label": "Firm Registration Expiry Date (BS)"
+  },
+  {
+   "fieldname": "pan_registration_district_business",
+   "fieldtype": "Link",
+   "label": "PAN Registration District",
+   "options": "Districts"
+  },
+  {
+   "fieldname": "information_of_the_company__firm_section",
+   "fieldtype": "Section Break",
+   "label": "Information of the Company / Firm"
+  },
+  {
+   "fieldname": "business_nature__objective",
+   "fieldtype": "Select",
+   "label": "Business Nature / Objective"
+  },
+  {
+   "fieldname": "experience_of_proprietor",
+   "fieldtype": "Data",
+   "label": "Experience of proprietor"
+  },
+  {
+   "fieldname": "business_capacity",
+   "fieldtype": "Data",
+   "label": "Business Capacity"
+  },
+  {
+   "fieldname": "total_no_of_rows",
+   "fieldtype": "Data",
+   "label": "Total No. of Rows"
+  },
+  {
+   "fieldname": "column_break_qyji",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "business_activity",
+   "fieldtype": "Data",
+   "label": "Business Activity"
+  },
+  {
+   "fieldname": "supplier_information",
+   "fieldtype": "Data",
+   "label": "Supplier Information"
+  },
+  {
+   "fieldname": "business_prospect_and_possibility",
+   "fieldtype": "Data",
+   "label": "Business Prospect and Possibility"
+  },
+  {
+   "fieldname": "shareholding_percentage_output",
+   "fieldtype": "Data",
+   "label": "shareholding percentage output"
+  },
+  {
+   "fieldname": "column_break_wyih",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "management",
+   "fieldtype": "Data",
+   "label": "Management"
+  },
+  {
+   "fieldname": "buyer_information",
+   "fieldtype": "Data",
+   "label": "Buyer Information"
+  },
+  {
+   "fieldname": "key_person_title",
+   "fieldtype": "Data",
+   "label": "Key Person Title"
+  },
+  {
+   "fieldname": "nature",
+   "fieldtype": "Data",
+   "label": "Nature"
+  },
+  {
+   "fieldname": "shareholding_pattern_section",
+   "fieldtype": "Section Break",
+   "label": "Shareholding Pattern"
+  },
+  {
+   "fieldname": "table_icqv",
+   "fieldtype": "Table",
+   "options": "Shareholding Pattern"
+  },
+  {
+   "fieldname": "sister_concern_section",
+   "fieldtype": "Section Break",
+   "label": "Sister Concern"
+  },
+  {
+   "fieldname": "table_vrhe",
+   "fieldtype": "Table",
+   "options": "Sister Concern"
+  },
+  {
+   "fieldname": "industry_market_risk_section",
+   "fieldtype": "Section Break",
+   "label": "Industry/ Market Risk"
+  },
+  {
+   "fieldname": "table_woes",
+   "fieldtype": "Table",
+   "options": "Industry Or Market Risk"
+  },
+  {
+   "fieldname": "business_and_management_risk_section",
+   "fieldtype": "Section Break",
+   "label": "Business and Management Risk"
+  },
+  {
+   "fieldname": "table_bxny",
+   "fieldtype": "Table",
+   "options": "Business and Management Risk"
+  },
+  {
+   "fieldname": "environmental_and_socail_risk_section",
+   "fieldtype": "Section Break",
+   "label": "Environmental and Socail Risk"
+  },
+  {
+   "fieldname": "table_kkay",
+   "fieldtype": "Table",
+   "options": "Environmental and Social Risk"
+  },
+  {
+   "fieldname": "business_profile_section",
+   "fieldtype": "Section Break",
+   "label": "Business Profile"
+  },
+  {
+   "fieldname": "sales_turnover_in_bank_statement",
+   "fieldtype": "Data",
+   "label": "Sales Turnover in Bank Statement"
+  },
+  {
+   "fieldname": "column_break_bunh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "business_incorporation_",
+   "fieldtype": "Data",
+   "label": "Business Incorporation"
+  },
+  {
+   "fieldname": "column_break_lpfo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "age_of_business",
+   "fieldtype": "Data",
+   "label": "Age of Business"
+  },
+  {
+   "fieldname": "banking_history_section",
+   "fieldtype": "Section Break",
+   "label": "Banking History"
+  },
+  {
+   "fieldname": "solemultiple_banking",
+   "fieldtype": "Data",
+   "label": "Sole/Multiple Banking"
+  },
+  {
+   "fieldname": "loan_limit",
+   "fieldtype": "Data",
+   "label": "Loan limit"
+  },
+  {
+   "fieldname": "overdue_amount",
+   "fieldtype": "Data",
+   "label": "Overdue Amount"
+  },
+  {
+   "fieldname": "ac_conduct_last_1_year_max_days_delay",
+   "fieldtype": "Data",
+   "label": "A/C Conduct last 1 Year Max Days Delay"
+  },
+  {
+   "fieldname": "column_break_jojw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Data",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "outstanding_amount",
+   "fieldtype": "Data",
+   "label": "Outstanding Amount"
+  },
+  {
+   "fieldname": "relationship_with_existing_bank",
+   "fieldtype": "Data",
+   "label": "Relationship with Existing Bank"
+  },
+  {
+   "fieldname": "cic_report_business",
+   "fieldtype": "Data",
+   "label": "CIC Report"
+  },
+  {
+   "fieldname": "column_break_upkt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "facility",
+   "fieldtype": "Data",
+   "label": "Facility"
+  },
+  {
+   "fieldname": "overdue",
+   "fieldtype": "Data",
+   "label": "Overdue"
+  },
+  {
+   "fieldname": "ac_conduct_occurrence_of_irregularity",
+   "fieldtype": "Data",
+   "label": "A/C conduct Occurrence of Irregularity"
+  },
+  {
+   "fieldname": "guarantor_details_section",
+   "fieldtype": "Section Break",
+   "label": "Guarantor Details"
+  },
+  {
+   "fieldname": "type_of_guarantor",
+   "fieldtype": "Select",
+   "label": "Type of Guarantor",
+   "options": "\nPersonal Guarantor\nCorporate Guarantor\nBoth"
+  },
+  {
+   "depends_on": "eval:doc.type_of_guarantor == \"Personal Guarantor\" || doc.type_of_guarantor == \"Both\"",
+   "fieldname": "personal_guarantor_list",
+   "fieldtype": "Table",
+   "label": "Personal Guarantor List",
+   "options": "Guarantor Details"
+  },
+  {
+   "depends_on": "eval:doc.type_of_guarantor == \"Corporate Guarantor\" || doc.type_of_guarantor == \"Both\"",
+   "fieldname": "corporate_guarantor_list",
+   "fieldtype": "Table",
+   "label": "Corporate Guarantor List",
+   "options": "Corporate Guarantor Details"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-27 11:32:22.911378",
+ "modified": "2025-02-28 15:14:28.862030",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Business Loan",

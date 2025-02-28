@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-28 12:50:20.193552",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "environmental_and_social_risk",
+  "section_break_tzcb",
+  "risk_factor",
+  "column_break_obxb",
+  "mitigants"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_tzcb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "risk_factor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Risk Factor"
+  },
+  {
+   "fieldname": "column_break_obxb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mitigants",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mitigants"
+  },
+  {
+   "fieldname": "environmental_and_social_risk",
+   "fieldtype": "HTML",
+   "label": "Environmental and Social Risk",
+   "options": "<h2>Environmental and Social Risk</h2>"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-28 14:25:04.125206",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Environmental and Social Risk",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

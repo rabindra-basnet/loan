@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-28 12:40:36.176255",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "shareholding_pattern_title",
+  "section_break_eukw",
+  "shareholders_name",
+  "shareholding_amount",
+  "column_break_ipcg",
+  "shareholders_designation",
+  "shareholding_percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "shareholding_pattern_title",
+   "fieldtype": "HTML",
+   "label": "Shareholding Pattern Title",
+   "options": "<h2>Shareholding Pattern</h2>"
+  },
+  {
+   "fieldname": "section_break_eukw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "shareholders_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Shareholder's Name"
+  },
+  {
+   "fieldname": "shareholding_amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Shareholding Amount"
+  },
+  {
+   "fieldname": "column_break_ipcg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shareholders_designation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Shareholder's Designation"
+  },
+  {
+   "fieldname": "shareholding_percentage",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Shareholding Percentage"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-28 12:42:09.323613",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Shareholding Pattern",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,7 +1,7 @@
 frappe.ui.form.on("DartaProcess System", {
-    refresh: function(frm) {
-        var style = document.createElement('style');
-        style.innerHTML = `
+  refresh: function (frm) {
+    var style = document.createElement("style");
+    style.innerHTML = `
             .layout-side-section {
                 display: none !important; /* Hide the sidebar */
             }
@@ -9,65 +9,109 @@ frappe.ui.form.on("DartaProcess System", {
                 display: none !important; /* Hide the toggle button */
             }
         `;
-        document.head.appendChild(style);
-    },
-    create_registration_number(frm) {
-        handleDartaOperation(frm, "create");
-    },
-    update_registration_number(frm) {
-        handleDartaOperation(frm, "update");
-    },
+    document.head.appendChild(style);
+    
+    const todayAD = new Date().toISOString().split("T")[0]; // 'YYYY-MM-DD'
+    const todayBS = NepaliFunctions.AD2BS(todayAD, "YYYY-MM-DD", "YYYY-MM-DD");
+
+    const dateFields = [
+      { bs: "date_bs", ad: "date_ad" },
+      { bs: "received_letter_date_b_s", ad: "registered_documents_date_a_d" },
+    ];
+
+    const isFutureDate = (date, today) => date > today;
+    const handleDateChange = (frm, sourceField, targetField, convertFunc) => {
+      const sourceDate = frm.doc[sourceField]?.split(" ")[0];
+      if (!sourceDate) return;
+
+      const adDate =
+        convertFunc === NepaliFunctions.AD2BS
+          ? sourceDate
+          : NepaliFunctions.BS2AD(sourceDate, "YYYY-MM-DD", "YYYY-MM-DD");
+
+      if (isFutureDate(adDate, todayAD)) {
+        frappe.msgprint(__("Future dates are not allowed"));
+        frappe.model.set_value(frm.doctype, frm.docname, sourceField, "");
+        frappe.model.set_value(frm.doctype, frm.docname, targetField, "");
+        return;
+      }
+
+      const targetDate = convertFunc(sourceDate, "YYYY-MM-DD", "YYYY-MM-DD");
+      frappe.model.set_value(frm.doctype, frm.docname, targetField, targetDate);
+    };
+
+    dateFields.forEach(({ bs, ad }) => {
+      add_nepali_date_picker(frm, bs, ad, {
+        maxDate: todayBS,
+        maxDateAD: todayAD,
+      });
+
+      // Onchange handler for AD date field
+      frm.fields_dict[ad].df.onchange = () =>
+        handleDateChange(frm, ad, bs, NepaliFunctions.AD2BS);
+
+      // Onchange handler for BS date field
+      frm.fields_dict[bs].df.onchange = () =>
+        handleDateChange(frm, bs, ad, NepaliFunctions.BS2AD);
+    });
+
+  },
+
+  // create_registration_number(frm) {
+  //     handleDartaOperation(frm, "create");
+  // },
+  // update_registration_number(frm) {
+  //     handleDartaOperation(frm, "update");
+  // },
 });
 
+// async function handleDartaOperation(frm, operation) {
+//     if (frm.doc.new_registration_number === frm.doc.registration_number) {
+//         frappe.msgprint("Cannot use same Darta number. Please enter a new value.");
+//         return;
+//     }
 
-async function handleDartaOperation(frm, operation) {
-    if (frm.doc.new_registration_number === frm.doc.registration_number) {
-        frappe.msgprint("Cannot use same Darta number. Please enter a new value.");
-        return;
-    }
+//     const confirmationMessage = `Do you want to ${operation} the Darta number?`;
+//     const successMessage = `Number ${operation}d successfully`;
 
-    const confirmationMessage = `Do you want to ${operation} the Darta number?`;
-    const successMessage = `Number ${operation}d successfully`;
+//     const proceed = await showConfirmation(confirmationMessage);
+//     if (!proceed) return;
 
-    const proceed = await showConfirmation(confirmationMessage);
-    if (!proceed) return;
+//     const result = await validateAndSetNumber(
+//         frm,
+//         operation === "update" ? frm.doc.name : null
+//     );
 
-    const result = await validateAndSetNumber(
-        frm,
-        operation === "update" ? frm.doc.name : null
-    );
+//     if (result.isValid) {
+//         frm.set_value("registration_number", frm.doc.new_registration_number);
+//         frappe.msgprint(successMessage);
+//     } else {
+//         frappe.msgprint("Darta number exists. Use a unique value.");
+//     }
+// }
 
-    if (result.isValid) {
-        frm.set_value("registration_number", frm.doc.new_registration_number);
-        frappe.msgprint(successMessage);
-    } else {
-        frappe.msgprint("Darta number exists. Use a unique value.");
-    }
-}
+// async function validateAndSetNumber(frm, excludeName = null) {
+//     try {
+//         const filters = {
+//             registration_number: frm.doc.new_registration_number,
+//             ...(excludeName && { name: ["!=", excludeName] })
+//         };
 
-async function validateAndSetNumber(frm, excludeName = null) {
-    try {
-        const filters = {
-            registration_number: frm.doc.new_registration_number,
-            ...(excludeName && { name: ["!=", excludeName] })
-        };
+//         const { message: result } = await frappe.db.get_value(
+//             "DartaProcess System",
+//             filters,
+//             ["name"]
+//         );
 
-        const { message: result } = await frappe.db.get_value(
-            "DartaProcess System",
-            filters,
-            ["name"]
-        );
+//         return { isValid: !result.name };
+//     } catch (error) {
+//         console.error("Validation failed:", error);
+//         return { isValid: false };
+//     }
+// }
 
-        return { isValid: !result.name };
-    } catch (error) {
-        console.error("Validation failed:", error);
-        return { isValid: false };
-    }
-}
-
-function showConfirmation(message) {
-    return new Promise(resolve => {
-        frappe.confirm(message, () => resolve(true), () => resolve(false));
-    });
-}
-
+// function showConfirmation(message) {
+//     return new Promise(resolve => {
+//         frappe.confirm(message, () => resolve(true), () => resolve(false));
+//     });
+// }
