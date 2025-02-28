@@ -21,8 +21,16 @@
   "subject",
   "document_sender_office",
   "recipients_name",
-  "section_break_niwl",
-  "remarks"
+  "approval_logs_tab",
+  "current_approver",
+  "decision",
+  "remarks",
+  "column_break_jjnd",
+  "current_workstep",
+  "to_workstep",
+  "section_break_resj",
+  "approval_logs_column",
+  "table_lkgu"
  ],
  "fields": [
   {
@@ -103,19 +111,61 @@
    "label": "Email (\u0908\u092e\u0947\u0932)"
   },
   {
-   "fieldname": "section_break_niwl",
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Remarks (\u0915\u0948\u092b\u093f\u092f\u0924)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_resj",
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "remarks",
-   "fieldtype": "Text",
-   "label": "Remarks (\u0915\u0948\u092b\u093f\u092f\u0924)"
+   "fieldname": "approval_logs_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "table_lkgu",
+   "fieldtype": "Table",
+   "label": "Approval Logs",
+   "options": "Chalani Approval Logs"
+  },
+  {
+   "fieldname": "approval_logs_tab",
+   "fieldtype": "Tab Break",
+   "label": "Approval Logs"
+  },
+  {
+   "fieldname": "decision",
+   "fieldtype": "Select",
+   "label": "Decision",
+   "reqd": 1
+  },
+  {
+   "fieldname": "current_approver",
+   "fieldtype": "Data",
+   "label": "Current Approver"
+  },
+  {
+   "fieldname": "current_workstep",
+   "fieldtype": "Data",
+   "label": "Current Workstep"
+  },
+  {
+   "fieldname": "column_break_jjnd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_workstep",
+   "fieldtype": "Select",
+   "label": "To Workstep"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-02-28 16:26:02.817986",
+ "modified": "2025-02-28 17:55:33.832683",
  "modified_by": "Administrator",
  "module": "LOS",
  "name": "Chalani Process System",

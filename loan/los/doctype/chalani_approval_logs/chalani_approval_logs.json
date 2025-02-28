@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-28 16:56:28.806338",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_logged_in",
+  "decision",
+  "from_workstep",
+  "column_break_kdcf",
+  "to_workstep",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_logged_in",
+   "fieldtype": "Data",
+   "label": "User Logged In"
+  },
+  {
+   "fieldname": "column_break_kdcf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_workstep",
+   "fieldtype": "Data",
+   "label": "To Workstep"
+  },
+  {
+   "fieldname": "from_workstep",
+   "fieldtype": "Data",
+   "label": "From Workstep"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "decision",
+   "fieldtype": "Data",
+   "label": "Decision"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-28 17:52:04.106978",
+ "modified_by": "Administrator",
+ "module": "LOS",
+ "name": "Chalani Approval Logs",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
